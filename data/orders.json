@@ -1,0 +1,18 @@
+{
+    "orders": [
+        {
+            "Item": "Iphone 13",
+            "Quanitity": "1",
+            "Price": "1000$",
+            "Buyer": "Json Dude",
+            "Data": "13.12.22"
+        },
+        {
+            "Item": "Iphone 1",
+            "Quanitity": "1",
+            "Price": "500$",
+            "Buyer": "Json Dude",
+            "Data": "14.12.22"
+        }
+    ]
+}
