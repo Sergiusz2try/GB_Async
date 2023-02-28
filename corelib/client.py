@@ -70,3 +70,7 @@ def auth():
     }
 
     return jim.pack(msg)
+
+
+if __name__ == "__main__":
+    run()
