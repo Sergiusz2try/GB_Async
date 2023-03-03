@@ -1,0 +1,2 @@
+2023-03-03 21:37:22,396 - INFO - server - {'action': 'authenticate', 'time': '2023-03-03T21:37:22.395901', 'user': {'account_name': 'User', 'password': 'Password'}}
+2023-03-03 21:38:24,225 - INFO - server - {'action': 'authenticate', 'time': '2023-03-03T21:38:24.225245', 'user': {'account_name': 'User', 'password': 'Password'}}

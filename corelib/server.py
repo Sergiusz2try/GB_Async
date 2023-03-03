@@ -1,5 +1,6 @@
 from socket import *
 from corelib import jim, config
+from logs.server_log_config import LOG
 
 
 def run(args, options_file):
@@ -22,10 +23,10 @@ def run(args, options_file):
             while True:
                 try:
                     msg = conn.recv(1024)
-                    print(jim.unpack(msg))
+                    LOG.info(jim.unpack(msg))
                     conn.sendall(response_200())
                 except error as err:
-                    print(f"Error: {err}")
+                    LOG.critical(f"Error: {err}")
                     break
                 if not msg:
                     break

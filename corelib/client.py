@@ -3,6 +3,7 @@ from corelib.user import User
 import sys
 import datetime
 from corelib import jim, config
+from logs.client_log_config import LOG
 
 
 def run(args, options_file):
@@ -10,25 +11,26 @@ def run(args, options_file):
     try:
         sock = create_connection((conf["DEFAULT"]["HOST"], conf["DEFAULT"]["PORT"]), 5)
     except error as err:
-        print(f"Connection error: {err}")
+        LOG.error(f"Connection error: {err}")
         sys.exit(2)
     print("Create socket connection...")
 
     try:
         msg = auth()
         sock.sendall(msg)
-        print("Send message...")
-    except error as err:
-        print(f"Send data error: {err}")
+        LOG.info("Send message...")
+    except sock.timeout:
+        LOG.error("Send data timeout.")
+    except socket.error as err:
+        LOG.critical("Send data error: ", err)
 
     while True:
         try:
             msg = sock.recv(1024)
-            print(jim.unpack(msg))
-        except error as err:
-            print(f"Server error: {err}")
+            LOG.info(jim.unpack(msg))
             break
-        if not msg:
+        except error as err:
+            LOG.critical("Server error: ", err)
             break
 
     sock.close()
@@ -70,7 +72,3 @@ def auth():
     }
 
     return jim.pack(msg)
-
-
-if __name__ == "__main__":
-    run()
