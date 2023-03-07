@@ -6,7 +6,7 @@ LOG = logging.getLogger("server")
 
 FORMATTER = logging.Formatter("%(asctime)s - %(levelname)s - %(module)s - %(message)s")
 
-FILE_HANDLER = logging.FileHandler(filename="log/server.log", encoding="utf-8")
+FILE_HANDLER = logging.FileHandler(filename="logs/server.log", encoding="utf-8")
 
 FILE_HANDLER.setFormatter(FORMATTER)
 
@@ -15,7 +15,7 @@ LOG.setLevel(logging.DEBUG)
 
 if __name__ == "__main__":
     ROTATING_HENDLER = handlers.TimedRotatingFileHandler(
-        filename="log/server.log",
+        filename="logs/server.log",
         when="midnight",
         interval=1,
         backupCount=2,

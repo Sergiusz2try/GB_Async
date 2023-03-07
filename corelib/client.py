@@ -4,6 +4,7 @@ import sys
 import datetime
 from corelib import jim, config
 from logs.client_log_config import LOG
+from corelib.decos import log
 
 
 def run(args, options_file):
@@ -37,6 +38,7 @@ def run(args, options_file):
     print("Client close...")
 
 
+@log
 def get_options(args, options_file):
     '''
     Get server options
@@ -55,10 +57,12 @@ def get_options(args, options_file):
     return options
 
 
+@log
 def get_user():
     return User("User", "Password")
 
 
+@log
 def auth():
     user = get_user()
     time = datetime.datetime.now()

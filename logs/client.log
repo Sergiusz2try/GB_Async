@@ -1,2 +1,7 @@
 2023-03-03 21:38:24,225 - INFO - client - Send message...
 2023-03-03 21:38:24,225 - INFO - client - {'response': 200, 'alert': 'OK'}
+2023-03-07 21:04:36,898 - DEBUG - decos - Вызвана функция get_options с параметрами (['client.py'], 'config_client.json'), {}
+2023-03-07 21:04:36,899 - DEBUG - decos - Вызвана функция get_user с параметрами (), {}
+2023-03-07 21:04:36,900 - DEBUG - decos - Вызвана функция auth с параметрами (), {}
+2023-03-07 21:04:36,900 - INFO - client - Send message...
+2023-03-07 21:04:36,900 - INFO - client - {'response': 200, 'alert': 'OK'}
