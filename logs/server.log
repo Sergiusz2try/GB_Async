@@ -1,0 +1,5 @@
+2023-03-03 21:37:22,396 - INFO - server - {'action': 'authenticate', 'time': '2023-03-03T21:37:22.395901', 'user': {'account_name': 'User', 'password': 'Password'}}
+2023-03-03 21:38:24,225 - INFO - server - {'action': 'authenticate', 'time': '2023-03-03T21:38:24.225245', 'user': {'account_name': 'User', 'password': 'Password'}}
+2023-03-07 21:04:29,942 - DEBUG - decos - Вызвана функция get_options с параметрами (['server.py'], 'config_server.json'), {}
+2023-03-07 21:04:36,900 - INFO - server - {'action': 'authenticate', 'time': '2023-03-07T21:04:36.899920', 'user': {'account_name': 'User', 'password': 'Password'}}
+2023-03-07 21:04:36,900 - DEBUG - decos - Вызвана функция response_200 с параметрами (), {}
