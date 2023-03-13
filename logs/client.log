@@ -1,0 +1,69 @@
+2023-03-03 21:38:24,225 - INFO - client - Send message...
+2023-03-03 21:38:24,225 - INFO - client - {'response': 200, 'alert': 'OK'}
+2023-03-07 21:04:36,898 - DEBUG - decos - Вызвана функция get_options с параметрами (['client.py'], 'config_client.json'), {}
+2023-03-07 21:04:36,899 - DEBUG - decos - Вызвана функция get_user с параметрами (), {}
+2023-03-07 21:04:36,900 - DEBUG - decos - Вызвана функция auth с параметрами (), {}
+2023-03-07 21:04:36,900 - INFO - client - Send message...
+2023-03-07 21:04:36,900 - INFO - client - {'response': 200, 'alert': 'OK'}
+2023-03-13 17:28:55,577 - DEBUG - decos - Вызвана функция get_options с параметрами (['client.py'], 'config_client.json'), {}
+2023-03-13 17:28:55,577 - INFO - client - Start client with: server address: 127.0.0.1, port: 8010
+2023-03-13 17:29:51,209 - DEBUG - decos - Вызвана функция get_options с параметрами (['client.py'], 'config_client.json'), {}
+2023-03-13 17:29:51,209 - INFO - client - Start client with: server address: 127.0.0.1, port: 8010
+2023-03-13 17:30:12,915 - DEBUG - decos - Вызвана функция get_options с параметрами (['client.py'], 'config_client.json'), {}
+2023-03-13 17:30:12,915 - INFO - client - Start client with: server address: 127.0.0.1, port: 8010
+2023-03-13 17:32:18,385 - DEBUG - decos - Вызвана функция get_options с параметрами (['client.py'], 'config_client.json'), {}
+2023-03-13 17:32:18,385 - INFO - client - Start client with: server address: 127.0.0.1, port: 8010
+2023-03-13 17:32:18,385 - DEBUG - client - Created presence message for client Guest
+2023-03-13 17:32:18,385 - DEBUG - decos - Вызвана функция create_presence с параметрами (), {}
+2023-03-13 17:32:18,386 - DEBUG - client - Received message from server: {'response': 200, 'alert': 'OK'}
+2023-03-13 17:32:18,386 - DEBUG - decos - Вызвана функция process_response_ans с параметрами ({'response': 200, 'alert': 'OK'},), {}
+2023-03-13 17:32:18,386 - INFO - client - Connected to server with: server answer: 200 : OK
+2023-03-13 17:32:43,687 - DEBUG - decos - Вызвана функция get_options с параметрами (['client.py'], 'config_client.json'), {}
+2023-03-13 17:32:43,688 - INFO - client - Start client with: server address: 127.0.0.1, port: 8010
+2023-03-13 17:32:43,688 - DEBUG - client - Created presence message for client Guest
+2023-03-13 17:32:43,688 - DEBUG - decos - Вызвана функция create_presence с параметрами (), {}
+2023-03-13 17:32:44,190 - DEBUG - client - Received message from server: {'response': 200, 'alert': 'OK'}
+2023-03-13 17:32:44,190 - DEBUG - decos - Вызвана функция process_response_ans с параметрами ({'response': 200, 'alert': 'OK'},), {}
+2023-03-13 17:32:44,190 - INFO - client - Connected to server with: server answer: 200 : OK
+2023-03-13 17:32:50,152 - DEBUG - client - Created dict message: {'action': 'message', 'time': '2023-03-13T17:32:50.152844', 'account_name': 'Guest', 'mess_text': 'Hello'}
+2023-03-13 17:32:50,153 - DEBUG - decos - Вызвана функция create_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 37886), raddr=('127.0.0.1', 8010)>,), {}
+2023-03-13 17:34:18,348 - DEBUG - decos - Вызвана функция get_options с параметрами (['client.py'], 'config_client.json'), {}
+2023-03-13 17:34:18,348 - INFO - client - Start client with: server address: 127.0.0.1, port: 8010
+2023-03-13 17:34:18,349 - DEBUG - client - Created presence message for client Guest
+2023-03-13 17:34:18,349 - DEBUG - decos - Вызвана функция create_presence с параметрами (), {}
+2023-03-13 17:34:18,349 - DEBUG - client - Received message from server: {'response': 200, 'alert': 'OK'}
+2023-03-13 17:34:18,349 - DEBUG - decos - Вызвана функция process_response_ans с параметрами ({'response': 200, 'alert': 'OK'},), {}
+2023-03-13 17:34:18,349 - INFO - client - Connected to server with: server answer: 200 : OK
+2023-03-13 17:34:28,408 - DEBUG - decos - Вызвана функция get_options с параметрами (['client.py'], 'config_client.json'), {}
+2023-03-13 17:34:28,408 - INFO - client - Start client with: server address: 127.0.0.1, port: 8010
+2023-03-13 17:34:28,408 - DEBUG - client - Created presence message for client Guest
+2023-03-13 17:34:28,409 - DEBUG - decos - Вызвана функция create_presence с параметрами (), {}
+2023-03-13 17:34:28,409 - DEBUG - client - Received message from server: {'response': 200, 'alert': 'OK'}
+2023-03-13 17:34:28,409 - DEBUG - decos - Вызвана функция process_response_ans с параметрами ({'response': 200, 'alert': 'OK'},), {}
+2023-03-13 17:34:28,410 - INFO - client - Connected to server with: server answer: 200 : OK
+2023-03-13 17:34:41,049 - DEBUG - client - Created dict message: {'action': 'message', 'time': '2023-03-13T17:34:41.049633', 'account_name': 'Guest', 'mess_text': 'Hello'}
+2023-03-13 17:34:41,050 - DEBUG - decos - Вызвана функция create_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 34694), raddr=('127.0.0.1', 8010)>,), {}
+2023-03-13 17:34:41,050 - DEBUG - client - Created presence message for client Guest
+2023-03-13 17:34:41,050 - DEBUG - decos - Вызвана функция create_presence с параметрами (), {}
+2023-03-13 17:34:41,051 - DEBUG - client - Received message from server: {'response': 200, 'alert': 'OK'}
+2023-03-13 17:34:41,051 - DEBUG - decos - Вызвана функция process_response_ans с параметрами ({'response': 200, 'alert': 'OK'},), {}
+2023-03-13 17:34:41,051 - INFO - client - Connected to server with: server answer: 200 : OK
+2023-03-13 17:34:55,809 - DEBUG - client - Created dict message: {'action': 'message', 'time': '2023-03-13T17:34:55.809476', 'account_name': 'Guest', 'mess_text': 'hello'}
+2023-03-13 17:34:55,809 - DEBUG - decos - Вызвана функция create_message с параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 60154), raddr=('127.0.0.1', 8010)>,), {}
+2023-03-13 17:34:55,809 - DEBUG - client - Created presence message for client Guest
+2023-03-13 17:34:55,810 - DEBUG - decos - Вызвана функция create_presence с параметрами (), {}
+2023-03-13 17:34:55,811 - DEBUG - client - Received message from server: {'response': 200, 'alert': 'OK'}
+2023-03-13 17:34:55,811 - DEBUG - decos - Вызвана функция process_response_ans с параметрами ({'response': 200, 'alert': 'OK'},), {}
+2023-03-13 17:34:55,811 - INFO - client - Connected to server with: server answer: 200 : OK
+2023-03-13 19:38:04,066 - DEBUG - decos - Вызвана функция get_options с параметрами (['client.py'], 'config_client.json'), {}
+2023-03-13 19:38:11,932 - INFO - client - Start client with: server address: 127.0.0.1, port: 8010, username: Adam.
+2023-03-13 19:38:11,933 - DEBUG - client - Created presence message for client Adam
+2023-03-13 19:38:11,933 - DEBUG - decos - Вызвана функция create_presence с параметрами ('Adam',), {}
+2023-03-13 19:38:11,933 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 43746), raddr=('127.0.0.1', 8010)>, {'action': 'presence', 'time': '2023-03-13T19:38:11.933035', 'user': {'account_name': 'Adam'}}), {}
+2023-03-13 19:38:24,540 - DEBUG - decos - Вызвана функция get_options с параметрами (['client.py'], 'config_client.json'), {}
+2023-03-13 19:38:29,634 - INFO - client - Start client with: server address: 127.0.0.1, port: 8010, username: Stev.
+2023-03-13 19:38:29,634 - DEBUG - client - Created presence message for client Stev
+2023-03-13 19:38:29,635 - DEBUG - decos - Вызвана функция create_presence с параметрами ('Stev',), {}
+2023-03-13 19:38:29,635 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 46896), raddr=('127.0.0.1', 8010)>, {'action': 'presence', 'time': '2023-03-13T19:38:29.634815', 'user': {'account_name': 'Stev'}}), {}
+2023-03-13 19:42:25,712 - ERROR - client - Failed unpack Json message
+2023-03-13 19:42:25,712 - ERROR - client - Failed unpack Json message
