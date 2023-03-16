@@ -1,103 +1,55 @@
+import argparse
 import select
 from socket import *
+import sys
 import time
 from corelib import jim, config
 from corelib.utils import get_message, send_message
-from corelib.variables import ACCOUNT_NAME, ACTION, DESTINATION, ERROR, EXIT, MAX_CONNECTIONS, MESSAGE, MESSAGE_TEXT, PRESENCE, RESPONSE_400, SENDER, TIME, USER
+from corelib.variables import ACCOUNT_NAME, ACTION, DEFAULT_PORT, DESTINATION, ERROR, EXIT, MAX_CONNECTIONS, MESSAGE, MESSAGE_TEXT, PRESENCE, RESPONSE_400, SENDER, TIME, USER
 from logs.server_log_config import LOG
 from corelib.decos import log
 
 
-def run(args, options_file):
-    '''
-    Run server
-    :param args: Command line arguments
-    :return:
-    '''
-    listen_addr, listen_port = get_options(args, options_file)
-
-    LOG.info(
-        f'Start server, port for connection: {listen_port}, '
-    )
-
-    sock = socket(AF_INET, SOCK_STREAM)
-    sock.bind((listen_addr, listen_port))
-    sock.settimeout(0.5)
-
-    # Creating clients and messages variables
-    clients = []
-    messages = []
-
-    # Dict with user names
-    names = {}
-
-    # Listen ports
-    sock.listen(MAX_CONNECTIONS)
-    # Main loop of server
-    while True:
-        try:
-            conn, addr = sock.accept()
-        except OSError:
-            pass
-        else:
-            LOG.info(f"Connected with: {addr}")
-            print(f"{addr} connected to the server!")
-            clients.append(conn)
-        
-        # Created data variables
-        recv_data = []
-        write_data = []
-        err_data = []
-
-        # Search waiting clients
-        try:
-            if clients:
-                recv_data, write_data, err_data = select.select(clients, clients, [], 0)
-        except OSError:
-            pass
-
-        # get message, and if error excepting client
-        if recv_data:
-            for client_with_message in recv_data:
-                try:
-                    process_client_message(get_message(client_with_message), messages, client_with_message,
-                                        clients, names)
-                except Exception:
-                    LOG.info(f'Client {client_with_message.getpeername()} '
-                            f'disconnect from server.')
-                    clients.remove(client_with_message)
-                    
-        # If there is the message, process everyone
-        for i in messages:
-            try:
-                process_message(i, names, write_data)
-            except Exception:
-                LOG.info(f"Connection with user {i[DESTINATION]} was lost.")
-                clients.remove(names[i[DESTINATION]])
-                del names[i[DESTINATION]]
-        messages.clear()
-
-
 @log
-def get_options(args, options_file):
-    '''
-    Get server options
-    :param args: Command line arguments
-    :param options_file: Options file name
-    :return: dict
-    '''
-    options = config.get_json_options(options_file)
-    cl_options = config.get_command_options(args, "a:p:")
-    for opt in cl_options:
-        if opt[0] == "-a":
-            options["DEFAULT"]["HOST"] = opt[1]
-        elif opt[0] == "-p":
-            options["DEFAULT"]["PORT"] = opt[1]
+def arg_parser():
+    """Парсер аргументов коммандной строки"""
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-p', default=DEFAULT_PORT, type=int, nargs='?')
+    parser.add_argument('-a', default='', nargs='?')
+    namespace = parser.parse_args(sys.argv[1:])
+    listen_addr = namespace.a
+    listen_port = namespace.p
 
-    listen_addr = options["DEFAULT"]["HOST"]
-    listen_port = options["DEFAULT"]["PORT"]
+    # проверка получения корретного номера порта для работы сервера.
+    if not 1023 < listen_port < 65536:
+        LOG.critical(
+            f'Попытка запуска сервера с указанием неподходящего порта {listen_port}. '
+            f'Допустимы адреса с 1024 до 65535.')
+        sys.exit(1)
 
     return listen_addr, listen_port
+
+
+# @log
+# def get_options(args, options_file):
+#     '''
+#     Get server options
+#     :param args: Command line arguments
+#     :param options_file: Options file name
+#     :return: dict
+#     '''
+#     options = config.get_json_options(options_file)
+#     cl_options = config.get_command_options(args, "a:p:")
+#     for opt in cl_options:
+#         if opt[0] == "-a":
+#             options["DEFAULT"]["HOST"] = opt[1]
+#         elif opt[0] == "-p":
+#             options["DEFAULT"]["PORT"] = opt[1]
+
+#     listen_addr = options["DEFAULT"]["HOST"]
+#     listen_port = options["DEFAULT"]["PORT"]
+
+#     return listen_addr, listen_port
 
 
 @log
@@ -171,7 +123,7 @@ def response_200():
         "alert": "OK"
     }
 
-    return jim.pack(msg)
+    return msg
 
 
 @log
@@ -181,4 +133,74 @@ def response_400():
         "alert": "Bad request"
     }
 
-    return jim.pack(msg)
+    return msg
+
+
+def run():
+    '''
+    Run server
+    :param args: Command line arguments
+    :return:
+    '''
+    listen_addr, listen_port = arg_parser()
+
+    LOG.info(
+        f'Start server, port for connection: {listen_port}, '
+    )
+
+    sock = socket(AF_INET, SOCK_STREAM)
+    sock.bind((listen_addr, listen_port))
+    sock.settimeout(0.5)
+
+    # Creating clients and messages variables
+    clients = []
+    messages = []
+
+    # Dict with user names
+    names = {}
+
+    # Listen ports
+    sock.listen(MAX_CONNECTIONS)
+    # Main loop of server
+    while True:
+        try:
+            conn, addr = sock.accept()
+        except OSError:
+            pass
+        else:
+            LOG.info(f"Connected with: {addr}")
+            print(f"{addr} connected to the server!")
+            clients.append(conn)
+        
+        # Created data variables
+        recv_data = []
+        write_data = []
+        err_data = []
+
+        # Search waiting clients
+        try:
+            if clients:
+                recv_data, write_data, err_data = select.select(clients, clients, [], 0)
+        except OSError:
+            pass
+
+        # get message, and if error excepting client
+        if recv_data:
+            for client_with_message in recv_data:
+                try:
+                    process_client_message(get_message(client_with_message), messages, client_with_message,
+                                        clients, names)
+                except Exception as err:
+                    LOG.info(f'Client {client_with_message.getpeername()} '
+                            f'disconnect from server. Error: {err}')
+                    clients.remove(client_with_message)
+                    
+        # If there is the message, process everyone
+        for i in messages:
+            try:
+                process_message(i, names, write_data)
+            except Exception:
+                LOG.info(f"Connection with user {i[DESTINATION]} was lost.")
+                clients.remove(names[i[DESTINATION]])
+                del names[i[DESTINATION]]
+        messages.clear()

@@ -1,9 +1,10 @@
+import argparse
 import json
 from socket import *
 import threading
 import time
 from corelib.utils import get_message, send_message
-from corelib.variables import ACTION, ACCOUNT_NAME, DESTINATION, ERROR, EXIT, MESSAGE, MESSAGE_TEXT, PRESENCE, RESPONSE, SENDER, TIME, USER
+from corelib.variables import ACTION, ACCOUNT_NAME, DEFAULT_IP_ADDRESS, DEFAULT_PORT, DESTINATION, ERROR, EXIT, MESSAGE, MESSAGE_TEXT, PRESENCE, RESPONSE, SENDER, TIME, USER
 from corelib.errors import IncorrectDataRecivedError, ReqFieldMissingError, ServerError
 from corelib.user import User
 import sys
@@ -13,82 +14,51 @@ from logs.client_log_config import LOG
 from corelib.decos import log
 
 
-def run(args, options_file):
-    print("Console messager. Client module.")
-
-    server_addr, server_port, client_name = get_options(args, options_file)
-
-    if not client_name:
-        client_name = input("Input tour name: ")
-
-    LOG.info(
-        f'Start client with: server address: {server_addr}, '
-        f'port: {server_port}, username: {client_name}.')
-    
-    try:
-        sock = socket(AF_INET, SOCK_STREAM)
-        sock.connect((server_addr, server_port))
-        send_message(sock, create_presence(client_name))
-        answer = process_response_ans(get_message(sock))
-        LOG.info(f"Connected to server with: server answer: {answer}")
-        print("Connected to the server.")
-    except json.JSONDecodeError:
-        LOG.error("Failed unpack Json message")
-        sys.exit(1)
-    except ServerError as err:
-        LOG.error(f"Failed, server error: {err}")
-        sys.exit(1)
-    except ReqFieldMissingError as err:
-        LOG.error(f"In server answer missing mandated field: {err}")
-        sys.exit(1)
-    except ConnectionRefusedError as err:
-        LOG.critical(f"Connection refused: {err}")
-        sys.exit(1)
-    else:
-        # If connection to the server is correct,
-        # start client service to received message.
-        receiver = threading.Thread(target=message_from_server, args=(sock, client_name))
-        receiver.daemon = True
-        receiver.start()
-
-        # start send message and interaction with users
-        user_interface = threading.Thread(target=user_interactive, args=(sock, client_name))
-        user_interface.daemon = True
-        user_interface.start()
-        LOG.debug("Starts process.")
-
-        # main loop, if one of the process will be close,
-        # it means or lost connection or user print 'exit'.
-        while True:
-            time.sleep(1)
-            if receiver.is_alive() and user_interface.is_alive():
-                continue
-            break
-
-
 @log
-def get_options(args, options_file):
-    '''
-    Get server options
-    :param args: Command line arguments
-    :param options_file: Options file name
-    :return: dict
-    '''
-    options = config.get_json_options(options_file)
-    cl_options = config.get_command_options(args, "a:p:n:")
-    for opt in cl_options:
-        if opt[0] == "-a":
-            options["DEFAULT"]["HOST"] = opt[1]
-        elif opt[0] == "-p":
-            options["DEFAULT"]["PORT"] = opt[1]
-        elif opt[0] == "-n":
-            options["DEFAULT"]["NAME"] = opt[1]
+def arg_parser():
+    """Парсер аргументов коммандной строки"""
+    parser = argparse.ArgumentParser()
+    parser.add_argument('addr', default=DEFAULT_IP_ADDRESS, nargs='?')
+    parser.add_argument('port', default=DEFAULT_PORT, type=int, nargs='?')
+    parser.add_argument('-n', '--name', default=None, nargs='?')
+    namespace = parser.parse_args(sys.argv[1:])
+    server_addr = namespace.addr
+    server_port = namespace.port
+    client_name = namespace.name
 
-    server_addr = options["DEFAULT"]["HOST"]
-    server_port = options["DEFAULT"]["PORT"]
-    client_name = options["DEFAULT"]["NAME"]
+    # проверим подходящий номер порта
+    if not 1023 < server_port < 65536:
+        LOG.critical(
+            f'Попытка запуска клиента с неподходящим номером порта: {server_port}. '
+            f'Допустимы адреса с 1024 до 65535. Клиент завершается.')
+        sys.exit(1)
 
     return server_addr, server_port, client_name
+
+
+# @log
+# def get_options(args, options_file):
+#     '''
+#     Get server options
+#     :param args: Command line arguments
+#     :param options_file: Options file name
+#     :return: dict
+#     '''
+#     options = config.get_json_options(options_file)
+#     cl_options = config.get_command_options(args, "a:p:n:")
+#     for opt in cl_options:
+#         if opt[0] == "-a":
+#             options["DEFAULT"]["HOST"] = opt[1]
+#         elif opt[0] == "-p":
+#             options["DEFAULT"]["PORT"] = opt[1]
+#         elif opt[0] == "-n":
+#             options["DEFAULT"]["NAME"] = opt[1]
+
+#     server_addr = options["DEFAULT"]["HOST"]
+#     server_port = options["DEFAULT"]["PORT"]
+#     client_name = options["DEFAULT"]["NAME"]
+
+#     return server_addr, server_port, client_name
 
 
 @log
@@ -231,3 +201,56 @@ def auth():
     }
 
     return jim.pack(msg)
+
+
+def run():
+    print("Console messager. Client module.")
+
+    server_addr, server_port, client_name = arg_parser()
+
+    if not client_name:
+        client_name = input("Input tour name: ")
+
+    LOG.info(
+        f'Start client with: server address: {server_addr}, '
+        f'port: {server_port}, username: {client_name}.')
+    
+    try:
+        sock = socket(AF_INET, SOCK_STREAM)
+        sock.connect((server_addr, server_port))
+        send_message(sock, create_presence(client_name))
+        answer = process_response_ans(get_message(sock))
+        LOG.info(f"Connected to server with: server answer: {answer}")
+        print("Connected to the server.")
+    except json.JSONDecodeError:
+        LOG.error("Failed unpack Json message")
+        sys.exit(1)
+    except ServerError as err:
+        LOG.error(f"Failed, server error: {err}")
+        sys.exit(1)
+    except ReqFieldMissingError as err:
+        LOG.error(f"In server answer missing mandated field: {err}")
+        sys.exit(1)
+    except ConnectionRefusedError as err:
+        LOG.critical(f"Connection refused: {err}")
+        sys.exit(1)
+    else:
+        # If connection to the server is correct,
+        # start client service to received message.
+        receiver = threading.Thread(target=message_from_server, args=(sock, client_name))
+        receiver.daemon = True
+        receiver.start()
+
+        # start send message and interaction with users
+        user_interface = threading.Thread(target=user_interactive, args=(sock, client_name))
+        user_interface.daemon = True
+        user_interface.start()
+        LOG.debug("Starts process.")
+
+        # main loop, if one of the process will be close,
+        # it means or lost connection or user print 'exit'.
+        while True:
+            time.sleep(1)
+            if receiver.is_alive() and user_interface.is_alive():
+                continue
+            break
