@@ -1,5 +1,5 @@
 import unittest
-from corelib.jim import pack, unpack
+from corelib.common.jim import pack, unpack
 
 from corelib.client import auth, get_options, get_user
 

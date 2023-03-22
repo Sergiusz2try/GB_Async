@@ -2,12 +2,12 @@ import argparse
 import select
 from socket import *
 import sys
-import time
-from corelib import jim, config
-from corelib.utils import get_message, send_message
-from corelib.variables import ACCOUNT_NAME, ACTION, DEFAULT_PORT, DESTINATION, ERROR, EXIT, MAX_CONNECTIONS, MESSAGE, MESSAGE_TEXT, PRESENCE, RESPONSE_400, SENDER, TIME, USER
+from corelib.common.utils import get_message, send_message
+from corelib.common.variables import ACCOUNT_NAME, ACTION, DEFAULT_PORT, DESTINATION, ERROR, EXIT, MAX_CONNECTIONS, MESSAGE, MESSAGE_TEXT, PRESENCE, RESPONSE_400, SENDER, TIME, USER
+from corelib.descripts import Port
+from corelib.metaclasses import ServerVerifier
 from logs.server_log_config import LOG
-from corelib.decos import log
+from corelib.common.decos import log
 
 
 @log
@@ -28,6 +28,169 @@ def arg_parser():
         sys.exit(1)
 
     return listen_addr, listen_port
+
+
+class Server(metaclass=ServerVerifier):
+    port = Port()
+
+    def __init__(self, listen_addr, listen_port):
+        self.listen_addr = listen_addr
+        self.listen_port = listen_port
+        self.clients = []
+        self.messages = []
+        self.names = {}
+
+    def init_sock(self):
+        '''
+        Run server
+        :param args: Command line arguments
+        :return:
+        '''
+
+        LOG.info(
+            f'Start server, port for connection: {self.listen_port}, '
+        )
+
+        sock = socket(AF_INET, SOCK_STREAM)
+        sock.bind((self.listen_addr, self.listen_port))
+        sock.settimeout(0.5)
+
+        # Listen ports
+        self.sock = sock
+        self.sock.listen(MAX_CONNECTIONS)
+
+    def run(self):
+        self.init_sock()
+
+        # Main loop of server
+        while True:
+            try:
+                conn, addr = self.sock.accept()
+            except OSError:
+                pass
+            else:
+                LOG.info(f"Connected with: {addr}")
+                print(f"{addr} connected to the server!")
+                self.clients.append(conn)
+            
+            # Created data variables
+            recv_data = []
+            write_data = []
+            err_data = []
+
+            # Search waiting clients
+            try:
+                if self.clients:
+                    recv_data, write_data, err_data = select.select(self.clients, self.clients, [], 0)
+            except OSError:
+                pass
+
+            # get message, and if error excepting client
+            if recv_data:
+                for client_with_message in recv_data:
+                    try:
+                        self.process_client_message(get_message(client_with_message), self.messages, client_with_message,
+                                            self.clients, self.names)
+                    except Exception as err:
+                        LOG.info(f'Client {client_with_message.getpeername()} '
+                                f'disconnect from server. Error: {err}')
+                        self.clients.remove(client_with_message)
+                        
+            # If there is the message, process everyone
+            for i in self.messages:
+                try:
+                    self.process_message(i, self.names, write_data)
+                except Exception:
+                    LOG.info(f"Connection with user {i[DESTINATION]} was lost.")
+                    self.clients.remove(self.names[i[DESTINATION]])
+                    del self.names[i[DESTINATION]]
+            self.messages.clear()
+
+
+    @log
+    def process_client_message(self, message, client):
+        """
+        Message handler from clients, accepts a dictionary - a message from the client,
+        checks the correctness, sends a response dictionary to the client with the result of the reception.
+        :param message:
+        :param messages_list:
+        :param client:
+        :param clients:
+        :param names:
+        :return:
+        """
+
+        LOG.debug(f"Received message from client: {message}")
+        if ACTION in message and message[ACTION] == PRESENCE and TIME in message \
+                and USER in message:
+            if message[USER][ACCOUNT_NAME] not in self.names.keys():
+                self.names[message[USER][ACCOUNT_NAME]] = client
+                send_message(client, self.response_200())
+            else:
+                response = RESPONSE_400
+                response[ERROR] = "Username already exist."
+                send_message(client, response)
+                self.clients.remove(client)
+                client.close()
+            return
+        # If it message add it to message list
+        elif ACTION in message and message[ACTION] == MESSAGE and \
+                DESTINATION in message and TIME in message and \
+                SENDER in message and MESSAGE_TEXT in message:
+            self.messages.append(message)
+            return
+        # If client exit.
+        elif ACTION in message and message[ACTION] == EXIT and ACCOUNT_NAME in message:
+            self.clients.remove(self.names[message[ACCOUNT_NAME]])
+            self.names[message[ACCOUNT_NAME]].close()
+            del self.names[message[ACCOUNT_NAME]]
+            return
+        # Else bad request.
+        else:
+            send_message(client, self.response_400())
+            return
+        
+
+    @log
+    def process_message(self, message, listen_socks):
+        """
+        Function address sended message correct user. Get dict message,
+        list registered users and listen sockets. Nothing return.
+        :param message:
+        :param names:
+        :param listen_socks:
+        :return:
+        """
+        if message[DESTINATION] in self.names and self.names[message[DESTINATION]] in listen_socks:
+            send_message(self.names[message[DESTINATION]], message)
+            LOG.info(f"Sended message for user: {message[DESTINATION]}"
+                    f"from user {message[SENDER]}")
+        elif message[DESTINATION] in self.names and self.names[message[DESTINATION]] not in listen_socks:
+            raise ConnectionError
+        else:
+            LOG.error(f"User {message[DESTINATION]} are not registered on the server.")
+
+
+    @log
+    @staticmethod
+    def response_200():
+        msg = {
+            "response": 200,
+            "alert": "OK"
+        }
+
+        return msg
+
+
+    @log
+    @staticmethod
+    def response_400():
+        msg = {
+            "response": 400,
+            "alert": "Bad request"
+        }
+
+        return msg
 
 
 # @log
@@ -51,156 +214,9 @@ def arg_parser():
 
 #     return listen_addr, listen_port
 
-
-@log
-def process_client_message(message, messages_list, client, clients, names):
-    """
-    Message handler from clients, accepts a dictionary - a message from the client,
-    checks the correctness, sends a response dictionary to the client with the result of the reception.
-    :param message:
-    :param messages_list:
-    :param client:
-    :param clients:
-    :param names:
-    :return:
-    """
-
-    LOG.debug(f"Received message from client: {message}")
-    if ACTION in message and message[ACTION] == PRESENCE and TIME in message \
-            and USER in message:
-        if message[USER][ACCOUNT_NAME] not in names.keys():
-            names[message[USER][ACCOUNT_NAME]] = client
-            send_message(client, response_200())
-        else:
-            response = RESPONSE_400
-            response[ERROR] = "Username already exist."
-            send_message(client, response)
-            clients.remove(client)
-            client.close()
-        return
-    # If it message add it to message list
-    elif ACTION in message and message[ACTION] == MESSAGE and \
-            DESTINATION in message and TIME in message and \
-            SENDER in message and MESSAGE_TEXT in message:
-        messages_list.append(message)
-        return
-    # If client exit.
-    elif ACTION in message and message[ACTION] == EXIT and ACCOUNT_NAME in message:
-        clients.remove(names[message[ACCOUNT_NAME]])
-        names[message[ACCOUNT_NAME]].close()
-        del names[message[ACCOUNT_NAME]]
-        return
-    # Else bad request.
-    else:
-        send_message(client, response_400())
-        return
-    
-
-@log
-def process_message(message, names, listen_socks):
-    """
-    Function address sended message correct user. Get dict message,
-    list registered users and listen sockets. Nothing return.
-    :param message:
-    :param names:
-    :param listen_socks:
-    :return:
-    """
-    if message[DESTINATION] in names and names[message[DESTINATION]] in listen_socks:
-        send_message(names[message[DESTINATION]], message)
-        LOG.info(f"Sended message for user: {message[DESTINATION]}"
-                f"from user {message[SENDER]}")
-    elif message[DESTINATION] in names and names[message[DESTINATION]] not in listen_socks:
-        raise ConnectionError
-    else:
-        LOG.error(f"User {message[DESTINATION]} are not registered on the server.")
-
-
-@log
-def response_200():
-    msg = {
-        "response": 200,
-        "alert": "OK"
-    }
-
-    return msg
-
-
-@log
-def response_400():
-    msg = {
-        "response": 400,
-        "alert": "Bad request"
-    }
-
-    return msg
-
-
-def run():
-    '''
-    Run server
-    :param args: Command line arguments
-    :return:
-    '''
+def main():
+    # Start server
     listen_addr, listen_port = arg_parser()
 
-    LOG.info(
-        f'Start server, port for connection: {listen_port}, '
-    )
-
-    sock = socket(AF_INET, SOCK_STREAM)
-    sock.bind((listen_addr, listen_port))
-    sock.settimeout(0.5)
-
-    # Creating clients and messages variables
-    clients = []
-    messages = []
-
-    # Dict with user names
-    names = {}
-
-    # Listen ports
-    sock.listen(MAX_CONNECTIONS)
-    # Main loop of server
-    while True:
-        try:
-            conn, addr = sock.accept()
-        except OSError:
-            pass
-        else:
-            LOG.info(f"Connected with: {addr}")
-            print(f"{addr} connected to the server!")
-            clients.append(conn)
-        
-        # Created data variables
-        recv_data = []
-        write_data = []
-        err_data = []
-
-        # Search waiting clients
-        try:
-            if clients:
-                recv_data, write_data, err_data = select.select(clients, clients, [], 0)
-        except OSError:
-            pass
-
-        # get message, and if error excepting client
-        if recv_data:
-            for client_with_message in recv_data:
-                try:
-                    process_client_message(get_message(client_with_message), messages, client_with_message,
-                                        clients, names)
-                except Exception as err:
-                    LOG.info(f'Client {client_with_message.getpeername()} '
-                            f'disconnect from server. Error: {err}')
-                    clients.remove(client_with_message)
-                    
-        # If there is the message, process everyone
-        for i in messages:
-            try:
-                process_message(i, names, write_data)
-            except Exception:
-                LOG.info(f"Connection with user {i[DESTINATION]} was lost.")
-                clients.remove(names[i[DESTINATION]])
-                del names[i[DESTINATION]]
-        messages.clear()
+    server = Server(listen_addr, listen_port)
+    server.run()

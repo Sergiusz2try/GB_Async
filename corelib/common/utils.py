@@ -1,7 +1,7 @@
-from corelib import jim
-from corelib.variables import MAX_PACKAGE_LENGTH
-from corelib.decos import log
-from corelib.errors import IncorrectDataRecivedError, NonDictInputError
+from corelib.common import jim
+from corelib.common.variables import MAX_PACKAGE_LENGTH
+from corelib.common.decos import log
+from corelib.common.errors import IncorrectDataRecivedError, NonDictInputError
 
 
 @log

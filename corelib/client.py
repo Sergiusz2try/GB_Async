@@ -3,15 +3,114 @@ import json
 from socket import *
 import threading
 import time
-from corelib.utils import get_message, send_message
-from corelib.variables import ACTION, ACCOUNT_NAME, DEFAULT_IP_ADDRESS, DEFAULT_PORT, DESTINATION, ERROR, EXIT, MESSAGE, MESSAGE_TEXT, PRESENCE, RESPONSE, SENDER, TIME, USER
-from corelib.errors import IncorrectDataRecivedError, ReqFieldMissingError, ServerError
+from corelib.common import jim
+from corelib.common.utils import get_message, send_message
+from corelib.common.variables import ACTION, ACCOUNT_NAME, DEFAULT_IP_ADDRESS, DEFAULT_PORT, DESTINATION, ERROR, EXIT, MESSAGE, MESSAGE_TEXT, PRESENCE, RESPONSE, SENDER, TIME, USER
+from corelib.common.errors import IncorrectDataRecivedError, ReqFieldMissingError, ServerError
+from corelib.metaclasses import ClientVerifier
 from corelib.user import User
 import sys
 import datetime
-from corelib import jim, config
+from corelib import config
 from logs.client_log_config import LOG
-from corelib.decos import log
+from corelib.common.decos import log
+
+
+class ClientSender(threading.Thread, metaclass=ClientVerifier):
+
+    def __init__(self, account_name, sock):
+        self.account_name = account_name
+        self.sock = sock
+        super().__init__()
+
+    @log
+    def create_exit_message(self):
+        """Message about exit."""
+        time = datetime.datetime.now()
+        return {
+            ACTION: EXIT,
+            TIME: time.isoformat(),
+            ACCOUNT_NAME: self.account_name,
+        }
+
+    @log
+    def create_message(self):
+        """Function - create message for sending to server"""
+        to_user = input("Input received user: ")
+        msg = input("Input your message or !!! for exit.")
+        time = datetime.datetime.now()
+        msg_dict = {
+            ACTION: MESSAGE,
+            SENDER: self.account_name,
+            DESTINATION: to_user,
+            TIME: time.isoformat(),
+            MESSAGE_TEXT: msg, 
+        }
+        LOG.debug(f"Created dict message: {msg_dict}")
+
+        try:
+            send_message(self.sock, msg_dict)
+            LOG.info(f"Send message for user {to_user}")
+        except:
+            LOG.critical("Lost connection.")
+            sys.exit(1)
+
+    @staticmethod
+    def print_help():
+        """Function write documentation"""
+        print('Commands:')
+        print('message - send message. User and text will be requested later.')
+        print('help - write help text')
+        print('exit - exit from program')
+
+    @log
+    def user_interactive(self):
+        """
+        Function of interaction with user, take commands, send message.
+        """
+        self.print_help()
+        while True:
+            command = input("Input the command: ")
+            if command == "message":
+                self.create_message()
+            elif command == "help":
+                self.print_help()
+            elif command == "exit":
+                send_message(self.sock, self.create_exit_message())
+                print("Close connection.")
+                LOG.info("Close connection for user command.")
+                time.sleep(1)
+                break
+            else:
+                print("Incorrect command. Try 'help'.")
+
+
+class ClientReader(threading.Thread, metaclass=ClientVerifier):
+    def __init__(self, account_name, sock):
+        self.account_name = account_name
+        self.sock = sock
+        super().__init__()
+
+    @log
+    def message_from_server(self):
+        """Function - received messages from another clients, sended to server"""
+        while True:
+            try:
+                message = get_message(self.sock)
+                if ACTION in message and message[ACTION] == MESSAGE and \
+                        SENDER in message and DESTINATION in message \
+                        and MESSAGE_TEXT in message and message[DESTINATION] == self.account_name:
+                    print(f"\n Get message from client {message[SENDER]}:"
+                        f"\n{message[MESSAGE_TEXT]}")
+                    LOG.info(f"Get message from client {message[SENDER]}:"
+                            f"\n{message[MESSAGE_TEXT]}")
+                else:
+                    LOG.error(f"Get incorrect message from server: {message}")
+            except IncorrectDataRecivedError:
+                LOG.error(f"Can't decode received message.")
+            except (OSError, ConnectionError, ConnectionAbortedError):
+                LOG.critical("Losing connection to the server.")
+                break
 
 
 @log
@@ -62,62 +161,6 @@ def arg_parser():
 
 
 @log
-def create_exit_message(account_name):
-    """Message about exit."""
-    time = datetime.datetime.now()
-    return {
-        ACTION: EXIT,
-        TIME: time.isoformat(),
-        ACCOUNT_NAME: account_name,
-    }
-
-
-@log
-def message_from_server(sock, my_username):
-    """Function - received messages from another clients, sended to server"""
-    while True:
-        try:
-            message = get_message(sock)
-            if ACTION in message and message[ACTION] == MESSAGE and \
-                    SENDER in message and DESTINATION in message \
-                    and MESSAGE_TEXT in message and message[DESTINATION] == my_username:
-                print(f"\n Get message from client {message[SENDER]}:"
-                    f"\n{message[MESSAGE_TEXT]}")
-                LOG.info(f"Get message from client {message[SENDER]}:"
-                        f"\n{message[MESSAGE_TEXT]}")
-            else:
-                LOG.error(f"Get incorrect message from server: {message}")
-        except IncorrectDataRecivedError:
-            LOG.error(f"Can't decode received message.")
-        except (OSError, ConnectionError, ConnectionAbortedError):
-            LOG.critical("Losing connection to the server.")
-            break
-
-
-@log
-def create_message(sock, account_name="Guest"):
-    """Function - create message for sending to server"""
-    to_user = input("Input received user: ")
-    msg = input("Input your message or !!! for exit.")
-    time = datetime.datetime.now()
-    msg_dict = {
-        ACTION: MESSAGE,
-        SENDER: account_name,
-        DESTINATION: to_user,
-        TIME: time.isoformat(),
-        MESSAGE_TEXT: msg, 
-    }
-    LOG.debug(f"Created dict message: {msg_dict}")
-
-    try:
-        send_message(sock, msg_dict)
-        LOG.info(f"Send message for user {to_user}")
-    except:
-        LOG.critical("Lost connection.")
-        sys.exit(1)
-
-
-@log
 def create_presence(account_name="Guest"):
     """
     Generating request about presence of client
@@ -137,36 +180,6 @@ def create_presence(account_name="Guest"):
     return out
 
 
-def print_help():
-    """Function write documentation"""
-    print('Commands:')
-    print('message - send message. User and text will be requested later.')
-    print('help - write help text')
-    print('exit - exit from program')
-
-
-@log
-def user_interactive(sock, username):
-    """
-    Function of interaction with user, take commands, send message.
-    """
-    print_help()
-    while True:
-        command = input("Input the command: ")
-        if command == "message":
-            create_message(sock, username)
-        elif command == "help":
-            print_help()
-        elif command == "exit":
-            send_message(sock, create_exit_message(username))
-            print("Close connection.")
-            LOG.info("Close connection for user command.")
-            time.sleep(1)
-            break
-        else:
-            print("Incorrect command. Try 'help'.")
-
-
 @log
 def process_response_ans(message):
     """
@@ -180,27 +193,6 @@ def process_response_ans(message):
         elif message[RESPONSE] == 400:
             raise ServerError(f'400 : {message[ERROR]}')
     raise ReqFieldMissingError(RESPONSE)
-
-
-@log
-def get_user():
-    return User("User", "Password")
-
-
-@log
-def auth():
-    user = get_user()
-    time = datetime.datetime.now()
-    msg = {
-        "action": "authenticate",
-        "time": time.isoformat(),
-        "user": {
-            "account_name": user.name,
-            "password": user.password,
-        },
-    }
-
-    return jim.pack(msg)
 
 
 def run():
@@ -237,20 +229,20 @@ def run():
     else:
         # If connection to the server is correct,
         # start client service to received message.
-        receiver = threading.Thread(target=message_from_server, args=(sock, client_name))
-        receiver.daemon = True
-        receiver.start()
+        module_receiver = ClientReader(client_name, sock)
+        module_receiver.daemon = True
+        module_receiver.start()
 
         # start send message and interaction with users
-        user_interface = threading.Thread(target=user_interactive, args=(sock, client_name))
-        user_interface.daemon = True
-        user_interface.start()
+        module_sender = ClientSender(client_name, sock)
+        module_sender.daemon = True
+        module_sender.start()
         LOG.debug("Starts process.")
 
         # main loop, if one of the process will be close,
         # it means or lost connection or user print 'exit'.
         while True:
             time.sleep(1)
-            if receiver.is_alive() and user_interface.is_alive():
+            if module_receiver.is_alive() and module_sender.is_alive():
                 continue
             break
