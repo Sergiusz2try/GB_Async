@@ -2009,3 +2009,40 @@
 2023-03-16 14:22:03,341 - DEBUG - decos - Вызвана функция process_client_message с параметрами ({'action': 'exit', 'time': '2023-03-16T14:22:02.902803', 'account_name': 'Lol'}, [], <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>, [], {}), {}
 2023-03-16 14:32:29,757 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
 2023-03-16 14:32:29,758 - INFO - server - Start server, port for connection: 7777, 
+2023-03-26 15:12:57,785 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-03-26 15:12:57,786 - INFO - server - Start server, port for connection: 7777, 
+2023-03-26 15:13:40,305 - INFO - server - Connected with: ('127.0.0.1', 48920)
+2023-03-26 15:13:40,305 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 48920)>,), {}
+2023-03-26 15:13:40,305 - INFO - server - Client ('127.0.0.1', 48920) disconnect from server. Error: Server.process_client_message() takes 3 positional arguments but 6 were given
+2023-03-26 15:14:02,775 - INFO - server - Connected with: ('127.0.0.1', 51962)
+2023-03-26 15:14:02,775 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51962)>,), {}
+2023-03-26 15:14:02,775 - INFO - server - Client ('127.0.0.1', 51962) disconnect from server. Error: Server.process_client_message() takes 3 positional arguments but 6 were given
+2023-03-26 15:18:02,319 - INFO - server - Connected with: ('127.0.0.1', 57088)
+2023-03-26 15:18:02,320 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 57088)>,), {}
+2023-03-26 15:18:02,320 - INFO - server - Client ('127.0.0.1', 57088) disconnect from server. Error: Server.process_client_message() takes 3 positional arguments but 6 were given
+2023-03-26 15:19:39,098 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-03-26 15:19:39,098 - INFO - server - Start server, port for connection: 7777, 
+2023-03-26 15:19:46,531 - INFO - server - Connected with: ('127.0.0.1', 56462)
+2023-03-26 15:19:46,531 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56462)>,), {}
+2023-03-26 15:19:46,531 - DEBUG - server - Received message from client: {'action': 'presence', 'time': '2023-03-26T15:19:46.531087', 'user': {'account_name': 'Jhon'}}
+2023-03-26 15:19:46,531 - INFO - server - Client ('127.0.0.1', 56462) disconnect from server. Error: Server.response_200() takes 0 positional arguments but 1 was given
+2023-03-26 15:22:35,999 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-03-26 15:22:35,999 - INFO - server - Start server, port for connection: 7777, 
+2023-03-26 15:22:51,077 - INFO - server - Connected with: ('127.0.0.1', 39408)
+2023-03-26 15:22:51,578 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 39408)>,), {}
+2023-03-26 15:22:51,578 - DEBUG - server - Received message from client: {'action': 'presence', 'time': '2023-03-26T15:22:51.077376', 'user': {'account_name': 'Fully'}}
+2023-03-26 15:22:51,578 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 39408)>, {'response': 200}), {}
+2023-03-26 15:22:51,578 - DEBUG - decos - Вызвана функция process_client_message с параметрами (<Server(Thread-1, initial)>, {'action': 'presence', 'time': '2023-03-26T15:22:51.077376', 'user': {'account_name': 'Fully'}}, <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 39408)>), {}
+2023-03-26 15:22:53,080 - INFO - server - Client ('127.0.0.1', 39408) disconnect from server. Error: Expecting value: line 1 column 1 (char 0)
+2023-03-26 15:27:17,117 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-03-26 15:27:17,117 - INFO - server - Start server, port for connection: 7777, 
+2023-03-26 15:27:22,793 - INFO - server - Connected with: ('127.0.0.1', 48804)
+2023-03-26 15:27:22,793 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 48804)>,), {}
+2023-03-26 15:27:22,793 - DEBUG - server - Received message from client: {'action': 'presence', 'time': '2023-03-26T15:27:22.793156', 'user': {'account_name': 'lol'}}
+2023-03-26 15:27:22,793 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 48804)>, {'response': 200}), {}
+2023-03-26 15:27:22,794 - DEBUG - decos - Вызвана функция process_client_message с параметрами (<Server(Thread-1, initial)>, {'action': 'presence', 'time': '2023-03-26T15:27:22.793156', 'user': {'account_name': 'lol'}}, <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 48804)>), {}
+2023-03-26 15:27:24,295 - INFO - server - Client ('127.0.0.1', 48804) disconnect from server. Error: Expecting value: line 1 column 1 (char 0)
+2023-03-26 16:36:19,668 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-03-26 16:37:44,684 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-03-26 16:37:56,691 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-03-26 16:38:41,324 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}

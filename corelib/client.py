@@ -3,15 +3,12 @@ import json
 from socket import *
 import threading
 import time
-from corelib.common import jim
 from corelib.common.utils import get_message, send_message
 from corelib.common.variables import ACTION, ACCOUNT_NAME, DEFAULT_IP_ADDRESS, DEFAULT_PORT, DESTINATION, ERROR, EXIT, MESSAGE, MESSAGE_TEXT, PRESENCE, RESPONSE, SENDER, TIME, USER
 from corelib.common.errors import IncorrectDataRecivedError, ReqFieldMissingError, ServerError
 from corelib.metaclasses import ClientVerifier
-from corelib.user import User
 import sys
 import datetime
-from corelib import config
 from logs.client_log_config import LOG
 from corelib.common.decos import log
 

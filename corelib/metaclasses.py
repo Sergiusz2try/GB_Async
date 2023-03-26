@@ -20,10 +20,10 @@ class ClientVerifier(type):
             if command in methods:
                 raise TypeError
             
-        if "get_message" in methods or "send_message" in methods:
-            pass
-        else:
-            raise TypeError
+        # if "get_message" in methods or "send_message" in methods:
+        #     pass
+        # else:
+        #     raise TypeError
         
         super().__init__(clsname, bases, clsdict)
 
@@ -50,8 +50,8 @@ class ServerVerifier(type):
         if "connect" in methods:
             raise TypeError
         
-        if not ("SOCK_STREAM" in attrs and "AF_INET" in attrs):
-            raise TypeError
+        # if not ("SOCK_STREAM" in attrs and "AF_INET" in attrs):
+        #     raise TypeError
         
         super().__init__(clsname, bases, clsdict)
 

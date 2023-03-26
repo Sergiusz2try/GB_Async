@@ -2,12 +2,14 @@ import argparse
 import select
 from socket import *
 import sys
+import threading
 from corelib.common.utils import get_message, send_message
-from corelib.common.variables import ACCOUNT_NAME, ACTION, DEFAULT_PORT, DESTINATION, ERROR, EXIT, MAX_CONNECTIONS, MESSAGE, MESSAGE_TEXT, PRESENCE, RESPONSE_400, SENDER, TIME, USER
+from corelib.common.variables import ACCOUNT_NAME, ACTION, DEFAULT_PORT, DESTINATION, ERROR, EXIT, MAX_CONNECTIONS, MESSAGE, MESSAGE_TEXT, PRESENCE, RESPONSE_200, RESPONSE_400, SENDER, TIME, USER
 from corelib.descripts import Port
 from corelib.metaclasses import ServerVerifier
 from logs.server_log_config import LOG
 from corelib.common.decos import log
+from corelib.models.server import ServerStorage
 
 
 @log
@@ -30,15 +32,17 @@ def arg_parser():
     return listen_addr, listen_port
 
 
-class Server(metaclass=ServerVerifier):
+class Server(threading.Thread, metaclass=ServerVerifier):
     port = Port()
 
-    def __init__(self, listen_addr, listen_port):
+    def __init__(self, listen_addr, listen_port, database):
         self.listen_addr = listen_addr
         self.listen_port = listen_port
         self.clients = []
+        self.database = database
         self.messages = []
         self.names = {}
+        super().__init__()
 
     def init_sock(self):
         '''
@@ -89,8 +93,7 @@ class Server(metaclass=ServerVerifier):
             if recv_data:
                 for client_with_message in recv_data:
                     try:
-                        self.process_client_message(get_message(client_with_message), self.messages, client_with_message,
-                                            self.clients, self.names)
+                        self.process_client_message(get_message(client_with_message), client_with_message)
                     except Exception as err:
                         LOG.info(f'Client {client_with_message.getpeername()} '
                                 f'disconnect from server. Error: {err}')
@@ -99,7 +102,7 @@ class Server(metaclass=ServerVerifier):
             # If there is the message, process everyone
             for i in self.messages:
                 try:
-                    self.process_message(i, self.names, write_data)
+                    self.process_message(i, write_data)
                 except Exception:
                     LOG.info(f"Connection with user {i[DESTINATION]} was lost.")
                     self.clients.remove(self.names[i[DESTINATION]])
@@ -125,7 +128,9 @@ class Server(metaclass=ServerVerifier):
                 and USER in message:
             if message[USER][ACCOUNT_NAME] not in self.names.keys():
                 self.names[message[USER][ACCOUNT_NAME]] = client
-                send_message(client, self.response_200())
+                client_ip, client_port = client.getpeername()
+                self.database.user_login(message[USER][ACCOUNT_NAME], client_ip, client_port)
+                send_message(client, RESPONSE_200)
             else:
                 response = RESPONSE_400
                 response[ERROR] = "Username already exist."
@@ -141,13 +146,14 @@ class Server(metaclass=ServerVerifier):
             return
         # If client exit.
         elif ACTION in message and message[ACTION] == EXIT and ACCOUNT_NAME in message:
+            self.database.user_logout(message[ACCOUNT_NAME])
             self.clients.remove(self.names[message[ACCOUNT_NAME]])
             self.names[message[ACCOUNT_NAME]].close()
             del self.names[message[ACCOUNT_NAME]]
             return
         # Else bad request.
         else:
-            send_message(client, self.response_400())
+            send_message(client, RESPONSE_400)
             return
         
 
@@ -171,28 +177,6 @@ class Server(metaclass=ServerVerifier):
             LOG.error(f"User {message[DESTINATION]} are not registered on the server.")
 
 
-    @log
-    @staticmethod
-    def response_200():
-        msg = {
-            "response": 200,
-            "alert": "OK"
-        }
-
-        return msg
-
-
-    @log
-    @staticmethod
-    def response_400():
-        msg = {
-            "response": 400,
-            "alert": "Bad request"
-        }
-
-        return msg
-
-
 # @log
 # def get_options(args, options_file):
 #     '''
@@ -214,9 +198,44 @@ class Server(metaclass=ServerVerifier):
 
 #     return listen_addr, listen_port
 
+
+def print_help():
+    print('Commands:')
+    print('users - list of users')
+    print('connected - list of active users')
+    print('loghist - list of users history')
+    print('exit - close server.')
+    print('help - help list')
+
+
 def main():
     # Start server
     listen_addr, listen_port = arg_parser()
 
-    server = Server(listen_addr, listen_port)
-    server.run()
+    database = ServerStorage()
+
+    server = Server(listen_addr, listen_port, database)
+    server.daemon = True
+    server.start()
+
+    print_help()
+
+    # Основной цикл сервера:
+    while True:
+        command = input('Input command: ')
+        if command == 'help':
+            print_help()
+        elif command == 'exit':
+            break
+        elif command == 'users':
+            for user in sorted(database.users_list()):
+                print(f'User {user[0]}, last entering: {user[1]}')
+        elif command == 'connected':
+            for user in sorted(database.active_users_list()):
+                print(f'User {user[0]}, connected: {user[1]}:{user[2]}, connection time: {user[3]}')
+        elif command == 'loghist':
+            name = input('Input username to see a history. To see all history, press Enter: ')
+            for user in sorted(database.login_history(name)):
+                print(f'User: {user[0]} entering time: {user[1]}. Online at: {user[2]}:{user[3]}')
+        else:
+            print('Incorrect command.')
