@@ -2046,3 +2046,64 @@
 2023-03-26 16:37:44,684 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
 2023-03-26 16:37:56,691 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
 2023-03-26 16:38:41,324 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-03-30 18:48:52,816 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-03-30 19:03:38,532 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-03-30 19:11:05,280 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-03-30 19:11:53,878 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-03-30 19:21:16,161 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-03-30 19:21:16,174 - INFO - server - Start server, port for connection: 7777, 
+2023-03-30 19:21:44,412 - INFO - server - Connected with: ('127.0.0.1', 49766)
+2023-03-30 19:21:44,413 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49766)>,), {}
+2023-03-30 19:21:44,413 - DEBUG - server - Received message from client: {'action': 'presence', 'time': '2023-03-30T19:21:44.412724', 'user': {'account_name': 'Lol'}}
+2023-03-30 19:21:44,414 - INFO - server - Client ('127.0.0.1', 49766) disconnect from server. Error: Entity namespace for "Users" has no property "name"
+2023-03-30 23:30:06,599 - DEBUG - decos - Вызвана функция arg_parser с параметрами ('7777', ''), {}
+2023-03-30 23:37:31,372 - DEBUG - decos - Вызвана функция arg_parser с параметрами ('7777', ''), {}
+2023-03-30 23:37:31,402 - INFO - server - Start server, port for connection: 7777, 
+2023-03-30 23:37:42,256 - INFO - server - Connected with: ('127.0.0.1', 37144)
+2023-03-30 23:37:42,256 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 37144)>,), {}
+2023-03-30 23:37:42,256 - DEBUG - server - Received message from client: {'action': 'presence', 'time': '2023-03-30T23:37:42.256055', 'user': {'account_name': 'Lol'}}
+2023-03-31 19:31:41,556 - DEBUG - decos - Вызвана функция arg_parser с параметрами ('7777', ''), {}
+2023-03-31 19:31:41,590 - INFO - server - Start server, port for connection: 7777, 
+2023-03-31 19:37:49,474 - DEBUG - decos - Вызвана функция arg_parser с параметрами ('7777', ''), {}
+2023-03-31 19:37:49,501 - INFO - server - Start server, port for connection: 7777, 
+2023-03-31 19:39:14,047 - DEBUG - decos - Вызвана функция arg_parser с параметрами ('7777', ''), {}
+2023-03-31 19:39:14,075 - INFO - server - Start server, port for connection: 7777, 
+2023-03-31 19:41:11,895 - DEBUG - decos - Вызвана функция arg_parser с параметрами ('7777', ''), {}
+2023-03-31 19:41:11,924 - INFO - server - Start server, port for connection: 7777, 
+2023-03-31 19:52:15,335 - DEBUG - decos - Вызвана функция arg_parser с параметрами ('7777', ''), {}
+2023-03-31 19:52:15,361 - INFO - server - Start server, port for connection: 7777, 
+2023-03-31 20:08:52,770 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-03-31 20:08:52,786 - INFO - server - Start server, port for connection: 7777, 
+2023-03-31 20:10:30,171 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-03-31 20:10:30,189 - INFO - server - Start server, port for connection: 7777, 
+2023-03-31 20:16:08,929 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-03-31 20:16:08,945 - INFO - server - Start server, port for connection: 7777, 
+2023-03-31 20:16:22,238 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-03-31 20:16:22,254 - INFO - server - Start server, port for connection: 7777, 
+2023-03-31 20:22:30,065 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-03-31 20:22:30,097 - INFO - server - Start server, port for connection: 7777, 
+2023-03-31 20:22:49,514 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-03-31 20:22:49,534 - INFO - server - Start server, port for connection: 7777, 
+2023-03-31 20:24:13,777 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-03-31 20:24:13,804 - INFO - server - Start server, port for connection: 7777, 
+2023-03-31 20:25:58,573 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-03-31 20:25:58,604 - INFO - server - Start server, port for connection: 7777, 
+2023-03-31 20:26:55,379 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-03-31 20:26:55,410 - INFO - server - Start server, port for connection: 7777, 
+2023-03-31 20:27:38,965 - INFO - server - Connected with: ('127.0.0.1', 39412)
+2023-03-31 20:27:38,966 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=22, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 39412)>,), {}
+2023-03-31 20:27:38,966 - DEBUG - server - Received message from client: {'action': 'presence', 'time': '2023-03-31T20:27:38.965549', 'user': {'account_name': 'Lol'}}
+2023-03-31 20:27:38,992 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=22, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 39412)>, {'response': 200}), {}
+2023-03-31 20:27:38,992 - DEBUG - decos - Вызвана функция process_client_message с параметрами (<Server(Thread-1, started daemon 140128498165312)>, {'action': 'presence', 'time': '2023-03-31T20:27:38.965549', 'user': {'account_name': 'Lol'}}, <socket.socket fd=22, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 39412)>), {}
+2023-03-31 20:31:27,315 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-03-31 20:32:07,002 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-03-31 20:32:07,056 - INFO - server - Start server, port for connection: 7777, 
+2023-03-31 20:32:25,280 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-03-31 20:32:25,319 - INFO - server - Start server, port for connection: 7777, 
+2023-03-31 20:32:33,268 - INFO - server - Connected with: ('127.0.0.1', 41180)
+2023-03-31 20:32:33,769 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41180)>,), {}
+2023-03-31 20:32:33,769 - DEBUG - server - Received message from client: {'action': 'presence', 'time': '2023-03-31T20:32:33.268101', 'user': {'account_name': 'Kojy'}}
+2023-03-31 20:32:33,789 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41180)>, {'response': 200}), {}
+2023-03-31 20:32:33,789 - DEBUG - decos - Вызвана функция process_client_message с параметрами (<Server(Thread-1, started daemon 140624216663616)>, {'action': 'presence', 'time': '2023-03-31T20:32:33.268101', 'user': {'account_name': 'Kojy'}}, <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41180)>), {}
+2023-03-31 20:32:34,290 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41180)>,), {}
+2023-03-31 20:32:34,290 - DEBUG - server - Received message from client: {'action': 'get_users', 'time': 1680283953.823949, 'account_name': 'Kojy'}

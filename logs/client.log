@@ -232,3 +232,39 @@ Hello lox
 2023-03-26 15:27:22,794 - DEBUG - decos - Вызвана функция process_response_ans с параметрами ({'response': 200},), {}
 2023-03-26 15:27:22,794 - INFO - client - Connected to server with: server answer: 200 : OK
 2023-03-26 15:27:22,794 - DEBUG - client - Starts process.
+2023-03-30 19:21:42,337 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-03-30 19:21:44,412 - INFO - client - Start client with: server address: 127.0.0.1, port: 7777, username: Lol.
+2023-03-30 19:21:44,412 - DEBUG - client - Created presence message for client Lol
+2023-03-30 19:21:44,412 - DEBUG - decos - Вызвана функция create_presence с параметрами ('Lol',), {}
+2023-03-30 19:21:44,413 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49766), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': '2023-03-30T19:21:44.412724', 'user': {'account_name': 'Lol'}}), {}
+2023-03-30 19:22:01,057 - ERROR - client - Failed unpack Json message
+2023-03-30 23:37:40,001 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-03-30 23:37:42,255 - INFO - client - Start client with: server address: 127.0.0.1, port: 7777, username: Lol.
+2023-03-30 23:37:42,256 - DEBUG - client - Created presence message for client Lol
+2023-03-30 23:37:42,256 - DEBUG - decos - Вызвана функция create_presence с параметрами ('Lol',), {}
+2023-03-30 23:37:42,256 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 37144), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': '2023-03-30T23:37:42.256055', 'user': {'account_name': 'Lol'}}), {}
+2023-03-31 20:27:36,603 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-03-31 20:27:38,965 - INFO - client - Start client with: server address: 127.0.0.1, port: 7777, username: Lol.
+2023-03-31 20:27:38,965 - DEBUG - client - Created presence message for client Lol
+2023-03-31 20:27:38,965 - DEBUG - decos - Вызвана функция create_presence с параметрами ('Lol',), {}
+2023-03-31 20:27:38,965 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39412), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': '2023-03-31T20:27:38.965549', 'user': {'account_name': 'Lol'}}), {}
+2023-03-31 20:27:38,992 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39412), raddr=('127.0.0.1', 7777)>,), {}
+2023-03-31 20:27:38,992 - DEBUG - client - Received message from server: {'response': 200}
+2023-03-31 20:27:38,992 - DEBUG - decos - Вызвана функция process_response_ans с параметрами ({'response': 200},), {}
+2023-03-31 20:27:38,992 - INFO - client - Connected to server with: server answer: 200 : OK
+2023-03-31 20:29:26,983 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-03-31 20:29:29,148 - INFO - client - Start client with: server address: 127.0.0.1, port: 7777, username: Lol.
+2023-03-31 20:29:29,149 - DEBUG - client - Created presence message for client Lol
+2023-03-31 20:29:29,149 - DEBUG - decos - Вызвана функция create_presence с параметрами ('Lol',), {}
+2023-03-31 20:29:29,149 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 34310), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': '2023-03-31T20:29:29.149152', 'user': {'account_name': 'Lol'}}), {}
+2023-03-31 20:32:29,290 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-03-31 20:32:33,267 - INFO - client - Start client with: server address: 127.0.0.1, port: 7777, username: Kojy.
+2023-03-31 20:32:33,268 - DEBUG - client - Created presence message for client Kojy
+2023-03-31 20:32:33,268 - DEBUG - decos - Вызвана функция create_presence с параметрами ('Kojy',), {}
+2023-03-31 20:32:33,268 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41180), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': '2023-03-31T20:32:33.268101', 'user': {'account_name': 'Kojy'}}), {}
+2023-03-31 20:32:33,789 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41180), raddr=('127.0.0.1', 7777)>,), {}
+2023-03-31 20:32:33,789 - DEBUG - client - Received message from server: {'response': 200}
+2023-03-31 20:32:33,789 - DEBUG - decos - Вызвана функция process_response_ans с параметрами ({'response': 200},), {}
+2023-03-31 20:32:33,789 - INFO - client - Connected to server with: server answer: 200 : OK
+2023-03-31 20:32:33,823 - DEBUG - client - Request all known users Kojy
+2023-03-31 20:32:33,824 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41180), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1680283953.823949, 'account_name': 'Kojy'}), {}
