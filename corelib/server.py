@@ -204,7 +204,7 @@ class Server(threading.Thread, metaclass=ServerVerifier):
 
         # If it's requests known users
         elif ACTION in message and message[ACTION] == USERS_REQUEST and ACCOUNT_NAME in message \
-                and self.names[message[USER]] == client:
+                and self.names[message[ACCOUNT_NAME]] == client:
             response = RESPONSE_202
             response[LIST_INFO] = [user[0]
                                     for user in self.database.users_list()]

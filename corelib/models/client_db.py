@@ -14,10 +14,10 @@ class ClientDatabase:
 
     
     class MessageHistory:
-        def __init__(self, from_user,to_user, message):
+        def __init__(self, contact, direction, message):
             self.id = None
-            self.from_user = from_user
-            self.to_user = to_user
+            self.contact = contact
+            self.direction = direction
             self.message = message
             self.date = datetime.datetime.now()
 
@@ -43,8 +43,8 @@ class ClientDatabase:
         history = Table(
             "message_history", self.metadata,
             Column("id", Integer, primary_key=True),
-            Column("from_user", String),
-            Column("to_user", String),
+            Column("contact", String),
+            Column("direction", String),
             Column("message", Text),
             Column("date", DateTime)
         )
@@ -106,11 +106,7 @@ class ClientDatabase:
         else:
             return False
         
-    def get_history(self, from_who=None, to_who=None):
-        query = self.session.query(self.MessageHistory)
-        if from_who:
-            query = query.filter_by(from_user=from_who)
-        if to_who:
-            query = query.filter_by(to_user=to_who)
-        return [(history_row.form_user, history_row.to_user, history_row.message, history_row.date)
+    def get_history(self, contact):
+        query = self.session.query(self.MessageHistory).filter_by(contact=contact)
+        return [(history_row.contact, history_row.direction, history_row.message, history_row.date)
                 for history_row in query.all()]

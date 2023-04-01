@@ -268,3 +268,237 @@ Hello lox
 2023-03-31 20:32:33,789 - INFO - client - Connected to server with: server answer: 200 : OK
 2023-03-31 20:32:33,823 - DEBUG - client - Request all known users Kojy
 2023-03-31 20:32:33,824 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41180), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1680283953.823949, 'account_name': 'Kojy'}), {}
+2023-04-01 21:54:14,696 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-01 21:54:21,030 - INFO - client - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Gerald
+2023-04-01 21:54:21,086 - INFO - transport - Попытка подключения №1
+2023-04-01 21:54:21,087 - DEBUG - transport - Установлено соединение с сервером
+2023-04-01 21:54:21,087 - DEBUG - transport - Сформировано presence сообщение для пользователя Gerald
+2023-04-01 21:54:21,088 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39092), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1680375261.087356, 'user': {'account_name': 'Gerald'}}), {}
+2023-04-01 21:54:21,610 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39092), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 21:54:21,610 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-01 21:54:21,610 - INFO - transport - Соединение с сервером успешно установлено.
+2023-04-01 21:54:21,610 - DEBUG - transport - Запрос списка известных пользователей Gerald
+2023-04-01 21:54:21,610 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39092), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1680375261.6108963, 'account_name': 'Gerald'}), {}
+2023-04-01 21:54:26,616 - ERROR - transport - Timeout соединения при обновлении списков пользователей.
+2023-04-01 21:54:26,617 - DEBUG - transport - Запущен процесс - приёмник собщений с сервера.
+2023-04-01 21:56:23,922 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-01 21:56:28,688 - INFO - client - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Gerald
+2023-04-01 21:56:28,723 - INFO - transport - Попытка подключения №1
+2023-04-01 21:56:28,723 - DEBUG - transport - Установлено соединение с сервером
+2023-04-01 21:56:28,723 - DEBUG - transport - Сформировано presence сообщение для пользователя Gerald
+2023-04-01 21:56:28,724 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 59116), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1680375388.7239585, 'user': {'account_name': 'Gerald'}}), {}
+2023-04-01 21:56:33,729 - CRITICAL - transport - Потеряно соединение с сервером!
+2023-04-01 21:57:46,816 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-01 21:57:51,685 - INFO - client - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Gerald
+2023-04-01 21:57:51,735 - INFO - transport - Попытка подключения №1
+2023-04-01 21:57:51,735 - DEBUG - transport - Установлено соединение с сервером
+2023-04-01 21:57:51,735 - DEBUG - transport - Сформировано presence сообщение для пользователя Gerald
+2023-04-01 21:57:51,736 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 35752), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1680375471.735765, 'user': {'account_name': 'Gerald'}}), {}
+2023-04-01 21:57:51,770 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 35752), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 21:57:51,770 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-01 21:57:51,770 - INFO - transport - Соединение с сервером успешно установлено.
+2023-04-01 21:57:51,770 - DEBUG - transport - Запрос списка известных пользователей Gerald
+2023-04-01 21:57:51,770 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 35752), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1680375471.7705562, 'account_name': 'Gerald'}), {}
+2023-04-01 21:57:56,776 - ERROR - transport - Timeout соединения при обновлении списков пользователей.
+2023-04-01 21:57:56,776 - DEBUG - transport - Запущен процесс - приёмник собщений с сервера.
+2023-04-01 22:01:49,987 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-01 22:01:54,987 - INFO - client - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Gerald
+2023-04-01 22:01:55,034 - INFO - transport - Попытка подключения №1
+2023-04-01 22:01:55,034 - DEBUG - transport - Установлено соединение с сервером
+2023-04-01 22:01:55,035 - DEBUG - transport - Сформировано presence сообщение для пользователя Gerald
+2023-04-01 22:01:55,035 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 43274), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1680375715.03523, 'user': {'account_name': 'Gerald'}}), {}
+2023-04-01 22:02:00,041 - CRITICAL - transport - Потеряно соединение с сервером!
+2023-04-01 22:02:58,559 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-01 22:03:01,993 - INFO - client - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Gerald
+2023-04-01 22:03:02,032 - INFO - transport - Попытка подключения №1
+2023-04-01 22:03:02,032 - DEBUG - transport - Установлено соединение с сервером
+2023-04-01 22:03:02,032 - DEBUG - transport - Сформировано presence сообщение для пользователя Gerald
+2023-04-01 22:03:02,033 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 54192), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1680375782.032789, 'user': {'account_name': 'Gerald'}}), {}
+2023-04-01 22:03:02,071 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 54192), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:03:02,071 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-01 22:03:02,071 - INFO - transport - Соединение с сервером успешно установлено.
+2023-04-01 22:03:02,072 - DEBUG - transport - Запрос списка известных пользователей Gerald
+2023-04-01 22:03:02,072 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 54192), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1680375782.0720963, 'account_name': 'Gerald'}), {}
+2023-04-01 22:03:07,073 - ERROR - transport - Timeout соединения при обновлении списков пользователей.
+2023-04-01 22:03:07,074 - DEBUG - transport - Запущен процесс - приёмник собщений с сервера.
+2023-04-01 22:03:47,452 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-01 22:03:50,289 - INFO - client - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Lol
+2023-04-01 22:03:50,349 - INFO - transport - Попытка подключения №1
+2023-04-01 22:03:50,350 - DEBUG - transport - Установлено соединение с сервером
+2023-04-01 22:03:50,350 - DEBUG - transport - Сформировано presence сообщение для пользователя Lol
+2023-04-01 22:03:50,351 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49128), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1680375830.3503542, 'user': {'account_name': 'Lol'}}), {}
+2023-04-01 22:03:55,356 - CRITICAL - transport - Потеряно соединение с сервером!
+2023-04-01 22:04:42,688 - DEBUG - transport - Потеряно соединение с сервером.
+2023-04-01 22:04:44,702 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 54192)>, {'action': 'exit', 'time': 1680375884.7027125, 'account_name': 'Gerald'}), {}
+2023-04-01 22:04:44,703 - DEBUG - transport - Транспорт завершает работу.
+2023-04-01 22:07:35,756 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-01 22:07:39,261 - INFO - client - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Gerald
+2023-04-01 22:07:39,305 - INFO - transport - Попытка подключения №1
+2023-04-01 22:07:39,306 - DEBUG - transport - Установлено соединение с сервером
+2023-04-01 22:07:39,306 - DEBUG - transport - Сформировано presence сообщение для пользователя Gerald
+2023-04-01 22:07:39,306 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 43914), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1680376059.306383, 'user': {'account_name': 'Gerald'}}), {}
+2023-04-01 22:07:39,334 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 43914), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:07:39,335 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-01 22:07:39,335 - INFO - transport - Соединение с сервером успешно установлено.
+2023-04-01 22:07:39,335 - DEBUG - transport - Запрос списка известных пользователей Gerald
+2023-04-01 22:07:39,335 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 43914), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1680376059.3352716, 'account_name': 'Gerald'}), {}
+2023-04-01 22:07:39,837 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 43914), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:08:33,715 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-01 22:08:36,838 - INFO - client - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Gerald
+2023-04-01 22:08:36,887 - INFO - transport - Попытка подключения №1
+2023-04-01 22:08:36,887 - DEBUG - transport - Установлено соединение с сервером
+2023-04-01 22:08:36,887 - DEBUG - transport - Сформировано presence сообщение для пользователя Gerald
+2023-04-01 22:08:36,888 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41580), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1680376116.8878105, 'user': {'account_name': 'Gerald'}}), {}
+2023-04-01 22:08:36,910 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41580), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:08:36,910 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-01 22:08:36,910 - INFO - transport - Соединение с сервером успешно установлено.
+2023-04-01 22:08:36,910 - DEBUG - transport - Запрос списка известных пользователей Gerald
+2023-04-01 22:08:36,911 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41580), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1680376116.9109914, 'account_name': 'Gerald'}), {}
+2023-04-01 22:08:37,413 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41580), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:08:37,424 - DEBUG - transport - Запрос контакт листа для пользователся Thread-1
+2023-04-01 22:08:37,424 - DEBUG - transport - Сформирован запрос {'action': 'get_contacts', 'time': 1680376117.424519, 'user': 'Gerald'}
+2023-04-01 22:08:37,424 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41580), raddr=('127.0.0.1', 7777)>, {'action': 'get_contacts', 'time': 1680376117.424519, 'user': 'Gerald'}), {}
+2023-04-01 22:08:37,917 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41580), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:08:37,917 - DEBUG - transport - Получен ответ {'response': 202, 'data_list': []}
+2023-04-01 22:08:37,918 - DEBUG - transport - Запущен процесс - приёмник собщений с сервера.
+2023-04-01 22:08:43,478 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-01 22:08:45,285 - INFO - client - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Lol
+2023-04-01 22:08:45,327 - INFO - transport - Попытка подключения №1
+2023-04-01 22:08:45,327 - DEBUG - transport - Установлено соединение с сервером
+2023-04-01 22:08:45,328 - DEBUG - transport - Сформировано presence сообщение для пользователя Lol
+2023-04-01 22:08:45,328 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36176), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1680376125.3281524, 'user': {'account_name': 'Lol'}}), {}
+2023-04-01 22:08:45,351 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36176), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:08:45,351 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-01 22:08:45,351 - INFO - transport - Соединение с сервером успешно установлено.
+2023-04-01 22:08:45,351 - DEBUG - transport - Запрос списка известных пользователей Lol
+2023-04-01 22:08:45,351 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36176), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1680376125.3516428, 'account_name': 'Lol'}), {}
+2023-04-01 22:08:45,853 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36176), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:08:45,873 - DEBUG - transport - Запрос контакт листа для пользователся Thread-1
+2023-04-01 22:08:45,873 - DEBUG - transport - Сформирован запрос {'action': 'get_contacts', 'time': 1680376125.8733048, 'user': 'Lol'}
+2023-04-01 22:08:45,873 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36176), raddr=('127.0.0.1', 7777)>, {'action': 'get_contacts', 'time': 1680376125.8733048, 'user': 'Lol'}), {}
+2023-04-01 22:08:46,356 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36176), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:08:46,356 - DEBUG - transport - Получен ответ {'response': 202, 'data_list': []}
+2023-04-01 22:08:46,356 - DEBUG - transport - Запущен процесс - приёмник собщений с сервера.
+2023-04-01 22:11:37,618 - DEBUG - transport - Потеряно соединение с сервером.
+2023-04-01 22:11:39,165 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41580)>, {'action': 'exit', 'time': 1680376299.1654055, 'account_name': 'Gerald'}), {}
+2023-04-01 22:11:39,165 - DEBUG - transport - Транспорт завершает работу.
+2023-04-01 22:11:46,370 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-01 22:11:49,632 - INFO - client - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Gerald
+2023-04-01 22:11:49,683 - INFO - transport - Попытка подключения №1
+2023-04-01 22:11:49,683 - DEBUG - transport - Установлено соединение с сервером
+2023-04-01 22:11:49,683 - DEBUG - transport - Сформировано presence сообщение для пользователя Gerald
+2023-04-01 22:11:49,684 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36154), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1680376309.683924, 'user': {'account_name': 'Gerald'}}), {}
+2023-04-01 22:11:49,706 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36154), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:11:49,706 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-01 22:11:49,706 - INFO - transport - Соединение с сервером успешно установлено.
+2023-04-01 22:11:49,706 - DEBUG - transport - Запрос списка известных пользователей Gerald
+2023-04-01 22:11:49,706 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36154), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1680376309.7064114, 'account_name': 'Gerald'}), {}
+2023-04-01 22:11:50,209 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36154), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:11:50,215 - DEBUG - transport - Запрос контакт листа для пользователся Thread-1
+2023-04-01 22:11:50,215 - DEBUG - transport - Сформирован запрос {'action': 'get_contacts', 'time': 1680376310.215389, 'user': 'Gerald'}
+2023-04-01 22:11:50,215 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36154), raddr=('127.0.0.1', 7777)>, {'action': 'get_contacts', 'time': 1680376310.215389, 'user': 'Gerald'}), {}
+2023-04-01 22:11:50,713 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36154), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:11:50,713 - DEBUG - transport - Получен ответ {'response': 202, 'data_list': []}
+2023-04-01 22:11:50,713 - DEBUG - transport - Запущен процесс - приёмник собщений с сервера.
+2023-04-01 22:12:00,235 - DEBUG - transport - Создание контакта Lol
+2023-04-01 22:12:00,235 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36154), raddr=('127.0.0.1', 7777)>, {'action': 'add', 'time': 1680376320.235442, 'user': 'Gerald', 'account_name': 'Lol'}), {}
+2023-04-01 22:12:00,740 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36154), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:12:00,740 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-01 22:12:00,747 - INFO - main - Успешно добавлен контакт <PyQt6.QtGui.QStandardItem object at 0x7feb4bdc63b0>
+2023-04-01 22:12:14,495 - DEBUG - transport - Сформирован словарь сообщения: {'action': 'message', 'from': 'Gerald', 'to': 'Lol', 'time': 1680376334.495247, 'mess_text': 'Hello chmo!'}
+2023-04-01 22:12:14,762 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36154), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'from': 'Gerald', 'to': 'Lol', 'time': 1680376334.495247, 'mess_text': 'Hello chmo!'}), {}
+2023-04-01 22:13:02,870 - DEBUG - transport - Запрос списка известных пользователей Gerald
+2023-04-01 22:13:02,870 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36154), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1680376382.870356, 'account_name': 'Gerald'}), {}
+2023-04-01 22:13:03,336 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36154), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:13:03,345 - DEBUG - add_contact - Обновление списка пользователей с сервера выполнено
+2023-04-01 22:13:12,635 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-01 22:13:14,676 - INFO - client - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Lol
+2023-04-01 22:13:14,715 - INFO - transport - Попытка подключения №1
+2023-04-01 22:13:14,716 - DEBUG - transport - Установлено соединение с сервером
+2023-04-01 22:13:14,716 - DEBUG - transport - Сформировано presence сообщение для пользователя Lol
+2023-04-01 22:13:14,717 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 53164), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1680376394.716948, 'user': {'account_name': 'Lol'}}), {}
+2023-04-01 22:13:15,236 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 53164), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:13:15,236 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-01 22:13:15,236 - INFO - transport - Соединение с сервером успешно установлено.
+2023-04-01 22:13:15,236 - DEBUG - transport - Запрос списка известных пользователей Lol
+2023-04-01 22:13:15,236 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 53164), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1680376395.2364724, 'account_name': 'Lol'}), {}
+2023-04-01 22:13:15,738 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 53164), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:13:15,749 - DEBUG - transport - Запрос контакт листа для пользователся Thread-1
+2023-04-01 22:13:15,749 - DEBUG - transport - Сформирован запрос {'action': 'get_contacts', 'time': 1680376395.7497418, 'user': 'Lol'}
+2023-04-01 22:13:15,749 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 53164), raddr=('127.0.0.1', 7777)>, {'action': 'get_contacts', 'time': 1680376395.7497418, 'user': 'Lol'}), {}
+2023-04-01 22:13:16,241 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 53164), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:13:16,242 - DEBUG - transport - Получен ответ {'response': 202, 'data_list': []}
+2023-04-01 22:13:16,242 - DEBUG - transport - Запущен процесс - приёмник собщений с сервера.
+2023-04-01 22:13:22,023 - DEBUG - transport - Создание контакта Gerald
+2023-04-01 22:13:22,250 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 53164), raddr=('127.0.0.1', 7777)>, {'action': 'add', 'time': 1680376402.0238805, 'user': 'Lol', 'account_name': 'Gerald'}), {}
+2023-04-01 22:13:22,768 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 53164), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:13:22,769 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-01 22:13:22,775 - INFO - main - Успешно добавлен контакт <PyQt6.QtGui.QStandardItem object at 0x7fa9c62f63b0>
+2023-04-01 22:13:33,298 - DEBUG - transport - Сформирован словарь сообщения: {'action': 'message', 'from': 'Lol', 'to': 'Gerald', 'time': 1680376413.2982144, 'mess_text': 'ku'}
+2023-04-01 22:13:33,298 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 53164), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'from': 'Lol', 'to': 'Gerald', 'time': 1680376413.2982144, 'mess_text': 'ku'}), {}
+2023-04-01 22:13:33,803 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36154), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:13:33,803 - DEBUG - transport - Принято сообщение с сервера: {'action': 'message', 'from': 'Lol', 'to': 'Gerald', 'time': 1680376413.2982144, 'mess_text': 'ku'}
+2023-04-01 22:13:33,803 - DEBUG - transport - Разбор сообщения от сервера: {'action': 'message', 'from': 'Lol', 'to': 'Gerald', 'time': 1680376413.2982144, 'mess_text': 'ku'}
+2023-04-01 22:13:33,803 - DEBUG - transport - Получено сообщение от пользователя Lol:ku
+2023-04-01 22:16:13,200 - DEBUG - transport - Потеряно соединение с сервером.
+2023-04-01 22:16:14,760 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 53164)>, {'action': 'exit', 'time': 1680376574.7605975, 'account_name': 'Lol'}), {}
+2023-04-01 22:16:14,761 - DEBUG - transport - Транспорт завершает работу.
+2023-04-01 22:16:20,081 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-01 22:16:23,357 - INFO - client - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Gerald
+2023-04-01 22:16:23,409 - INFO - transport - Попытка подключения №1
+2023-04-01 22:16:23,409 - DEBUG - transport - Установлено соединение с сервером
+2023-04-01 22:16:23,410 - DEBUG - transport - Сформировано presence сообщение для пользователя Gerald
+2023-04-01 22:16:23,410 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 48644), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1680376583.4099536, 'user': {'account_name': 'Gerald'}}), {}
+2023-04-01 22:16:23,426 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 48644), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:16:23,426 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-01 22:16:23,426 - INFO - transport - Соединение с сервером успешно установлено.
+2023-04-01 22:16:23,426 - DEBUG - transport - Запрос списка известных пользователей Gerald
+2023-04-01 22:16:23,426 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 48644), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1680376583.4264543, 'account_name': 'Gerald'}), {}
+2023-04-01 22:16:23,928 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 48644), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:16:23,939 - DEBUG - transport - Запрос контакт листа для пользователся Thread-1
+2023-04-01 22:16:23,939 - DEBUG - transport - Сформирован запрос {'action': 'get_contacts', 'time': 1680376583.9394808, 'user': 'Gerald'}
+2023-04-01 22:16:23,939 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 48644), raddr=('127.0.0.1', 7777)>, {'action': 'get_contacts', 'time': 1680376583.9394808, 'user': 'Gerald'}), {}
+2023-04-01 22:16:24,433 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 48644), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:16:24,433 - DEBUG - transport - Получен ответ {'response': 202, 'data_list': ['Lol']}
+2023-04-01 22:16:24,465 - DEBUG - transport - Запущен процесс - приёмник собщений с сервера.
+2023-04-01 22:16:37,095 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-01 22:16:39,081 - INFO - client - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Lol
+2023-04-01 22:16:39,120 - INFO - transport - Попытка подключения №1
+2023-04-01 22:16:39,120 - DEBUG - transport - Установлено соединение с сервером
+2023-04-01 22:16:39,121 - DEBUG - transport - Сформировано presence сообщение для пользователя Lol
+2023-04-01 22:16:39,121 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 37014), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1680376599.1210015, 'user': {'account_name': 'Lol'}}), {}
+2023-04-01 22:16:39,133 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 37014), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:16:39,133 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-01 22:16:39,133 - INFO - transport - Соединение с сервером успешно установлено.
+2023-04-01 22:16:39,133 - DEBUG - transport - Запрос списка известных пользователей Lol
+2023-04-01 22:16:39,134 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 37014), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1680376599.133933, 'account_name': 'Lol'}), {}
+2023-04-01 22:16:39,635 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 37014), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:16:39,655 - DEBUG - transport - Запрос контакт листа для пользователся Thread-1
+2023-04-01 22:16:39,655 - DEBUG - transport - Сформирован запрос {'action': 'get_contacts', 'time': 1680376599.6552882, 'user': 'Lol'}
+2023-04-01 22:16:39,655 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 37014), raddr=('127.0.0.1', 7777)>, {'action': 'get_contacts', 'time': 1680376599.6552882, 'user': 'Lol'}), {}
+2023-04-01 22:16:40,138 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 37014), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:16:40,139 - DEBUG - transport - Получен ответ {'response': 202, 'data_list': ['Gerald']}
+2023-04-01 22:16:40,171 - DEBUG - transport - Запущен процесс - приёмник собщений с сервера.
+2023-04-01 22:16:51,139 - DEBUG - transport - Сформирован словарь сообщения: {'action': 'message', 'from': 'Lol', 'to': 'Gerald', 'time': 1680376611.1394346, 'mess_text': 'Pashol naxui'}
+2023-04-01 22:16:51,139 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 37014), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'from': 'Lol', 'to': 'Gerald', 'time': 1680376611.1394346, 'mess_text': 'Pashol naxui'}), {}
+2023-04-01 22:16:51,165 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 48644), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:16:51,166 - DEBUG - transport - Принято сообщение с сервера: {'action': 'message', 'from': 'Lol', 'to': 'Gerald', 'time': 1680376611.1394346, 'mess_text': 'Pashol naxui'}
+2023-04-01 22:16:51,166 - DEBUG - transport - Разбор сообщения от сервера: {'action': 'message', 'from': 'Lol', 'to': 'Gerald', 'time': 1680376611.1394346, 'mess_text': 'Pashol naxui'}
+2023-04-01 22:16:51,166 - DEBUG - transport - Получено сообщение от пользователя Lol:Pashol naxui
+2023-04-01 22:17:36,835 - DEBUG - transport - Сформирован словарь сообщения: {'action': 'message', 'from': 'Gerald', 'to': 'Lol', 'time': 1680376656.8352897, 'mess_text': 'Sam poshel'}
+2023-04-01 22:17:36,835 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 48644), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'from': 'Gerald', 'to': 'Lol', 'time': 1680376656.8352897, 'mess_text': 'Sam poshel'}), {}
+2023-04-01 22:17:38,197 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 37014), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:17:38,197 - DEBUG - transport - Принято сообщение с сервера: {'action': 'message', 'from': 'Gerald', 'to': 'Lol', 'time': 1680376656.8352897, 'mess_text': 'Sam poshel'}
+2023-04-01 22:17:38,197 - DEBUG - transport - Разбор сообщения от сервера: {'action': 'message', 'from': 'Gerald', 'to': 'Lol', 'time': 1680376656.8352897, 'mess_text': 'Sam poshel'}
+2023-04-01 22:17:38,197 - DEBUG - transport - Получено сообщение от пользователя Gerald:Sam poshel
+2023-04-01 22:19:28,730 - DEBUG - transport - Создание контакта Kojy
+2023-04-01 22:19:28,731 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 37014), raddr=('127.0.0.1', 7777)>, {'action': 'add', 'time': 1680376768.7309, 'user': 'Lol', 'account_name': 'Kojy'}), {}
+2023-04-01 22:19:28,922 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 37014), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:19:28,922 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-01 22:19:28,926 - INFO - main - Успешно добавлен контакт <PyQt6.QtGui.QStandardItem object at 0x7f1145097640>
+2023-04-01 22:20:23,091 - DEBUG - transport - Потеряно соединение с сервером.
+2023-04-01 22:20:24,043 - DEBUG - transport - Потеряно соединение с сервером.
+2023-04-01 22:20:25,500 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 37014)>, {'action': 'exit', 'time': 1680376825.5007107, 'account_name': 'Lol'}), {}
+2023-04-01 22:20:25,501 - DEBUG - transport - Транспорт завершает работу.
+2023-04-01 22:20:26,840 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 48644)>, {'action': 'exit', 'time': 1680376826.840449, 'account_name': 'Gerald'}), {}
+2023-04-01 22:20:26,840 - DEBUG - transport - Транспорт завершает работу.
