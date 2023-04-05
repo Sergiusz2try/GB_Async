@@ -2268,3 +2268,265 @@
 2023-04-01 22:19:28,911 - DEBUG - server - Received message from client: {'action': 'add', 'time': 1680376768.7309, 'user': 'Lol', 'account_name': 'Kojy'}
 2023-04-01 22:19:28,922 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=35, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 37014)>, {'response': 200}), {}
 2023-04-01 22:19:28,922 - DEBUG - decos - Вызвана функция process_client_message с параметрами (<Server(Thread-1, started daemon 140155691669056)>, {'action': 'add', 'time': 1680376768.7309, 'user': 'Lol', 'account_name': 'Kojy'}, <socket.socket fd=35, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 37014)>), {}
+2023-04-05 20:26:20,484 - DEBUG - decos - Вызвана функция config_load с параметрами (), {}
+2023-04-05 20:26:20,485 - DEBUG - server - Инициализация парсера аргументов коммандной строки: ['server.py']
+2023-04-05 20:26:20,486 - DEBUG - server - Аргументы успешно загружены.
+2023-04-05 20:26:20,486 - DEBUG - decos - Вызвана функция arg_parser с параметрами ('7777', ''), {}
+2023-04-05 20:26:20,532 - INFO - main - Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2023-04-05 20:28:47,284 - DEBUG - decos - Вызвана функция config_load с параметрами (), {}
+2023-04-05 20:28:47,284 - DEBUG - server - Инициализация парсера аргументов коммандной строки: ['server.py']
+2023-04-05 20:28:47,284 - DEBUG - server - Аргументы успешно загружены.
+2023-04-05 20:28:47,284 - DEBUG - decos - Вызвана функция arg_parser с параметрами ('7777', ''), {}
+2023-04-05 20:28:47,323 - INFO - main - Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2023-04-05 20:29:55,422 - DEBUG - decos - Вызвана функция config_load с параметрами (), {}
+2023-04-05 20:29:55,422 - DEBUG - server - Инициализация парсера аргументов коммандной строки: ['server.py']
+2023-04-05 20:29:55,423 - DEBUG - server - Аргументы успешно загружены.
+2023-04-05 20:29:55,423 - DEBUG - decos - Вызвана функция arg_parser с параметрами ('7777', ''), {}
+2023-04-05 20:29:55,454 - INFO - main - Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2023-04-05 20:31:43,710 - DEBUG - decos - Вызвана функция config_load с параметрами (), {}
+2023-04-05 20:31:43,710 - DEBUG - server - Инициализация парсера аргументов коммандной строки: ['server.py']
+2023-04-05 20:31:43,710 - DEBUG - server - Аргументы успешно загружены.
+2023-04-05 20:31:43,710 - DEBUG - decos - Вызвана функция arg_parser с параметрами ('7777', ''), {}
+2023-04-05 20:31:43,745 - INFO - main - Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2023-04-05 20:31:59,880 - DEBUG - decos - Вызвана функция config_load с параметрами (), {}
+2023-04-05 20:31:59,880 - DEBUG - server - Инициализация парсера аргументов коммандной строки: ['server.py']
+2023-04-05 20:31:59,881 - DEBUG - server - Аргументы успешно загружены.
+2023-04-05 20:31:59,881 - DEBUG - decos - Вызвана функция arg_parser с параметрами ('7777', ''), {}
+2023-04-05 20:31:59,907 - INFO - main - Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2023-04-05 20:53:51,974 - INFO - main - Установлено соедение с ПК ('127.0.0.1', 53788)
+2023-04-05 20:53:52,475 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=19, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 53788)>,), {}
+2023-04-05 20:54:12,981 - DEBUG - decos - Вызвана функция config_load с параметрами (), {}
+2023-04-05 20:54:12,981 - DEBUG - server - Инициализация парсера аргументов коммандной строки: ['server.py']
+2023-04-05 20:54:12,982 - DEBUG - server - Аргументы успешно загружены.
+2023-04-05 20:54:12,982 - DEBUG - decos - Вызвана функция arg_parser с параметрами ('7777', ''), {}
+2023-04-05 20:54:13,011 - INFO - main - Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2023-04-05 20:54:24,009 - INFO - main - Установлено соедение с ПК ('127.0.0.1', 51374)
+2023-04-05 20:54:24,510 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=40, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51374)>,), {}
+2023-04-05 20:54:43,007 - DEBUG - decos - Вызвана функция main с параметрами (), {}
+2023-04-05 20:54:45,170 - DEBUG - decos - Вызвана функция config_load с параметрами (), {}
+2023-04-05 20:54:45,170 - DEBUG - server - Инициализация парсера аргументов коммандной строки: ['server.py']
+2023-04-05 20:54:45,171 - DEBUG - server - Аргументы успешно загружены.
+2023-04-05 20:54:45,171 - DEBUG - decos - Вызвана функция arg_parser с параметрами ('7777', ''), {}
+2023-04-05 20:54:45,202 - INFO - main - Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2023-04-05 20:54:53,761 - INFO - main - Установлено соедение с ПК ('127.0.0.1', 36308)
+2023-04-05 20:54:54,262 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=25, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36308)>,), {}
+2023-04-05 20:54:54,262 - DEBUG - main - Разбор сообщения от клиента : {'action': 'presence', 'time': 1680717293.770281, 'user': {'account_name': 'Lol', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuMSAhJIgY4MCi6SWKr41\nLeZ5orkTLhQNbC+fhqOMwCwbeDSi8xZEKQdfVgPnrlPdsxdOMbOFGmt6i/xKHzjn\ndNcZ/0KdcOa1+LBaXmGVkixHlGzN9lvfTYqjavJjNy9F9LAmSPWlU9b4SNMEhmOU\n/Q4FnRyXRMtnKtYopW0X57OHiYQdbVaZfzhYNIFW+gTee+kCBnFl8UKs7Q/t/cj6\nbOYqaSVrvdUmvYsWAlBhXUrTc+HEUATw5SkJI02Y9rja+Ks0+NgU6cTeSIosGZuK\nYDaLIVcrZDdD2/7M8CotQ6gwFamoZkQf9QHUgeCi5M6eg6BIAUM2u1cUCAyvFzjd\nbwIDAQAB\n-----END PUBLIC KEY-----'}}
+2023-04-05 20:54:54,262 - DEBUG - main - Start auth process for {'account_name': 'Lol', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuMSAhJIgY4MCi6SWKr41\nLeZ5orkTLhQNbC+fhqOMwCwbeDSi8xZEKQdfVgPnrlPdsxdOMbOFGmt6i/xKHzjn\ndNcZ/0KdcOa1+LBaXmGVkixHlGzN9lvfTYqjavJjNy9F9LAmSPWlU9b4SNMEhmOU\n/Q4FnRyXRMtnKtYopW0X57OHiYQdbVaZfzhYNIFW+gTee+kCBnFl8UKs7Q/t/cj6\nbOYqaSVrvdUmvYsWAlBhXUrTc+HEUATw5SkJI02Y9rja+Ks0+NgU6cTeSIosGZuK\nYDaLIVcrZDdD2/7M8CotQ6gwFamoZkQf9QHUgeCi5M6eg6BIAUM2u1cUCAyvFzjd\nbwIDAQAB\n-----END PUBLIC KEY-----'}
+2023-04-05 20:54:54,266 - DEBUG - main - Unknown username, sending {'response': 400, 'error': 'Пользователь не зарегистрирован.'}
+2023-04-05 20:54:54,266 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=25, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36308)>, {'response': 400, 'error': 'Пользователь не зарегистрирован.'}), {}
+2023-04-05 20:55:21,552 - DEBUG - decos - Вызвана функция main с параметрами (), {}
+2023-04-05 21:00:08,125 - DEBUG - decos - Вызвана функция config_load с параметрами (), {}
+2023-04-05 21:00:08,125 - DEBUG - server - Инициализация парсера аргументов коммандной строки: ['server.py']
+2023-04-05 21:00:08,126 - DEBUG - server - Аргументы успешно загружены.
+2023-04-05 21:00:08,126 - DEBUG - decos - Вызвана функция arg_parser с параметрами ('7777', ''), {}
+2023-04-05 21:00:08,168 - INFO - main - Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2023-04-05 21:00:57,602 - DEBUG - decos - Вызвана функция main с параметрами (), {}
+2023-04-05 21:01:00,553 - DEBUG - decos - Вызвана функция config_load с параметрами (), {}
+2023-04-05 21:01:00,553 - DEBUG - server - Инициализация парсера аргументов коммандной строки: ['server.py']
+2023-04-05 21:01:00,554 - DEBUG - server - Аргументы успешно загружены.
+2023-04-05 21:01:00,554 - DEBUG - decos - Вызвана функция arg_parser с параметрами ('7777', ''), {}
+2023-04-05 21:01:00,587 - INFO - main - Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2023-04-05 21:01:14,299 - DEBUG - decos - Вызвана функция main с параметрами (), {}
+2023-04-05 21:01:54,885 - DEBUG - decos - Вызвана функция config_load с параметрами (), {}
+2023-04-05 21:01:54,885 - DEBUG - server - Инициализация парсера аргументов коммандной строки: ['server.py']
+2023-04-05 21:01:54,886 - DEBUG - server - Аргументы успешно загружены.
+2023-04-05 21:01:54,886 - DEBUG - decos - Вызвана функция arg_parser с параметрами ('7777', ''), {}
+2023-04-05 21:01:54,912 - INFO - main - Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2023-04-05 21:01:57,937 - DEBUG - decos - Вызвана функция main с параметрами (), {}
+2023-04-05 21:02:06,632 - DEBUG - decos - Вызвана функция config_load с параметрами (), {}
+2023-04-05 21:02:06,632 - DEBUG - server - Инициализация парсера аргументов коммандной строки: ['server.py']
+2023-04-05 21:02:06,633 - DEBUG - server - Аргументы успешно загружены.
+2023-04-05 21:02:06,633 - DEBUG - decos - Вызвана функция arg_parser с параметрами ('7777', ''), {}
+2023-04-05 21:02:06,661 - INFO - main - Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2023-04-05 21:03:26,458 - DEBUG - decos - Вызвана функция config_load с параметрами (), {}
+2023-04-05 21:03:26,459 - DEBUG - server - Инициализация парсера аргументов коммандной строки: ['server.py']
+2023-04-05 21:03:26,459 - DEBUG - server - Аргументы успешно загружены.
+2023-04-05 21:03:26,459 - DEBUG - decos - Вызвана функция arg_parser с параметрами ('7777', ''), {}
+2023-04-05 21:03:26,487 - INFO - main - Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2023-04-05 21:03:41,413 - DEBUG - decos - Вызвана функция config_load с параметрами (), {}
+2023-04-05 21:03:41,413 - DEBUG - server - Инициализация парсера аргументов коммандной строки: ['server.py']
+2023-04-05 21:03:41,414 - DEBUG - server - Аргументы успешно загружены.
+2023-04-05 21:03:41,414 - DEBUG - decos - Вызвана функция arg_parser с параметрами ('7777', ''), {}
+2023-04-05 21:03:41,444 - INFO - main - Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2023-04-05 21:04:29,834 - DEBUG - decos - Вызвана функция config_load с параметрами (), {}
+2023-04-05 21:04:29,834 - DEBUG - server - Инициализация парсера аргументов коммандной строки: ['server.py']
+2023-04-05 21:04:29,835 - DEBUG - server - Аргументы успешно загружены.
+2023-04-05 21:04:29,835 - DEBUG - decos - Вызвана функция arg_parser с параметрами ('7777', ''), {}
+2023-04-05 21:04:29,860 - INFO - main - Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2023-04-05 21:04:54,088 - INFO - main - Установлено соедение с ПК ('127.0.0.1', 40546)
+2023-04-05 21:04:54,589 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=42, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40546)>,), {}
+2023-04-05 21:04:54,589 - DEBUG - main - Разбор сообщения от клиента : {'action': 'presence', 'time': 1680717894.0961516, 'user': {'account_name': 'Lol', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuMSAhJIgY4MCi6SWKr41\nLeZ5orkTLhQNbC+fhqOMwCwbeDSi8xZEKQdfVgPnrlPdsxdOMbOFGmt6i/xKHzjn\ndNcZ/0KdcOa1+LBaXmGVkixHlGzN9lvfTYqjavJjNy9F9LAmSPWlU9b4SNMEhmOU\n/Q4FnRyXRMtnKtYopW0X57OHiYQdbVaZfzhYNIFW+gTee+kCBnFl8UKs7Q/t/cj6\nbOYqaSVrvdUmvYsWAlBhXUrTc+HEUATw5SkJI02Y9rja+Ks0+NgU6cTeSIosGZuK\nYDaLIVcrZDdD2/7M8CotQ6gwFamoZkQf9QHUgeCi5M6eg6BIAUM2u1cUCAyvFzjd\nbwIDAQAB\n-----END PUBLIC KEY-----'}}
+2023-04-05 21:04:54,589 - DEBUG - main - Start auth process for {'account_name': 'Lol', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuMSAhJIgY4MCi6SWKr41\nLeZ5orkTLhQNbC+fhqOMwCwbeDSi8xZEKQdfVgPnrlPdsxdOMbOFGmt6i/xKHzjn\ndNcZ/0KdcOa1+LBaXmGVkixHlGzN9lvfTYqjavJjNy9F9LAmSPWlU9b4SNMEhmOU\n/Q4FnRyXRMtnKtYopW0X57OHiYQdbVaZfzhYNIFW+gTee+kCBnFl8UKs7Q/t/cj6\nbOYqaSVrvdUmvYsWAlBhXUrTc+HEUATw5SkJI02Y9rja+Ks0+NgU6cTeSIosGZuK\nYDaLIVcrZDdD2/7M8CotQ6gwFamoZkQf9QHUgeCi5M6eg6BIAUM2u1cUCAyvFzjd\nbwIDAQAB\n-----END PUBLIC KEY-----'}
+2023-04-05 21:04:54,590 - DEBUG - main - Correct username, starting passwd check.
+2023-04-05 21:04:54,591 - DEBUG - main - Auth message = {'response': 511, 'bin': '1def3ae338b68b65f13089106077ccce5493535c433dba8b22e97acdcf04c75095f7a25a1d9db2d02668064ace7f58299d6b83615c14ea8ee56f339c3c1c7416'}
+2023-04-05 21:04:54,592 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=42, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40546)>, {'response': 511, 'bin': '1def3ae338b68b65f13089106077ccce5493535c433dba8b22e97acdcf04c75095f7a25a1d9db2d02668064ace7f58299d6b83615c14ea8ee56f339c3c1c7416'}), {}
+2023-04-05 21:04:54,592 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=42, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40546)>,), {}
+2023-04-05 21:04:54,592 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=42, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40546)>, {'response': 200}), {}
+2023-04-05 21:04:55,099 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=42, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40546)>,), {}
+2023-04-05 21:04:55,099 - DEBUG - main - Разбор сообщения от клиента : {'action': 'get_users', 'time': 1680717894.5929713, 'account_name': 'Lol'}
+2023-04-05 21:04:55,100 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=42, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 40546)>, {'response': 202, 'data_list': ['Lol']}), {}
+2023-04-05 21:04:55,601 - DEBUG - main - Getting data from client exception.
+Traceback (most recent call last):
+  File "/home/sergey/Документы/GB/GB_Async/server/main.py", line 82, in run
+    get_message(client_with_message), client_with_message)
+  File "/home/sergey/Документы/GB/GB_Async/corelib/common/decos.py", line 14, in wrapper
+    r = func_to_log(*args, **kwargs)
+  File "/home/sergey/Документы/GB/GB_Async/corelib/common/utils.py", line 17, in get_message
+    response = jim.unpack(encoded_response)
+  File "/home/sergey/Документы/GB/GB_Async/corelib/common/jim.py", line 23, in unpack
+    return json.loads(str_decoded)
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-04-05 21:04:55,606 - INFO - main - Клиент ('127.0.0.1', 40546) отключился от сервера.
+2023-04-05 21:05:17,472 - INFO - main - Установлено соедение с ПК ('127.0.0.1', 41026)
+2023-04-05 21:05:17,973 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=19, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41026)>,), {}
+2023-04-05 21:05:17,973 - DEBUG - main - Разбор сообщения от клиента : {'action': 'presence', 'time': 1680717917.48071, 'user': {'account_name': 'Lol', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuMSAhJIgY4MCi6SWKr41\nLeZ5orkTLhQNbC+fhqOMwCwbeDSi8xZEKQdfVgPnrlPdsxdOMbOFGmt6i/xKHzjn\ndNcZ/0KdcOa1+LBaXmGVkixHlGzN9lvfTYqjavJjNy9F9LAmSPWlU9b4SNMEhmOU\n/Q4FnRyXRMtnKtYopW0X57OHiYQdbVaZfzhYNIFW+gTee+kCBnFl8UKs7Q/t/cj6\nbOYqaSVrvdUmvYsWAlBhXUrTc+HEUATw5SkJI02Y9rja+Ks0+NgU6cTeSIosGZuK\nYDaLIVcrZDdD2/7M8CotQ6gwFamoZkQf9QHUgeCi5M6eg6BIAUM2u1cUCAyvFzjd\nbwIDAQAB\n-----END PUBLIC KEY-----'}}
+2023-04-05 21:05:17,973 - DEBUG - main - Start auth process for {'account_name': 'Lol', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuMSAhJIgY4MCi6SWKr41\nLeZ5orkTLhQNbC+fhqOMwCwbeDSi8xZEKQdfVgPnrlPdsxdOMbOFGmt6i/xKHzjn\ndNcZ/0KdcOa1+LBaXmGVkixHlGzN9lvfTYqjavJjNy9F9LAmSPWlU9b4SNMEhmOU\n/Q4FnRyXRMtnKtYopW0X57OHiYQdbVaZfzhYNIFW+gTee+kCBnFl8UKs7Q/t/cj6\nbOYqaSVrvdUmvYsWAlBhXUrTc+HEUATw5SkJI02Y9rja+Ks0+NgU6cTeSIosGZuK\nYDaLIVcrZDdD2/7M8CotQ6gwFamoZkQf9QHUgeCi5M6eg6BIAUM2u1cUCAyvFzjd\nbwIDAQAB\n-----END PUBLIC KEY-----'}
+2023-04-05 21:05:17,974 - DEBUG - main - Correct username, starting passwd check.
+2023-04-05 21:05:17,975 - DEBUG - main - Auth message = {'response': 511, 'bin': '69d89ef587e4739c00a1a0e23c0e2d587190c8e0e2de4ccf409c6dd47ccbec2c9587ae533073151a7513144ac205c2ac23cfa7f1d06ff23aee37e412ffb2b764'}
+2023-04-05 21:05:17,975 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=19, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41026)>, {'response': 511, 'bin': '69d89ef587e4739c00a1a0e23c0e2d587190c8e0e2de4ccf409c6dd47ccbec2c9587ae533073151a7513144ac205c2ac23cfa7f1d06ff23aee37e412ffb2b764'}), {}
+2023-04-05 21:05:17,975 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=19, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41026)>,), {}
+2023-04-05 21:05:17,975 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=19, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41026)>, {'response': 200}), {}
+2023-04-05 21:05:18,484 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=19, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41026)>,), {}
+2023-04-05 21:05:18,484 - DEBUG - main - Разбор сообщения от клиента : {'action': 'get_users', 'time': 1680717917.976084, 'account_name': 'Lol'}
+2023-04-05 21:05:18,485 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=19, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 41026)>, {'response': 202, 'data_list': ['Lol']}), {}
+2023-04-05 21:05:18,986 - DEBUG - main - Getting data from client exception.
+Traceback (most recent call last):
+  File "/home/sergey/Документы/GB/GB_Async/server/main.py", line 82, in run
+    get_message(client_with_message), client_with_message)
+  File "/home/sergey/Документы/GB/GB_Async/corelib/common/decos.py", line 14, in wrapper
+    r = func_to_log(*args, **kwargs)
+  File "/home/sergey/Документы/GB/GB_Async/corelib/common/utils.py", line 17, in get_message
+    response = jim.unpack(encoded_response)
+  File "/home/sergey/Документы/GB/GB_Async/corelib/common/jim.py", line 23, in unpack
+    return json.loads(str_decoded)
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-04-05 21:05:18,986 - INFO - main - Клиент ('127.0.0.1', 41026) отключился от сервера.
+2023-04-05 21:06:44,028 - INFO - main - Установлено соедение с ПК ('127.0.0.1', 36934)
+2023-04-05 21:06:44,529 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=19, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36934)>,), {}
+2023-04-05 21:06:44,529 - DEBUG - main - Разбор сообщения от клиента : {'action': 'presence', 'time': 1680718004.0373147, 'user': {'account_name': 'Lol', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuMSAhJIgY4MCi6SWKr41\nLeZ5orkTLhQNbC+fhqOMwCwbeDSi8xZEKQdfVgPnrlPdsxdOMbOFGmt6i/xKHzjn\ndNcZ/0KdcOa1+LBaXmGVkixHlGzN9lvfTYqjavJjNy9F9LAmSPWlU9b4SNMEhmOU\n/Q4FnRyXRMtnKtYopW0X57OHiYQdbVaZfzhYNIFW+gTee+kCBnFl8UKs7Q/t/cj6\nbOYqaSVrvdUmvYsWAlBhXUrTc+HEUATw5SkJI02Y9rja+Ks0+NgU6cTeSIosGZuK\nYDaLIVcrZDdD2/7M8CotQ6gwFamoZkQf9QHUgeCi5M6eg6BIAUM2u1cUCAyvFzjd\nbwIDAQAB\n-----END PUBLIC KEY-----'}}
+2023-04-05 21:06:44,529 - DEBUG - main - Start auth process for {'account_name': 'Lol', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuMSAhJIgY4MCi6SWKr41\nLeZ5orkTLhQNbC+fhqOMwCwbeDSi8xZEKQdfVgPnrlPdsxdOMbOFGmt6i/xKHzjn\ndNcZ/0KdcOa1+LBaXmGVkixHlGzN9lvfTYqjavJjNy9F9LAmSPWlU9b4SNMEhmOU\n/Q4FnRyXRMtnKtYopW0X57OHiYQdbVaZfzhYNIFW+gTee+kCBnFl8UKs7Q/t/cj6\nbOYqaSVrvdUmvYsWAlBhXUrTc+HEUATw5SkJI02Y9rja+Ks0+NgU6cTeSIosGZuK\nYDaLIVcrZDdD2/7M8CotQ6gwFamoZkQf9QHUgeCi5M6eg6BIAUM2u1cUCAyvFzjd\nbwIDAQAB\n-----END PUBLIC KEY-----'}
+2023-04-05 21:06:44,530 - DEBUG - main - Correct username, starting passwd check.
+2023-04-05 21:06:44,531 - DEBUG - main - Auth message = {'response': 511, 'bin': '8e369384726c132a250f9ef58b711d055b495cb4baff9ca39fc7fe6b9e384c45cf80155de96b19957058f8f31db9f573f4f51a561f8b34f86ab899200f53d425'}
+2023-04-05 21:06:44,531 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=19, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36934)>, {'response': 511, 'bin': '8e369384726c132a250f9ef58b711d055b495cb4baff9ca39fc7fe6b9e384c45cf80155de96b19957058f8f31db9f573f4f51a561f8b34f86ab899200f53d425'}), {}
+2023-04-05 21:06:44,532 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=19, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36934)>,), {}
+2023-04-05 21:06:44,532 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=19, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36934)>, {'response': 200}), {}
+2023-04-05 21:06:45,042 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=19, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36934)>,), {}
+2023-04-05 21:06:45,042 - DEBUG - main - Разбор сообщения от клиента : {'action': 'get_users', 'time': 1680718004.5327582, 'account_name': 'Lol'}
+2023-04-05 21:06:45,043 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=19, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36934)>, {'response': 202, 'data_list': ['Lol']}), {}
+2023-04-05 21:06:45,543 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=19, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36934)>,), {}
+2023-04-05 21:06:45,544 - DEBUG - main - Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1680718005.0623314, 'user': 'Lol'}
+2023-04-05 21:06:45,546 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=19, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36934)>, {'response': 202, 'data_list': []}), {}
+2023-04-05 21:06:46,047 - DEBUG - main - Getting data from client exception.
+Traceback (most recent call last):
+  File "/home/sergey/Документы/GB/GB_Async/server/main.py", line 82, in run
+    get_message(client_with_message), client_with_message)
+  File "/home/sergey/Документы/GB/GB_Async/corelib/common/decos.py", line 14, in wrapper
+    r = func_to_log(*args, **kwargs)
+  File "/home/sergey/Документы/GB/GB_Async/corelib/common/utils.py", line 17, in get_message
+    response = jim.unpack(encoded_response)
+  File "/home/sergey/Документы/GB/GB_Async/corelib/common/jim.py", line 23, in unpack
+    return json.loads(str_decoded)
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-04-05 21:06:46,047 - INFO - main - Клиент ('127.0.0.1', 36934) отключился от сервера.
+2023-04-05 21:07:47,396 - INFO - main - Установлено соедение с ПК ('127.0.0.1', 46138)
+2023-04-05 21:07:47,897 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=19, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46138)>,), {}
+2023-04-05 21:07:47,897 - DEBUG - main - Разбор сообщения от клиента : {'action': 'presence', 'time': 1680718067.4056401, 'user': {'account_name': 'Lol', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuMSAhJIgY4MCi6SWKr41\nLeZ5orkTLhQNbC+fhqOMwCwbeDSi8xZEKQdfVgPnrlPdsxdOMbOFGmt6i/xKHzjn\ndNcZ/0KdcOa1+LBaXmGVkixHlGzN9lvfTYqjavJjNy9F9LAmSPWlU9b4SNMEhmOU\n/Q4FnRyXRMtnKtYopW0X57OHiYQdbVaZfzhYNIFW+gTee+kCBnFl8UKs7Q/t/cj6\nbOYqaSVrvdUmvYsWAlBhXUrTc+HEUATw5SkJI02Y9rja+Ks0+NgU6cTeSIosGZuK\nYDaLIVcrZDdD2/7M8CotQ6gwFamoZkQf9QHUgeCi5M6eg6BIAUM2u1cUCAyvFzjd\nbwIDAQAB\n-----END PUBLIC KEY-----'}}
+2023-04-05 21:07:47,897 - DEBUG - main - Start auth process for {'account_name': 'Lol', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuMSAhJIgY4MCi6SWKr41\nLeZ5orkTLhQNbC+fhqOMwCwbeDSi8xZEKQdfVgPnrlPdsxdOMbOFGmt6i/xKHzjn\ndNcZ/0KdcOa1+LBaXmGVkixHlGzN9lvfTYqjavJjNy9F9LAmSPWlU9b4SNMEhmOU\n/Q4FnRyXRMtnKtYopW0X57OHiYQdbVaZfzhYNIFW+gTee+kCBnFl8UKs7Q/t/cj6\nbOYqaSVrvdUmvYsWAlBhXUrTc+HEUATw5SkJI02Y9rja+Ks0+NgU6cTeSIosGZuK\nYDaLIVcrZDdD2/7M8CotQ6gwFamoZkQf9QHUgeCi5M6eg6BIAUM2u1cUCAyvFzjd\nbwIDAQAB\n-----END PUBLIC KEY-----'}
+2023-04-05 21:07:47,898 - DEBUG - main - Correct username, starting passwd check.
+2023-04-05 21:07:47,899 - DEBUG - main - Auth message = {'response': 511, 'bin': 'bca80f9e7cdc7fceb7707b92aeb6565a4814bdaaf3941696b82675099e9ac767a07d9237c2091a38fcc1980ee6cbfe1d3fc9d07624e49441dc22108869f75d2a'}
+2023-04-05 21:07:47,899 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=19, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46138)>, {'response': 511, 'bin': 'bca80f9e7cdc7fceb7707b92aeb6565a4814bdaaf3941696b82675099e9ac767a07d9237c2091a38fcc1980ee6cbfe1d3fc9d07624e49441dc22108869f75d2a'}), {}
+2023-04-05 21:07:47,899 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=19, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46138)>,), {}
+2023-04-05 21:07:47,899 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=19, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46138)>, {'response': 200}), {}
+2023-04-05 21:07:48,410 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=19, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46138)>,), {}
+2023-04-05 21:07:48,410 - DEBUG - main - Разбор сообщения от клиента : {'action': 'get_users', 'time': 1680718067.9001389, 'account_name': 'Lol'}
+2023-04-05 21:07:48,410 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=19, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46138)>, {'response': 202, 'data_list': ['Lol']}), {}
+2023-04-05 21:07:48,911 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=19, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46138)>,), {}
+2023-04-05 21:07:48,911 - DEBUG - main - Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1680718068.428507, 'user': 'Lol'}
+2023-04-05 21:07:48,913 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=19, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46138)>, {'response': 202, 'data_list': []}), {}
+2023-04-05 21:07:49,414 - DEBUG - main - Getting data from client exception.
+Traceback (most recent call last):
+  File "/home/sergey/Документы/GB/GB_Async/server/main.py", line 82, in run
+    get_message(client_with_message), client_with_message)
+  File "/home/sergey/Документы/GB/GB_Async/corelib/common/decos.py", line 14, in wrapper
+    r = func_to_log(*args, **kwargs)
+  File "/home/sergey/Документы/GB/GB_Async/corelib/common/utils.py", line 17, in get_message
+    response = jim.unpack(encoded_response)
+  File "/home/sergey/Документы/GB/GB_Async/corelib/common/jim.py", line 23, in unpack
+    return json.loads(str_decoded)
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-04-05 21:07:49,414 - INFO - main - Клиент ('127.0.0.1', 46138) отключился от сервера.
+2023-04-05 21:09:07,357 - INFO - main - Установлено соедение с ПК ('127.0.0.1', 33352)
+2023-04-05 21:09:07,858 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=19, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 33352)>,), {}
+2023-04-05 21:09:07,859 - DEBUG - main - Разбор сообщения от клиента : {'action': 'presence', 'time': 1680718147.3657057, 'user': {'account_name': 'Lol', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuMSAhJIgY4MCi6SWKr41\nLeZ5orkTLhQNbC+fhqOMwCwbeDSi8xZEKQdfVgPnrlPdsxdOMbOFGmt6i/xKHzjn\ndNcZ/0KdcOa1+LBaXmGVkixHlGzN9lvfTYqjavJjNy9F9LAmSPWlU9b4SNMEhmOU\n/Q4FnRyXRMtnKtYopW0X57OHiYQdbVaZfzhYNIFW+gTee+kCBnFl8UKs7Q/t/cj6\nbOYqaSVrvdUmvYsWAlBhXUrTc+HEUATw5SkJI02Y9rja+Ks0+NgU6cTeSIosGZuK\nYDaLIVcrZDdD2/7M8CotQ6gwFamoZkQf9QHUgeCi5M6eg6BIAUM2u1cUCAyvFzjd\nbwIDAQAB\n-----END PUBLIC KEY-----'}}
+2023-04-05 21:09:07,859 - DEBUG - main - Start auth process for {'account_name': 'Lol', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuMSAhJIgY4MCi6SWKr41\nLeZ5orkTLhQNbC+fhqOMwCwbeDSi8xZEKQdfVgPnrlPdsxdOMbOFGmt6i/xKHzjn\ndNcZ/0KdcOa1+LBaXmGVkixHlGzN9lvfTYqjavJjNy9F9LAmSPWlU9b4SNMEhmOU\n/Q4FnRyXRMtnKtYopW0X57OHiYQdbVaZfzhYNIFW+gTee+kCBnFl8UKs7Q/t/cj6\nbOYqaSVrvdUmvYsWAlBhXUrTc+HEUATw5SkJI02Y9rja+Ks0+NgU6cTeSIosGZuK\nYDaLIVcrZDdD2/7M8CotQ6gwFamoZkQf9QHUgeCi5M6eg6BIAUM2u1cUCAyvFzjd\nbwIDAQAB\n-----END PUBLIC KEY-----'}
+2023-04-05 21:09:07,860 - DEBUG - main - Correct username, starting passwd check.
+2023-04-05 21:09:07,860 - DEBUG - main - Auth message = {'response': 511, 'bin': 'a9926efa51df2c1a0fe86859c001202aca2c727a7947b1b103d4ef9a4a5e1f1af798b06e8eb2316c6a1dce5bf61ad7cf9ced45ef12ffd6a252ea94e609c68904'}
+2023-04-05 21:09:07,860 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=19, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 33352)>, {'response': 511, 'bin': 'a9926efa51df2c1a0fe86859c001202aca2c727a7947b1b103d4ef9a4a5e1f1af798b06e8eb2316c6a1dce5bf61ad7cf9ced45ef12ffd6a252ea94e609c68904'}), {}
+2023-04-05 21:09:07,861 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=19, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 33352)>,), {}
+2023-04-05 21:09:07,861 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=19, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 33352)>, {'response': 200}), {}
+2023-04-05 21:09:08,370 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=19, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 33352)>,), {}
+2023-04-05 21:09:08,370 - DEBUG - main - Разбор сообщения от клиента : {'action': 'get_users', 'time': 1680718147.8616264, 'account_name': 'Lol'}
+2023-04-05 21:09:08,371 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=19, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 33352)>, {'response': 202, 'data_list': ['Lol']}), {}
+2023-04-05 21:09:08,872 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=19, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 33352)>,), {}
+2023-04-05 21:09:08,872 - DEBUG - main - Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1680718148.3808842, 'user': 'Lol'}
+2023-04-05 21:09:08,873 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=19, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 33352)>, {'response': 202, 'data_list': []}), {}
+2023-04-05 21:09:09,374 - DEBUG - main - Getting data from client exception.
+Traceback (most recent call last):
+  File "/home/sergey/Документы/GB/GB_Async/server/main.py", line 82, in run
+    get_message(client_with_message), client_with_message)
+  File "/home/sergey/Документы/GB/GB_Async/corelib/common/decos.py", line 14, in wrapper
+    r = func_to_log(*args, **kwargs)
+  File "/home/sergey/Документы/GB/GB_Async/corelib/common/utils.py", line 17, in get_message
+    response = jim.unpack(encoded_response)
+  File "/home/sergey/Документы/GB/GB_Async/corelib/common/jim.py", line 23, in unpack
+    return json.loads(str_decoded)
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-04-05 21:09:09,374 - INFO - main - Клиент ('127.0.0.1', 33352) отключился от сервера.
+2023-04-05 21:10:05,274 - INFO - main - Установлено соедение с ПК ('127.0.0.1', 53146)
+2023-04-05 21:10:05,775 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=19, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 53146)>,), {}
+2023-04-05 21:10:05,775 - DEBUG - main - Разбор сообщения от клиента : {'action': 'presence', 'time': 1680718205.2829373, 'user': {'account_name': 'Lol', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuMSAhJIgY4MCi6SWKr41\nLeZ5orkTLhQNbC+fhqOMwCwbeDSi8xZEKQdfVgPnrlPdsxdOMbOFGmt6i/xKHzjn\ndNcZ/0KdcOa1+LBaXmGVkixHlGzN9lvfTYqjavJjNy9F9LAmSPWlU9b4SNMEhmOU\n/Q4FnRyXRMtnKtYopW0X57OHiYQdbVaZfzhYNIFW+gTee+kCBnFl8UKs7Q/t/cj6\nbOYqaSVrvdUmvYsWAlBhXUrTc+HEUATw5SkJI02Y9rja+Ks0+NgU6cTeSIosGZuK\nYDaLIVcrZDdD2/7M8CotQ6gwFamoZkQf9QHUgeCi5M6eg6BIAUM2u1cUCAyvFzjd\nbwIDAQAB\n-----END PUBLIC KEY-----'}}
+2023-04-05 21:10:05,775 - DEBUG - main - Start auth process for {'account_name': 'Lol', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuMSAhJIgY4MCi6SWKr41\nLeZ5orkTLhQNbC+fhqOMwCwbeDSi8xZEKQdfVgPnrlPdsxdOMbOFGmt6i/xKHzjn\ndNcZ/0KdcOa1+LBaXmGVkixHlGzN9lvfTYqjavJjNy9F9LAmSPWlU9b4SNMEhmOU\n/Q4FnRyXRMtnKtYopW0X57OHiYQdbVaZfzhYNIFW+gTee+kCBnFl8UKs7Q/t/cj6\nbOYqaSVrvdUmvYsWAlBhXUrTc+HEUATw5SkJI02Y9rja+Ks0+NgU6cTeSIosGZuK\nYDaLIVcrZDdD2/7M8CotQ6gwFamoZkQf9QHUgeCi5M6eg6BIAUM2u1cUCAyvFzjd\nbwIDAQAB\n-----END PUBLIC KEY-----'}
+2023-04-05 21:10:05,776 - DEBUG - main - Correct username, starting passwd check.
+2023-04-05 21:10:05,777 - DEBUG - main - Auth message = {'response': 511, 'bin': '5d111727a61d7e7923fbe39da3cc6d1d62dba4615e934889b9b4777dc214c4a0545649345630d08338bdf284fc3417983df94e90c4d4aec61384daf733faf717'}
+2023-04-05 21:10:05,777 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=19, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 53146)>, {'response': 511, 'bin': '5d111727a61d7e7923fbe39da3cc6d1d62dba4615e934889b9b4777dc214c4a0545649345630d08338bdf284fc3417983df94e90c4d4aec61384daf733faf717'}), {}
+2023-04-05 21:10:05,778 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=19, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 53146)>,), {}
+2023-04-05 21:10:05,778 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=19, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 53146)>, {'response': 200}), {}
+2023-04-05 21:10:06,287 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=19, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 53146)>,), {}
+2023-04-05 21:10:06,287 - DEBUG - main - Разбор сообщения от клиента : {'action': 'get_users', 'time': 1680718205.7786746, 'account_name': 'Lol'}
+2023-04-05 21:10:06,288 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=19, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 53146)>, {'response': 202, 'data_list': ['Lol']}), {}
+2023-04-05 21:10:06,788 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=19, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 53146)>,), {}
+2023-04-05 21:10:06,789 - DEBUG - main - Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1680718206.3063412, 'user': 'Lol'}
+2023-04-05 21:10:06,790 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=19, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 53146)>, {'response': 202, 'data_list': []}), {}
+2023-04-05 21:10:23,811 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=19, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 53146)>,), {}
+2023-04-05 21:10:23,811 - DEBUG - main - Разбор сообщения от клиента : {'action': 'exit', 'time': 1680718222.8736064, 'account_name': 'Lol'}
+2023-04-05 21:10:23,812 - INFO - main - Клиент ('127.0.0.1', 53146) отключился от сервера.
