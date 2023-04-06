@@ -2530,3 +2530,4 @@ json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
 2023-04-05 21:10:23,811 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=19, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 53146)>,), {}
 2023-04-05 21:10:23,811 - DEBUG - main - Разбор сообщения от клиента : {'action': 'exit', 'time': 1680718222.8736064, 'account_name': 'Lol'}
 2023-04-05 21:10:23,812 - INFO - main - Клиент ('127.0.0.1', 53146) отключился от сервера.
+2023-04-05 21:11:35,075 - DEBUG - decos - Вызвана функция main с параметрами (), {}
