@@ -1,0 +1,1060 @@
+2023-03-03 21:38:24,225 - INFO - client - Send message...
+2023-03-03 21:38:24,225 - INFO - client - {'response': 200, 'alert': 'OK'}
+2023-03-07 21:04:36,898 - DEBUG - decos - Вызвана функция get_options с параметрами (['client.py'], 'config_client.json'), {}
+2023-03-07 21:04:36,899 - DEBUG - decos - Вызвана функция get_user с параметрами (), {}
+2023-03-07 21:04:36,900 - DEBUG - decos - Вызвана функция auth с параметрами (), {}
+2023-03-07 21:04:36,900 - INFO - client - Send message...
+2023-03-07 21:04:36,900 - INFO - client - {'response': 200, 'alert': 'OK'}
+2023-03-13 17:28:55,577 - DEBUG - decos - Вызвана функция get_options с параметрами (['client.py'], 'config_client.json'), {}
+2023-03-13 17:28:55,577 - INFO - client - Start client with: server address: 127.0.0.1, port: 8010
+2023-03-13 17:29:51,209 - DEBUG - decos - Вызвана функция get_options с параметрами (['client.py'], 'config_client.json'), {}
+2023-03-13 17:29:51,209 - INFO - client - Start client with: server address: 127.0.0.1, port: 8010
+2023-03-13 17:30:12,915 - DEBUG - decos - Вызвана функция get_options с параметрами (['client.py'], 'config_client.json'), {}
+2023-03-13 17:30:12,915 - INFO - client - Start client with: server address: 127.0.0.1, port: 8010
+2023-03-13 17:32:18,385 - DEBUG - decos - Вызвана функция get_options с параметрами (['client.py'], 'config_client.json'), {}
+2023-03-13 17:32:18,385 - INFO - client - Start client with: server address: 127.0.0.1, port: 8010
+2023-03-13 17:32:18,385 - DEBUG - client - Created presence message for client Guest
+2023-03-13 17:32:18,385 - DEBUG - decos - Вызвана функция create_presence с параметрами (), {}
+2023-03-13 17:32:18,386 - DEBUG - client - Received message from server: {'response': 200, 'alert': 'OK'}
+2023-03-13 17:32:18,386 - DEBUG - decos - Вызвана функция process_response_ans с параметрами ({'response': 200, 'alert': 'OK'},), {}
+2023-03-13 17:32:18,386 - INFO - client - Connected to server with: server answer: 200 : OK
+2023-03-13 17:32:43,687 - DEBUG - decos - Вызвана функция get_options с параметрами (['client.py'], 'config_client.json'), {}
+2023-03-13 17:32:43,688 - INFO - client - Start client with: server address: 127.0.0.1, port: 8010
+2023-03-13 17:32:43,688 - DEBUG - client - Created presence message for client Guest
+2023-03-13 17:32:43,688 - DEBUG - decos - Вызвана функция create_presence с параметрами (), {}
+2023-03-13 17:32:44,190 - DEBUG - client - Received message from server: {'response': 200, 'alert': 'OK'}
+2023-03-13 17:32:44,190 - DEBUG - decos - Вызвана функция process_response_ans с параметрами ({'response': 200, 'alert': 'OK'},), {}
+2023-03-13 17:32:44,190 - INFO - client - Connected to server with: server answer: 200 : OK
+2023-03-13 17:32:50,152 - DEBUG - client - Created dict message: {'action': 'message', 'time': '2023-03-13T17:32:50.152844', 'account_name': 'Guest', 'mess_text': 'Hello'}
+2023-03-13 17:32:50,153 - DEBUG - decos - Вызвана функция create_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 37886), raddr=('127.0.0.1', 8010)>,), {}
+2023-03-13 17:34:18,348 - DEBUG - decos - Вызвана функция get_options с параметрами (['client.py'], 'config_client.json'), {}
+2023-03-13 17:34:18,348 - INFO - client - Start client with: server address: 127.0.0.1, port: 8010
+2023-03-13 17:34:18,349 - DEBUG - client - Created presence message for client Guest
+2023-03-13 17:34:18,349 - DEBUG - decos - Вызвана функция create_presence с параметрами (), {}
+2023-03-13 17:34:18,349 - DEBUG - client - Received message from server: {'response': 200, 'alert': 'OK'}
+2023-03-13 17:34:18,349 - DEBUG - decos - Вызвана функция process_response_ans с параметрами ({'response': 200, 'alert': 'OK'},), {}
+2023-03-13 17:34:18,349 - INFO - client - Connected to server with: server answer: 200 : OK
+2023-03-13 17:34:28,408 - DEBUG - decos - Вызвана функция get_options с параметрами (['client.py'], 'config_client.json'), {}
+2023-03-13 17:34:28,408 - INFO - client - Start client with: server address: 127.0.0.1, port: 8010
+2023-03-13 17:34:28,408 - DEBUG - client - Created presence message for client Guest
+2023-03-13 17:34:28,409 - DEBUG - decos - Вызвана функция create_presence с параметрами (), {}
+2023-03-13 17:34:28,409 - DEBUG - client - Received message from server: {'response': 200, 'alert': 'OK'}
+2023-03-13 17:34:28,409 - DEBUG - decos - Вызвана функция process_response_ans с параметрами ({'response': 200, 'alert': 'OK'},), {}
+2023-03-13 17:34:28,410 - INFO - client - Connected to server with: server answer: 200 : OK
+2023-03-13 17:34:41,049 - DEBUG - client - Created dict message: {'action': 'message', 'time': '2023-03-13T17:34:41.049633', 'account_name': 'Guest', 'mess_text': 'Hello'}
+2023-03-13 17:34:41,050 - DEBUG - decos - Вызвана функция create_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 34694), raddr=('127.0.0.1', 8010)>,), {}
+2023-03-13 17:34:41,050 - DEBUG - client - Created presence message for client Guest
+2023-03-13 17:34:41,050 - DEBUG - decos - Вызвана функция create_presence с параметрами (), {}
+2023-03-13 17:34:41,051 - DEBUG - client - Received message from server: {'response': 200, 'alert': 'OK'}
+2023-03-13 17:34:41,051 - DEBUG - decos - Вызвана функция process_response_ans с параметрами ({'response': 200, 'alert': 'OK'},), {}
+2023-03-13 17:34:41,051 - INFO - client - Connected to server with: server answer: 200 : OK
+2023-03-13 17:34:55,809 - DEBUG - client - Created dict message: {'action': 'message', 'time': '2023-03-13T17:34:55.809476', 'account_name': 'Guest', 'mess_text': 'hello'}
+2023-03-13 17:34:55,809 - DEBUG - decos - Вызвана функция create_message с параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 60154), raddr=('127.0.0.1', 8010)>,), {}
+2023-03-13 17:34:55,809 - DEBUG - client - Created presence message for client Guest
+2023-03-13 17:34:55,810 - DEBUG - decos - Вызвана функция create_presence с параметрами (), {}
+2023-03-13 17:34:55,811 - DEBUG - client - Received message from server: {'response': 200, 'alert': 'OK'}
+2023-03-13 17:34:55,811 - DEBUG - decos - Вызвана функция process_response_ans с параметрами ({'response': 200, 'alert': 'OK'},), {}
+2023-03-13 17:34:55,811 - INFO - client - Connected to server with: server answer: 200 : OK
+2023-03-13 19:38:04,066 - DEBUG - decos - Вызвана функция get_options с параметрами (['client.py'], 'config_client.json'), {}
+2023-03-13 19:38:11,932 - INFO - client - Start client with: server address: 127.0.0.1, port: 8010, username: Adam.
+2023-03-13 19:38:11,933 - DEBUG - client - Created presence message for client Adam
+2023-03-13 19:38:11,933 - DEBUG - decos - Вызвана функция create_presence с параметрами ('Adam',), {}
+2023-03-13 19:38:11,933 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 43746), raddr=('127.0.0.1', 8010)>, {'action': 'presence', 'time': '2023-03-13T19:38:11.933035', 'user': {'account_name': 'Adam'}}), {}
+2023-03-13 19:38:24,540 - DEBUG - decos - Вызвана функция get_options с параметрами (['client.py'], 'config_client.json'), {}
+2023-03-13 19:38:29,634 - INFO - client - Start client with: server address: 127.0.0.1, port: 8010, username: Stev.
+2023-03-13 19:38:29,634 - DEBUG - client - Created presence message for client Stev
+2023-03-13 19:38:29,635 - DEBUG - decos - Вызвана функция create_presence с параметрами ('Stev',), {}
+2023-03-13 19:38:29,635 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 46896), raddr=('127.0.0.1', 8010)>, {'action': 'presence', 'time': '2023-03-13T19:38:29.634815', 'user': {'account_name': 'Stev'}}), {}
+2023-03-13 19:42:25,712 - ERROR - client - Failed unpack Json message
+2023-03-13 19:42:25,712 - ERROR - client - Failed unpack Json message
+2023-03-16 13:49:45,415 - DEBUG - decos - Вызвана функция get_options с параметрами (['client.py'], 'config_client.json'), {}
+2023-03-16 13:49:51,719 - INFO - client - Start client with: server address: 127.0.0.1, port: 8010, username: 2try.
+2023-03-16 13:49:51,720 - DEBUG - client - Created presence message for client 2try
+2023-03-16 13:49:51,720 - DEBUG - decos - Вызвана функция create_presence с параметрами ('2try',), {}
+2023-03-16 13:49:51,720 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55896), raddr=('127.0.0.1', 8010)>, {'action': 'presence', 'time': '2023-03-16T13:49:51.720117', 'user': {'account_name': '2try'}}), {}
+2023-03-16 13:51:21,049 - DEBUG - decos - Вызвана функция get_options с параметрами (['client.py', '-n', '2try'], 'config_client.json'), {}
+2023-03-16 13:51:21,049 - INFO - client - Start client with: server address: 127.0.0.1, port: 8010, username: 2try.
+2023-03-16 13:51:21,049 - DEBUG - client - Created presence message for client 2try
+2023-03-16 13:51:21,050 - DEBUG - decos - Вызвана функция create_presence с параметрами ('2try',), {}
+2023-03-16 13:51:21,050 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 34264), raddr=('127.0.0.1', 8010)>, {'action': 'presence', 'time': '2023-03-16T13:51:21.049799', 'user': {'account_name': '2try'}}), {}
+2023-03-16 13:51:21,050 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 34264), raddr=('127.0.0.1', 8010)>,), {}
+2023-03-16 13:51:21,051 - DEBUG - client - Received message from server: {'response': 400, 'error': 'Username already exist.'}
+2023-03-16 13:51:21,051 - ERROR - client - Failed, server error: 400 : Username already exist.
+2023-03-16 13:51:44,612 - DEBUG - decos - Вызвана функция get_options с параметрами (['client.py', '-n', '2try'], 'config_client.json'), {}
+2023-03-16 13:51:44,612 - INFO - client - Start client with: server address: 127.0.0.1, port: 8010, username: 2try.
+2023-03-16 13:51:44,613 - DEBUG - client - Created presence message for client 2try
+2023-03-16 13:51:44,613 - DEBUG - decos - Вызвана функция create_presence с параметрами ('2try',), {}
+2023-03-16 13:51:44,613 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 46334), raddr=('127.0.0.1', 8010)>, {'action': 'presence', 'time': '2023-03-16T13:51:44.613085', 'user': {'account_name': '2try'}}), {}
+2023-03-16 13:51:45,114 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 46334), raddr=('127.0.0.1', 8010)>,), {}
+2023-03-16 13:51:45,114 - DEBUG - client - Received message from server: {'response': 400, 'error': 'Username already exist.'}
+2023-03-16 13:51:45,114 - ERROR - client - Failed, server error: 400 : Username already exist.
+2023-03-16 13:53:25,713 - DEBUG - decos - Вызвана функция get_options с параметрами (['client.py'], 'config_client.json'), {}
+2023-03-16 13:53:25,713 - INFO - client - Start client with: server address: 127.0.0.1, port: 8010, username: 2try.
+2023-03-16 13:53:25,713 - DEBUG - client - Created presence message for client 2try
+2023-03-16 13:53:25,713 - DEBUG - decos - Вызвана функция create_presence с параметрами ('2try',), {}
+2023-03-16 13:53:25,714 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39720), raddr=('127.0.0.1', 8010)>, {'action': 'presence', 'time': '2023-03-16T13:53:25.713723', 'user': {'account_name': '2try'}}), {}
+2023-03-16 13:53:26,215 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39720), raddr=('127.0.0.1', 8010)>,), {}
+2023-03-16 13:53:26,215 - DEBUG - client - Received message from server: {'response': 400, 'error': 'Username already exist.'}
+2023-03-16 13:53:26,215 - ERROR - client - Failed, server error: 400 : Username already exist.
+2023-03-16 13:55:27,411 - DEBUG - decos - Вызвана функция get_options с параметрами (['client.py'], 'config_client.json'), {}
+2023-03-16 13:55:27,411 - INFO - client - Start client with: server address: 127.0.0.1, port: 8010, username: Stev.
+2023-03-16 13:55:27,412 - DEBUG - client - Created presence message for client Stev
+2023-03-16 13:55:27,412 - DEBUG - decos - Вызвана функция create_presence с параметрами ('Stev',), {}
+2023-03-16 13:55:27,412 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 43156), raddr=('127.0.0.1', 8010)>, {'action': 'presence', 'time': '2023-03-16T13:55:27.412224', 'user': {'account_name': 'Stev'}}), {}
+2023-03-16 13:57:17,755 - DEBUG - decos - Вызвана функция get_options с параметрами (['client.py'], 'config_client.json'), {}
+2023-03-16 13:57:17,756 - INFO - client - Start client with: server address: 127.0.0.1, port: 8010, username: Stev.
+2023-03-16 13:57:17,756 - DEBUG - client - Created presence message for client Stev
+2023-03-16 13:57:17,756 - DEBUG - decos - Вызвана функция create_presence с параметрами ('Stev',), {}
+2023-03-16 13:57:17,756 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 54120), raddr=('127.0.0.1', 8010)>, {'action': 'presence', 'time': '2023-03-16T13:57:17.756565', 'user': {'account_name': 'Stev'}}), {}
+2023-03-16 13:57:18,258 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 54120), raddr=('127.0.0.1', 8010)>,), {}
+2023-03-16 13:57:18,258 - DEBUG - client - Received message from server: {'response': 400, 'error': 'Username already exist.'}
+2023-03-16 13:57:18,258 - ERROR - client - Failed, server error: 400 : Username already exist.
+2023-03-16 13:57:28,915 - DEBUG - decos - Вызвана функция get_options с параметрами (['client.py'], 'config_client.json'), {}
+2023-03-16 13:57:28,915 - INFO - client - Start client with: server address: 127.0.0.1, port: 8010, username: Stev.
+2023-03-16 13:57:28,916 - DEBUG - client - Created presence message for client Stev
+2023-03-16 13:57:28,916 - DEBUG - decos - Вызвана функция create_presence с параметрами ('Stev',), {}
+2023-03-16 13:57:28,916 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36232), raddr=('127.0.0.1', 8010)>, {'action': 'presence', 'time': '2023-03-16T13:57:28.916080', 'user': {'account_name': 'Stev'}}), {}
+2023-03-16 13:57:29,417 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36232), raddr=('127.0.0.1', 8010)>,), {}
+2023-03-16 13:57:29,417 - DEBUG - client - Received message from server: {'response': 400, 'error': 'Username already exist.'}
+2023-03-16 13:57:29,417 - ERROR - client - Failed, server error: 400 : Username already exist.
+2023-03-16 13:57:50,532 - DEBUG - decos - Вызвана функция get_options с параметрами (['client.py'], 'config_client.json'), {}
+2023-03-16 13:57:53,497 - INFO - client - Start client with: server address: 127.0.0.1, port: 8010, username: Stev.
+2023-03-16 13:57:53,498 - DEBUG - client - Created presence message for client Stev
+2023-03-16 13:57:53,498 - DEBUG - decos - Вызвана функция create_presence с параметрами ('Stev',), {}
+2023-03-16 13:57:53,498 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40434), raddr=('127.0.0.1', 8010)>, {'action': 'presence', 'time': '2023-03-16T13:57:53.498240', 'user': {'account_name': 'Stev'}}), {}
+2023-03-16 13:57:53,999 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40434), raddr=('127.0.0.1', 8010)>,), {}
+2023-03-16 13:57:54,000 - DEBUG - client - Received message from server: {'response': 400, 'error': 'Username already exist.'}
+2023-03-16 13:57:54,000 - ERROR - client - Failed, server error: 400 : Username already exist.
+2023-03-16 13:58:44,330 - DEBUG - decos - Вызвана функция get_options с параметрами (['client.py'], 'config_client.json'), {}
+2023-03-16 13:58:46,533 - INFO - client - Start client with: server address: 127.0.0.1, port: 8010, username: lol.
+2023-03-16 13:58:46,533 - DEBUG - client - Created presence message for client lol
+2023-03-16 13:58:46,537 - DEBUG - decos - Вызвана функция create_presence с параметрами ('lol',), {}
+2023-03-16 13:58:46,538 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 45676), raddr=('127.0.0.1', 8010)>, {'action': 'presence', 'time': '2023-03-16T13:58:46.533819', 'user': {'account_name': 'lol'}}), {}
+2023-03-16 14:00:11,961 - DEBUG - decos - Вызвана функция get_options с параметрами (['client.py'], 'config_client.json'), {}
+2023-03-16 14:00:20,550 - INFO - client - Start client with: server address: 127.0.0.1, port: 8010, username: oody.
+2023-03-16 14:00:20,550 - DEBUG - client - Created presence message for client oody
+2023-03-16 14:00:20,550 - DEBUG - decos - Вызвана функция create_presence с параметрами ('oody',), {}
+2023-03-16 14:00:20,551 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42852), raddr=('127.0.0.1', 8010)>, {'action': 'presence', 'time': '2023-03-16T14:00:20.550735', 'user': {'account_name': 'oody'}}), {}
+2023-03-16 14:15:34,430 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-03-16 14:15:41,248 - INFO - client - Start client with: server address: 127.0.0.1, port: 7777, username: Steve.
+2023-03-16 14:15:41,248 - DEBUG - client - Created presence message for client Steve
+2023-03-16 14:15:41,248 - DEBUG - decos - Вызвана функция create_presence с параметрами ('Steve',), {}
+2023-03-16 14:15:41,249 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 48698), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': '2023-03-16T14:15:41.248529', 'user': {'account_name': 'Steve'}}), {}
+2023-03-16 14:16:19,409 - ERROR - client - Failed unpack Json message
+2023-03-16 14:18:27,968 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-03-16 14:18:30,535 - INFO - client - Start client with: server address: 127.0.0.1, port: 7777, username: Steve.
+2023-03-16 14:18:30,535 - DEBUG - client - Created presence message for client Steve
+2023-03-16 14:18:30,536 - DEBUG - decos - Вызвана функция create_presence с параметрами ('Steve',), {}
+2023-03-16 14:18:30,536 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 35660), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': '2023-03-16T14:18:30.535836', 'user': {'account_name': 'Steve'}}), {}
+2023-03-16 14:18:30,537 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 35660), raddr=('127.0.0.1', 7777)>,), {}
+2023-03-16 14:18:30,537 - DEBUG - client - Received message from server: {'response': 200, 'alert': 'OK'}
+2023-03-16 14:18:30,537 - DEBUG - decos - Вызвана функция process_response_ans с параметрами ({'response': 200, 'alert': 'OK'},), {}
+2023-03-16 14:18:30,537 - INFO - client - Connected to server with: server answer: 200 : OK
+2023-03-16 14:18:30,538 - DEBUG - client - Starts process.
+2023-03-16 14:18:53,042 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-03-16 14:18:56,585 - INFO - client - Start client with: server address: 127.0.0.1, port: 7777, username: Lol.
+2023-03-16 14:18:56,585 - DEBUG - client - Created presence message for client Lol
+2023-03-16 14:18:56,586 - DEBUG - decos - Вызвана функция create_presence с параметрами ('Lol',), {}
+2023-03-16 14:18:56,586 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 43510), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': '2023-03-16T14:18:56.585768', 'user': {'account_name': 'Lol'}}), {}
+2023-03-16 14:18:57,092 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 43510), raddr=('127.0.0.1', 7777)>,), {}
+2023-03-16 14:18:57,092 - DEBUG - client - Received message from server: {'response': 200, 'alert': 'OK'}
+2023-03-16 14:18:57,092 - DEBUG - decos - Вызвана функция process_response_ans с параметрами ({'response': 200, 'alert': 'OK'},), {}
+2023-03-16 14:18:57,092 - INFO - client - Connected to server with: server answer: 200 : OK
+2023-03-16 14:18:57,093 - DEBUG - client - Starts process.
+2023-03-16 14:19:25,326 - DEBUG - client - Created dict message: {'action': 'message', 'from': 'Steve', 'to': 'Lol', 'time': '2023-03-16T14:19:25.326638', 'mess_text': 'Hello'}
+2023-03-16 14:19:25,327 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 35660), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'from': 'Steve', 'to': 'Lol', 'time': '2023-03-16T14:19:25.326638', 'mess_text': 'Hello'}), {}
+2023-03-16 14:19:25,327 - INFO - client - Send message for user Lol
+2023-03-16 14:19:25,327 - DEBUG - decos - Вызвана функция create_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 35660), raddr=('127.0.0.1', 7777)>, 'Steve'), {}
+2023-03-16 14:19:25,631 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 43510), raddr=('127.0.0.1', 7777)>,), {}
+2023-03-16 14:19:25,632 - INFO - client - Get message from client Steve:
+Hello
+2023-03-16 14:20:13,796 - DEBUG - client - Created dict message: {'action': 'message', 'from': 'Lol', 'to': 'Steve', 'time': '2023-03-16T14:20:13.796781', 'mess_text': 'Hello lox'}
+2023-03-16 14:20:13,797 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 43510), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'from': 'Lol', 'to': 'Steve', 'time': '2023-03-16T14:20:13.796781', 'mess_text': 'Hello lox'}), {}
+2023-03-16 14:20:13,797 - INFO - client - Send message for user Steve
+2023-03-16 14:20:13,797 - DEBUG - decos - Вызвана функция create_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 43510), raddr=('127.0.0.1', 7777)>, 'Lol'), {}
+2023-03-16 14:20:14,197 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 35660), raddr=('127.0.0.1', 7777)>,), {}
+2023-03-16 14:20:14,197 - INFO - client - Get message from client Lol:
+Hello lox
+2023-03-16 14:21:27,167 - DEBUG - decos - Вызвана функция create_exit_message с параметрами ('Steve',), {}
+2023-03-16 14:21:27,168 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 35660), raddr=('127.0.0.1', 7777)>, {'action': 'exit', 'time': '2023-03-16T14:21:27.167846', 'account_name': 'Steve'}), {}
+2023-03-16 14:21:27,168 - INFO - client - Close connection for user command.
+2023-03-16 14:22:02,902 - DEBUG - decos - Вызвана функция create_exit_message с параметрами ('Lol',), {}
+2023-03-16 14:22:02,903 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 43510), raddr=('127.0.0.1', 7777)>, {'action': 'exit', 'time': '2023-03-16T14:22:02.902803', 'account_name': 'Lol'}), {}
+2023-03-16 14:22:02,903 - INFO - client - Close connection for user command.
+2023-03-16 14:22:03,904 - DEBUG - decos - Вызвана функция user_interactive с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 43510), raddr=('127.0.0.1', 7777)>, 'Lol'), {}
+2023-03-16 14:32:29,751 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-03-16 14:32:29,751 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-03-16 14:32:29,751 - INFO - client - Start client with: server address: 127.0.0.1, port: 7777, username: test1.
+2023-03-16 14:32:29,751 - INFO - client - Start client with: server address: 127.0.0.1, port: 7777, username: test2.
+2023-03-16 14:32:29,751 - CRITICAL - client - Connection refused: [Errno 111] Connection refused
+2023-03-16 14:32:29,751 - CRITICAL - client - Connection refused: [Errno 111] Connection refused
+2023-03-16 14:32:29,752 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-03-16 14:32:29,752 - INFO - client - Start client with: server address: 127.0.0.1, port: 7777, username: test3.
+2023-03-16 14:32:29,753 - CRITICAL - client - Connection refused: [Errno 111] Connection refused
+2023-03-26 15:13:33,343 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-03-26 15:13:40,305 - INFO - client - Start client with: server address: 127.0.0.1, port: 7777, username: Jhon.
+2023-03-26 15:13:40,305 - DEBUG - client - Created presence message for client Jhon
+2023-03-26 15:13:40,305 - DEBUG - decos - Вызвана функция create_presence с параметрами ('Jhon',), {}
+2023-03-26 15:13:40,305 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 48920), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': '2023-03-26T15:13:40.305338', 'user': {'account_name': 'Jhon'}}), {}
+2023-03-26 15:14:00,508 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-03-26 15:14:02,774 - INFO - client - Start client with: server address: 127.0.0.1, port: 7777, username: Lol.
+2023-03-26 15:14:02,775 - DEBUG - client - Created presence message for client Lol
+2023-03-26 15:14:02,775 - DEBUG - decos - Вызвана функция create_presence с параметрами ('Lol',), {}
+2023-03-26 15:14:02,775 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51962), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': '2023-03-26T15:14:02.775244', 'user': {'account_name': 'Lol'}}), {}
+2023-03-26 15:14:02,775 - ERROR - client - Failed unpack Json message
+2023-03-26 15:18:00,219 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-03-26 15:18:02,319 - INFO - client - Start client with: server address: 127.0.0.1, port: 7777, username: Lol.
+2023-03-26 15:18:02,319 - DEBUG - client - Created presence message for client Lol
+2023-03-26 15:18:02,319 - DEBUG - decos - Вызвана функция create_presence с параметрами ('Lol',), {}
+2023-03-26 15:18:02,320 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 57088), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': '2023-03-26T15:18:02.319680', 'user': {'account_name': 'Lol'}}), {}
+2023-03-26 15:19:43,997 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-03-26 15:19:46,530 - INFO - client - Start client with: server address: 127.0.0.1, port: 7777, username: Jhon.
+2023-03-26 15:19:46,531 - DEBUG - client - Created presence message for client Jhon
+2023-03-26 15:19:46,531 - DEBUG - decos - Вызвана функция create_presence с параметрами ('Jhon',), {}
+2023-03-26 15:19:46,531 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56462), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': '2023-03-26T15:19:46.531087', 'user': {'account_name': 'Jhon'}}), {}
+2023-03-26 15:22:39,352 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-03-26 15:22:51,077 - INFO - client - Start client with: server address: 127.0.0.1, port: 7777, username: Fully.
+2023-03-26 15:22:51,077 - DEBUG - client - Created presence message for client Fully
+2023-03-26 15:22:51,077 - DEBUG - decos - Вызвана функция create_presence с параметрами ('Fully',), {}
+2023-03-26 15:22:51,077 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39408), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': '2023-03-26T15:22:51.077376', 'user': {'account_name': 'Fully'}}), {}
+2023-03-26 15:22:51,578 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39408), raddr=('127.0.0.1', 7777)>,), {}
+2023-03-26 15:22:51,578 - DEBUG - client - Received message from server: {'response': 200}
+2023-03-26 15:22:51,578 - DEBUG - decos - Вызвана функция process_response_ans с параметрами ({'response': 200},), {}
+2023-03-26 15:22:51,578 - INFO - client - Connected to server with: server answer: 200 : OK
+2023-03-26 15:22:51,579 - DEBUG - client - Starts process.
+2023-03-26 15:27:20,773 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-03-26 15:27:22,792 - INFO - client - Start client with: server address: 127.0.0.1, port: 7777, username: lol.
+2023-03-26 15:27:22,793 - DEBUG - client - Created presence message for client lol
+2023-03-26 15:27:22,793 - DEBUG - decos - Вызвана функция create_presence с параметрами ('lol',), {}
+2023-03-26 15:27:22,793 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 48804), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': '2023-03-26T15:27:22.793156', 'user': {'account_name': 'lol'}}), {}
+2023-03-26 15:27:22,794 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 48804), raddr=('127.0.0.1', 7777)>,), {}
+2023-03-26 15:27:22,794 - DEBUG - client - Received message from server: {'response': 200}
+2023-03-26 15:27:22,794 - DEBUG - decos - Вызвана функция process_response_ans с параметрами ({'response': 200},), {}
+2023-03-26 15:27:22,794 - INFO - client - Connected to server with: server answer: 200 : OK
+2023-03-26 15:27:22,794 - DEBUG - client - Starts process.
+2023-03-30 19:21:42,337 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-03-30 19:21:44,412 - INFO - client - Start client with: server address: 127.0.0.1, port: 7777, username: Lol.
+2023-03-30 19:21:44,412 - DEBUG - client - Created presence message for client Lol
+2023-03-30 19:21:44,412 - DEBUG - decos - Вызвана функция create_presence с параметрами ('Lol',), {}
+2023-03-30 19:21:44,413 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49766), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': '2023-03-30T19:21:44.412724', 'user': {'account_name': 'Lol'}}), {}
+2023-03-30 19:22:01,057 - ERROR - client - Failed unpack Json message
+2023-03-30 23:37:40,001 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-03-30 23:37:42,255 - INFO - client - Start client with: server address: 127.0.0.1, port: 7777, username: Lol.
+2023-03-30 23:37:42,256 - DEBUG - client - Created presence message for client Lol
+2023-03-30 23:37:42,256 - DEBUG - decos - Вызвана функция create_presence с параметрами ('Lol',), {}
+2023-03-30 23:37:42,256 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 37144), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': '2023-03-30T23:37:42.256055', 'user': {'account_name': 'Lol'}}), {}
+2023-03-31 20:27:36,603 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-03-31 20:27:38,965 - INFO - client - Start client with: server address: 127.0.0.1, port: 7777, username: Lol.
+2023-03-31 20:27:38,965 - DEBUG - client - Created presence message for client Lol
+2023-03-31 20:27:38,965 - DEBUG - decos - Вызвана функция create_presence с параметрами ('Lol',), {}
+2023-03-31 20:27:38,965 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39412), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': '2023-03-31T20:27:38.965549', 'user': {'account_name': 'Lol'}}), {}
+2023-03-31 20:27:38,992 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39412), raddr=('127.0.0.1', 7777)>,), {}
+2023-03-31 20:27:38,992 - DEBUG - client - Received message from server: {'response': 200}
+2023-03-31 20:27:38,992 - DEBUG - decos - Вызвана функция process_response_ans с параметрами ({'response': 200},), {}
+2023-03-31 20:27:38,992 - INFO - client - Connected to server with: server answer: 200 : OK
+2023-03-31 20:29:26,983 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-03-31 20:29:29,148 - INFO - client - Start client with: server address: 127.0.0.1, port: 7777, username: Lol.
+2023-03-31 20:29:29,149 - DEBUG - client - Created presence message for client Lol
+2023-03-31 20:29:29,149 - DEBUG - decos - Вызвана функция create_presence с параметрами ('Lol',), {}
+2023-03-31 20:29:29,149 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 34310), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': '2023-03-31T20:29:29.149152', 'user': {'account_name': 'Lol'}}), {}
+2023-03-31 20:32:29,290 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-03-31 20:32:33,267 - INFO - client - Start client with: server address: 127.0.0.1, port: 7777, username: Kojy.
+2023-03-31 20:32:33,268 - DEBUG - client - Created presence message for client Kojy
+2023-03-31 20:32:33,268 - DEBUG - decos - Вызвана функция create_presence с параметрами ('Kojy',), {}
+2023-03-31 20:32:33,268 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41180), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': '2023-03-31T20:32:33.268101', 'user': {'account_name': 'Kojy'}}), {}
+2023-03-31 20:32:33,789 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41180), raddr=('127.0.0.1', 7777)>,), {}
+2023-03-31 20:32:33,789 - DEBUG - client - Received message from server: {'response': 200}
+2023-03-31 20:32:33,789 - DEBUG - decos - Вызвана функция process_response_ans с параметрами ({'response': 200},), {}
+2023-03-31 20:32:33,789 - INFO - client - Connected to server with: server answer: 200 : OK
+2023-03-31 20:32:33,823 - DEBUG - client - Request all known users Kojy
+2023-03-31 20:32:33,824 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41180), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1680283953.823949, 'account_name': 'Kojy'}), {}
+2023-04-01 21:54:14,696 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-01 21:54:21,030 - INFO - client - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Gerald
+2023-04-01 21:54:21,086 - INFO - transport - Попытка подключения №1
+2023-04-01 21:54:21,087 - DEBUG - transport - Установлено соединение с сервером
+2023-04-01 21:54:21,087 - DEBUG - transport - Сформировано presence сообщение для пользователя Gerald
+2023-04-01 21:54:21,088 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39092), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1680375261.087356, 'user': {'account_name': 'Gerald'}}), {}
+2023-04-01 21:54:21,610 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39092), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 21:54:21,610 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-01 21:54:21,610 - INFO - transport - Соединение с сервером успешно установлено.
+2023-04-01 21:54:21,610 - DEBUG - transport - Запрос списка известных пользователей Gerald
+2023-04-01 21:54:21,610 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39092), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1680375261.6108963, 'account_name': 'Gerald'}), {}
+2023-04-01 21:54:26,616 - ERROR - transport - Timeout соединения при обновлении списков пользователей.
+2023-04-01 21:54:26,617 - DEBUG - transport - Запущен процесс - приёмник собщений с сервера.
+2023-04-01 21:56:23,922 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-01 21:56:28,688 - INFO - client - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Gerald
+2023-04-01 21:56:28,723 - INFO - transport - Попытка подключения №1
+2023-04-01 21:56:28,723 - DEBUG - transport - Установлено соединение с сервером
+2023-04-01 21:56:28,723 - DEBUG - transport - Сформировано presence сообщение для пользователя Gerald
+2023-04-01 21:56:28,724 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 59116), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1680375388.7239585, 'user': {'account_name': 'Gerald'}}), {}
+2023-04-01 21:56:33,729 - CRITICAL - transport - Потеряно соединение с сервером!
+2023-04-01 21:57:46,816 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-01 21:57:51,685 - INFO - client - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Gerald
+2023-04-01 21:57:51,735 - INFO - transport - Попытка подключения №1
+2023-04-01 21:57:51,735 - DEBUG - transport - Установлено соединение с сервером
+2023-04-01 21:57:51,735 - DEBUG - transport - Сформировано presence сообщение для пользователя Gerald
+2023-04-01 21:57:51,736 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 35752), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1680375471.735765, 'user': {'account_name': 'Gerald'}}), {}
+2023-04-01 21:57:51,770 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 35752), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 21:57:51,770 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-01 21:57:51,770 - INFO - transport - Соединение с сервером успешно установлено.
+2023-04-01 21:57:51,770 - DEBUG - transport - Запрос списка известных пользователей Gerald
+2023-04-01 21:57:51,770 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 35752), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1680375471.7705562, 'account_name': 'Gerald'}), {}
+2023-04-01 21:57:56,776 - ERROR - transport - Timeout соединения при обновлении списков пользователей.
+2023-04-01 21:57:56,776 - DEBUG - transport - Запущен процесс - приёмник собщений с сервера.
+2023-04-01 22:01:49,987 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-01 22:01:54,987 - INFO - client - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Gerald
+2023-04-01 22:01:55,034 - INFO - transport - Попытка подключения №1
+2023-04-01 22:01:55,034 - DEBUG - transport - Установлено соединение с сервером
+2023-04-01 22:01:55,035 - DEBUG - transport - Сформировано presence сообщение для пользователя Gerald
+2023-04-01 22:01:55,035 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 43274), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1680375715.03523, 'user': {'account_name': 'Gerald'}}), {}
+2023-04-01 22:02:00,041 - CRITICAL - transport - Потеряно соединение с сервером!
+2023-04-01 22:02:58,559 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-01 22:03:01,993 - INFO - client - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Gerald
+2023-04-01 22:03:02,032 - INFO - transport - Попытка подключения №1
+2023-04-01 22:03:02,032 - DEBUG - transport - Установлено соединение с сервером
+2023-04-01 22:03:02,032 - DEBUG - transport - Сформировано presence сообщение для пользователя Gerald
+2023-04-01 22:03:02,033 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 54192), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1680375782.032789, 'user': {'account_name': 'Gerald'}}), {}
+2023-04-01 22:03:02,071 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 54192), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:03:02,071 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-01 22:03:02,071 - INFO - transport - Соединение с сервером успешно установлено.
+2023-04-01 22:03:02,072 - DEBUG - transport - Запрос списка известных пользователей Gerald
+2023-04-01 22:03:02,072 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 54192), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1680375782.0720963, 'account_name': 'Gerald'}), {}
+2023-04-01 22:03:07,073 - ERROR - transport - Timeout соединения при обновлении списков пользователей.
+2023-04-01 22:03:07,074 - DEBUG - transport - Запущен процесс - приёмник собщений с сервера.
+2023-04-01 22:03:47,452 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-01 22:03:50,289 - INFO - client - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Lol
+2023-04-01 22:03:50,349 - INFO - transport - Попытка подключения №1
+2023-04-01 22:03:50,350 - DEBUG - transport - Установлено соединение с сервером
+2023-04-01 22:03:50,350 - DEBUG - transport - Сформировано presence сообщение для пользователя Lol
+2023-04-01 22:03:50,351 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49128), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1680375830.3503542, 'user': {'account_name': 'Lol'}}), {}
+2023-04-01 22:03:55,356 - CRITICAL - transport - Потеряно соединение с сервером!
+2023-04-01 22:04:42,688 - DEBUG - transport - Потеряно соединение с сервером.
+2023-04-01 22:04:44,702 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 54192)>, {'action': 'exit', 'time': 1680375884.7027125, 'account_name': 'Gerald'}), {}
+2023-04-01 22:04:44,703 - DEBUG - transport - Транспорт завершает работу.
+2023-04-01 22:07:35,756 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-01 22:07:39,261 - INFO - client - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Gerald
+2023-04-01 22:07:39,305 - INFO - transport - Попытка подключения №1
+2023-04-01 22:07:39,306 - DEBUG - transport - Установлено соединение с сервером
+2023-04-01 22:07:39,306 - DEBUG - transport - Сформировано presence сообщение для пользователя Gerald
+2023-04-01 22:07:39,306 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 43914), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1680376059.306383, 'user': {'account_name': 'Gerald'}}), {}
+2023-04-01 22:07:39,334 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 43914), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:07:39,335 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-01 22:07:39,335 - INFO - transport - Соединение с сервером успешно установлено.
+2023-04-01 22:07:39,335 - DEBUG - transport - Запрос списка известных пользователей Gerald
+2023-04-01 22:07:39,335 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 43914), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1680376059.3352716, 'account_name': 'Gerald'}), {}
+2023-04-01 22:07:39,837 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 43914), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:08:33,715 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-01 22:08:36,838 - INFO - client - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Gerald
+2023-04-01 22:08:36,887 - INFO - transport - Попытка подключения №1
+2023-04-01 22:08:36,887 - DEBUG - transport - Установлено соединение с сервером
+2023-04-01 22:08:36,887 - DEBUG - transport - Сформировано presence сообщение для пользователя Gerald
+2023-04-01 22:08:36,888 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41580), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1680376116.8878105, 'user': {'account_name': 'Gerald'}}), {}
+2023-04-01 22:08:36,910 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41580), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:08:36,910 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-01 22:08:36,910 - INFO - transport - Соединение с сервером успешно установлено.
+2023-04-01 22:08:36,910 - DEBUG - transport - Запрос списка известных пользователей Gerald
+2023-04-01 22:08:36,911 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41580), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1680376116.9109914, 'account_name': 'Gerald'}), {}
+2023-04-01 22:08:37,413 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41580), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:08:37,424 - DEBUG - transport - Запрос контакт листа для пользователся Thread-1
+2023-04-01 22:08:37,424 - DEBUG - transport - Сформирован запрос {'action': 'get_contacts', 'time': 1680376117.424519, 'user': 'Gerald'}
+2023-04-01 22:08:37,424 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41580), raddr=('127.0.0.1', 7777)>, {'action': 'get_contacts', 'time': 1680376117.424519, 'user': 'Gerald'}), {}
+2023-04-01 22:08:37,917 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41580), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:08:37,917 - DEBUG - transport - Получен ответ {'response': 202, 'data_list': []}
+2023-04-01 22:08:37,918 - DEBUG - transport - Запущен процесс - приёмник собщений с сервера.
+2023-04-01 22:08:43,478 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-01 22:08:45,285 - INFO - client - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Lol
+2023-04-01 22:08:45,327 - INFO - transport - Попытка подключения №1
+2023-04-01 22:08:45,327 - DEBUG - transport - Установлено соединение с сервером
+2023-04-01 22:08:45,328 - DEBUG - transport - Сформировано presence сообщение для пользователя Lol
+2023-04-01 22:08:45,328 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36176), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1680376125.3281524, 'user': {'account_name': 'Lol'}}), {}
+2023-04-01 22:08:45,351 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36176), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:08:45,351 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-01 22:08:45,351 - INFO - transport - Соединение с сервером успешно установлено.
+2023-04-01 22:08:45,351 - DEBUG - transport - Запрос списка известных пользователей Lol
+2023-04-01 22:08:45,351 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36176), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1680376125.3516428, 'account_name': 'Lol'}), {}
+2023-04-01 22:08:45,853 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36176), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:08:45,873 - DEBUG - transport - Запрос контакт листа для пользователся Thread-1
+2023-04-01 22:08:45,873 - DEBUG - transport - Сформирован запрос {'action': 'get_contacts', 'time': 1680376125.8733048, 'user': 'Lol'}
+2023-04-01 22:08:45,873 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36176), raddr=('127.0.0.1', 7777)>, {'action': 'get_contacts', 'time': 1680376125.8733048, 'user': 'Lol'}), {}
+2023-04-01 22:08:46,356 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36176), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:08:46,356 - DEBUG - transport - Получен ответ {'response': 202, 'data_list': []}
+2023-04-01 22:08:46,356 - DEBUG - transport - Запущен процесс - приёмник собщений с сервера.
+2023-04-01 22:11:37,618 - DEBUG - transport - Потеряно соединение с сервером.
+2023-04-01 22:11:39,165 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41580)>, {'action': 'exit', 'time': 1680376299.1654055, 'account_name': 'Gerald'}), {}
+2023-04-01 22:11:39,165 - DEBUG - transport - Транспорт завершает работу.
+2023-04-01 22:11:46,370 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-01 22:11:49,632 - INFO - client - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Gerald
+2023-04-01 22:11:49,683 - INFO - transport - Попытка подключения №1
+2023-04-01 22:11:49,683 - DEBUG - transport - Установлено соединение с сервером
+2023-04-01 22:11:49,683 - DEBUG - transport - Сформировано presence сообщение для пользователя Gerald
+2023-04-01 22:11:49,684 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36154), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1680376309.683924, 'user': {'account_name': 'Gerald'}}), {}
+2023-04-01 22:11:49,706 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36154), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:11:49,706 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-01 22:11:49,706 - INFO - transport - Соединение с сервером успешно установлено.
+2023-04-01 22:11:49,706 - DEBUG - transport - Запрос списка известных пользователей Gerald
+2023-04-01 22:11:49,706 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36154), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1680376309.7064114, 'account_name': 'Gerald'}), {}
+2023-04-01 22:11:50,209 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36154), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:11:50,215 - DEBUG - transport - Запрос контакт листа для пользователся Thread-1
+2023-04-01 22:11:50,215 - DEBUG - transport - Сформирован запрос {'action': 'get_contacts', 'time': 1680376310.215389, 'user': 'Gerald'}
+2023-04-01 22:11:50,215 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36154), raddr=('127.0.0.1', 7777)>, {'action': 'get_contacts', 'time': 1680376310.215389, 'user': 'Gerald'}), {}
+2023-04-01 22:11:50,713 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36154), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:11:50,713 - DEBUG - transport - Получен ответ {'response': 202, 'data_list': []}
+2023-04-01 22:11:50,713 - DEBUG - transport - Запущен процесс - приёмник собщений с сервера.
+2023-04-01 22:12:00,235 - DEBUG - transport - Создание контакта Lol
+2023-04-01 22:12:00,235 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36154), raddr=('127.0.0.1', 7777)>, {'action': 'add', 'time': 1680376320.235442, 'user': 'Gerald', 'account_name': 'Lol'}), {}
+2023-04-01 22:12:00,740 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36154), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:12:00,740 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-01 22:12:00,747 - INFO - main - Успешно добавлен контакт <PyQt6.QtGui.QStandardItem object at 0x7feb4bdc63b0>
+2023-04-01 22:12:14,495 - DEBUG - transport - Сформирован словарь сообщения: {'action': 'message', 'from': 'Gerald', 'to': 'Lol', 'time': 1680376334.495247, 'mess_text': 'Hello chmo!'}
+2023-04-01 22:12:14,762 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36154), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'from': 'Gerald', 'to': 'Lol', 'time': 1680376334.495247, 'mess_text': 'Hello chmo!'}), {}
+2023-04-01 22:13:02,870 - DEBUG - transport - Запрос списка известных пользователей Gerald
+2023-04-01 22:13:02,870 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36154), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1680376382.870356, 'account_name': 'Gerald'}), {}
+2023-04-01 22:13:03,336 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36154), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:13:03,345 - DEBUG - add_contact - Обновление списка пользователей с сервера выполнено
+2023-04-01 22:13:12,635 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-01 22:13:14,676 - INFO - client - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Lol
+2023-04-01 22:13:14,715 - INFO - transport - Попытка подключения №1
+2023-04-01 22:13:14,716 - DEBUG - transport - Установлено соединение с сервером
+2023-04-01 22:13:14,716 - DEBUG - transport - Сформировано presence сообщение для пользователя Lol
+2023-04-01 22:13:14,717 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 53164), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1680376394.716948, 'user': {'account_name': 'Lol'}}), {}
+2023-04-01 22:13:15,236 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 53164), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:13:15,236 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-01 22:13:15,236 - INFO - transport - Соединение с сервером успешно установлено.
+2023-04-01 22:13:15,236 - DEBUG - transport - Запрос списка известных пользователей Lol
+2023-04-01 22:13:15,236 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 53164), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1680376395.2364724, 'account_name': 'Lol'}), {}
+2023-04-01 22:13:15,738 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 53164), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:13:15,749 - DEBUG - transport - Запрос контакт листа для пользователся Thread-1
+2023-04-01 22:13:15,749 - DEBUG - transport - Сформирован запрос {'action': 'get_contacts', 'time': 1680376395.7497418, 'user': 'Lol'}
+2023-04-01 22:13:15,749 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 53164), raddr=('127.0.0.1', 7777)>, {'action': 'get_contacts', 'time': 1680376395.7497418, 'user': 'Lol'}), {}
+2023-04-01 22:13:16,241 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 53164), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:13:16,242 - DEBUG - transport - Получен ответ {'response': 202, 'data_list': []}
+2023-04-01 22:13:16,242 - DEBUG - transport - Запущен процесс - приёмник собщений с сервера.
+2023-04-01 22:13:22,023 - DEBUG - transport - Создание контакта Gerald
+2023-04-01 22:13:22,250 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 53164), raddr=('127.0.0.1', 7777)>, {'action': 'add', 'time': 1680376402.0238805, 'user': 'Lol', 'account_name': 'Gerald'}), {}
+2023-04-01 22:13:22,768 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 53164), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:13:22,769 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-01 22:13:22,775 - INFO - main - Успешно добавлен контакт <PyQt6.QtGui.QStandardItem object at 0x7fa9c62f63b0>
+2023-04-01 22:13:33,298 - DEBUG - transport - Сформирован словарь сообщения: {'action': 'message', 'from': 'Lol', 'to': 'Gerald', 'time': 1680376413.2982144, 'mess_text': 'ku'}
+2023-04-01 22:13:33,298 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 53164), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'from': 'Lol', 'to': 'Gerald', 'time': 1680376413.2982144, 'mess_text': 'ku'}), {}
+2023-04-01 22:13:33,803 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36154), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:13:33,803 - DEBUG - transport - Принято сообщение с сервера: {'action': 'message', 'from': 'Lol', 'to': 'Gerald', 'time': 1680376413.2982144, 'mess_text': 'ku'}
+2023-04-01 22:13:33,803 - DEBUG - transport - Разбор сообщения от сервера: {'action': 'message', 'from': 'Lol', 'to': 'Gerald', 'time': 1680376413.2982144, 'mess_text': 'ku'}
+2023-04-01 22:13:33,803 - DEBUG - transport - Получено сообщение от пользователя Lol:ku
+2023-04-01 22:16:13,200 - DEBUG - transport - Потеряно соединение с сервером.
+2023-04-01 22:16:14,760 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 53164)>, {'action': 'exit', 'time': 1680376574.7605975, 'account_name': 'Lol'}), {}
+2023-04-01 22:16:14,761 - DEBUG - transport - Транспорт завершает работу.
+2023-04-01 22:16:20,081 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-01 22:16:23,357 - INFO - client - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Gerald
+2023-04-01 22:16:23,409 - INFO - transport - Попытка подключения №1
+2023-04-01 22:16:23,409 - DEBUG - transport - Установлено соединение с сервером
+2023-04-01 22:16:23,410 - DEBUG - transport - Сформировано presence сообщение для пользователя Gerald
+2023-04-01 22:16:23,410 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 48644), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1680376583.4099536, 'user': {'account_name': 'Gerald'}}), {}
+2023-04-01 22:16:23,426 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 48644), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:16:23,426 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-01 22:16:23,426 - INFO - transport - Соединение с сервером успешно установлено.
+2023-04-01 22:16:23,426 - DEBUG - transport - Запрос списка известных пользователей Gerald
+2023-04-01 22:16:23,426 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 48644), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1680376583.4264543, 'account_name': 'Gerald'}), {}
+2023-04-01 22:16:23,928 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 48644), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:16:23,939 - DEBUG - transport - Запрос контакт листа для пользователся Thread-1
+2023-04-01 22:16:23,939 - DEBUG - transport - Сформирован запрос {'action': 'get_contacts', 'time': 1680376583.9394808, 'user': 'Gerald'}
+2023-04-01 22:16:23,939 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 48644), raddr=('127.0.0.1', 7777)>, {'action': 'get_contacts', 'time': 1680376583.9394808, 'user': 'Gerald'}), {}
+2023-04-01 22:16:24,433 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 48644), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:16:24,433 - DEBUG - transport - Получен ответ {'response': 202, 'data_list': ['Lol']}
+2023-04-01 22:16:24,465 - DEBUG - transport - Запущен процесс - приёмник собщений с сервера.
+2023-04-01 22:16:37,095 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-01 22:16:39,081 - INFO - client - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Lol
+2023-04-01 22:16:39,120 - INFO - transport - Попытка подключения №1
+2023-04-01 22:16:39,120 - DEBUG - transport - Установлено соединение с сервером
+2023-04-01 22:16:39,121 - DEBUG - transport - Сформировано presence сообщение для пользователя Lol
+2023-04-01 22:16:39,121 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 37014), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1680376599.1210015, 'user': {'account_name': 'Lol'}}), {}
+2023-04-01 22:16:39,133 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 37014), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:16:39,133 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-01 22:16:39,133 - INFO - transport - Соединение с сервером успешно установлено.
+2023-04-01 22:16:39,133 - DEBUG - transport - Запрос списка известных пользователей Lol
+2023-04-01 22:16:39,134 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 37014), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1680376599.133933, 'account_name': 'Lol'}), {}
+2023-04-01 22:16:39,635 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 37014), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:16:39,655 - DEBUG - transport - Запрос контакт листа для пользователся Thread-1
+2023-04-01 22:16:39,655 - DEBUG - transport - Сформирован запрос {'action': 'get_contacts', 'time': 1680376599.6552882, 'user': 'Lol'}
+2023-04-01 22:16:39,655 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 37014), raddr=('127.0.0.1', 7777)>, {'action': 'get_contacts', 'time': 1680376599.6552882, 'user': 'Lol'}), {}
+2023-04-01 22:16:40,138 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 37014), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:16:40,139 - DEBUG - transport - Получен ответ {'response': 202, 'data_list': ['Gerald']}
+2023-04-01 22:16:40,171 - DEBUG - transport - Запущен процесс - приёмник собщений с сервера.
+2023-04-01 22:16:51,139 - DEBUG - transport - Сформирован словарь сообщения: {'action': 'message', 'from': 'Lol', 'to': 'Gerald', 'time': 1680376611.1394346, 'mess_text': 'Pashol naxui'}
+2023-04-01 22:16:51,139 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 37014), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'from': 'Lol', 'to': 'Gerald', 'time': 1680376611.1394346, 'mess_text': 'Pashol naxui'}), {}
+2023-04-01 22:16:51,165 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 48644), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:16:51,166 - DEBUG - transport - Принято сообщение с сервера: {'action': 'message', 'from': 'Lol', 'to': 'Gerald', 'time': 1680376611.1394346, 'mess_text': 'Pashol naxui'}
+2023-04-01 22:16:51,166 - DEBUG - transport - Разбор сообщения от сервера: {'action': 'message', 'from': 'Lol', 'to': 'Gerald', 'time': 1680376611.1394346, 'mess_text': 'Pashol naxui'}
+2023-04-01 22:16:51,166 - DEBUG - transport - Получено сообщение от пользователя Lol:Pashol naxui
+2023-04-01 22:17:36,835 - DEBUG - transport - Сформирован словарь сообщения: {'action': 'message', 'from': 'Gerald', 'to': 'Lol', 'time': 1680376656.8352897, 'mess_text': 'Sam poshel'}
+2023-04-01 22:17:36,835 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 48644), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'from': 'Gerald', 'to': 'Lol', 'time': 1680376656.8352897, 'mess_text': 'Sam poshel'}), {}
+2023-04-01 22:17:38,197 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 37014), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:17:38,197 - DEBUG - transport - Принято сообщение с сервера: {'action': 'message', 'from': 'Gerald', 'to': 'Lol', 'time': 1680376656.8352897, 'mess_text': 'Sam poshel'}
+2023-04-01 22:17:38,197 - DEBUG - transport - Разбор сообщения от сервера: {'action': 'message', 'from': 'Gerald', 'to': 'Lol', 'time': 1680376656.8352897, 'mess_text': 'Sam poshel'}
+2023-04-01 22:17:38,197 - DEBUG - transport - Получено сообщение от пользователя Gerald:Sam poshel
+2023-04-01 22:19:28,730 - DEBUG - transport - Создание контакта Kojy
+2023-04-01 22:19:28,731 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 37014), raddr=('127.0.0.1', 7777)>, {'action': 'add', 'time': 1680376768.7309, 'user': 'Lol', 'account_name': 'Kojy'}), {}
+2023-04-01 22:19:28,922 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 37014), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-01 22:19:28,922 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-01 22:19:28,926 - INFO - main - Успешно добавлен контакт <PyQt6.QtGui.QStandardItem object at 0x7f1145097640>
+2023-04-01 22:20:23,091 - DEBUG - transport - Потеряно соединение с сервером.
+2023-04-01 22:20:24,043 - DEBUG - transport - Потеряно соединение с сервером.
+2023-04-01 22:20:25,500 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 37014)>, {'action': 'exit', 'time': 1680376825.5007107, 'account_name': 'Lol'}), {}
+2023-04-01 22:20:25,501 - DEBUG - transport - Транспорт завершает работу.
+2023-04-01 22:20:26,840 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=21, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 48644)>, {'action': 'exit', 'time': 1680376826.840449, 'account_name': 'Gerald'}), {}
+2023-04-01 22:20:26,840 - DEBUG - transport - Транспорт завершает работу.
+2023-04-05 20:32:36,508 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-05 20:33:34,131 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-05 20:45:31,671 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-05 20:46:55,125 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-05 20:52:42,272 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-05 20:52:59,655 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-05 20:53:14,673 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-05 20:53:29,574 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-05 20:53:39,941 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-05 20:53:51,533 - DEBUG - client - Using USERNAME = Lol, PASSWD = qwerty.
+2023-04-05 20:53:51,534 - INFO - client - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Lol
+2023-04-05 20:53:51,947 - DEBUG - client - Keys successfully loaded.
+2023-04-05 20:53:51,973 - INFO - transport - Попытка подключения №1
+2023-04-05 20:53:51,974 - DEBUG - transport - Connection established.
+2023-04-05 20:53:51,974 - DEBUG - transport - Starting auth dialog.
+2023-04-05 20:53:51,982 - DEBUG - transport - Passwd hash ready: b'97737a85edaac55997da586982694a7bdf17935d1dc9a2e528f26756a33f14c07ffdf4ed6d51f53d3400b4193873d6527d9f9964745cdf70f9209c0cec3b0d01'
+2023-04-05 20:53:51,982 - DEBUG - transport - Presense message = {'action': 'presence', 'time': 1680717231.9824636, 'user': {'account_name': 'Lol', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuMSAhJIgY4MCi6SWKr41\nLeZ5orkTLhQNbC+fhqOMwCwbeDSi8xZEKQdfVgPnrlPdsxdOMbOFGmt6i/xKHzjn\ndNcZ/0KdcOa1+LBaXmGVkixHlGzN9lvfTYqjavJjNy9F9LAmSPWlU9b4SNMEhmOU\n/Q4FnRyXRMtnKtYopW0X57OHiYQdbVaZfzhYNIFW+gTee+kCBnFl8UKs7Q/t/cj6\nbOYqaSVrvdUmvYsWAlBhXUrTc+HEUATw5SkJI02Y9rja+Ks0+NgU6cTeSIosGZuK\nYDaLIVcrZDdD2/7M8CotQ6gwFamoZkQf9QHUgeCi5M6eg6BIAUM2u1cUCAyvFzjd\nbwIDAQAB\n-----END PUBLIC KEY-----'}}
+2023-04-05 20:53:51,982 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 53788), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1680717231.9824636, 'user': {'account_name': 'Lol', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuMSAhJIgY4MCi6SWKr41\nLeZ5orkTLhQNbC+fhqOMwCwbeDSi8xZEKQdfVgPnrlPdsxdOMbOFGmt6i/xKHzjn\ndNcZ/0KdcOa1+LBaXmGVkixHlGzN9lvfTYqjavJjNy9F9LAmSPWlU9b4SNMEhmOU\n/Q4FnRyXRMtnKtYopW0X57OHiYQdbVaZfzhYNIFW+gTee+kCBnFl8UKs7Q/t/cj6\nbOYqaSVrvdUmvYsWAlBhXUrTc+HEUATw5SkJI02Y9rja+Ks0+NgU6cTeSIosGZuK\nYDaLIVcrZDdD2/7M8CotQ6gwFamoZkQf9QHUgeCi5M6eg6BIAUM2u1cUCAyvFzjd\nbwIDAQAB\n-----END PUBLIC KEY-----'}}), {}
+2023-04-05 20:53:56,986 - DEBUG - transport - Connection error.
+Traceback (most recent call last):
+  File "/home/sergey/Документы/GB/GB_Async/clients/transport.py", line 119, in connection_init
+    ans = get_message(self.transport)
+  File "/home/sergey/Документы/GB/GB_Async/corelib/common/decos.py", line 14, in wrapper
+    r = func_to_log(*args, **kwargs)
+  File "/home/sergey/Документы/GB/GB_Async/corelib/common/utils.py", line 15, in get_message
+    encoded_response = client.recv(MAX_PACKAGE_LENGTH)
+TimeoutError: timed out
+2023-04-05 20:54:17,139 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-05 20:54:23,915 - DEBUG - client - Using USERNAME = Lol, PASSWD = qwerty.
+2023-04-05 20:54:23,915 - INFO - client - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Lol
+2023-04-05 20:54:23,959 - DEBUG - client - Keys successfully loaded.
+2023-04-05 20:54:24,008 - INFO - transport - Попытка подключения №1
+2023-04-05 20:54:24,009 - DEBUG - transport - Connection established.
+2023-04-05 20:54:24,009 - DEBUG - transport - Starting auth dialog.
+2023-04-05 20:54:24,018 - DEBUG - transport - Passwd hash ready: b'97737a85edaac55997da586982694a7bdf17935d1dc9a2e528f26756a33f14c07ffdf4ed6d51f53d3400b4193873d6527d9f9964745cdf70f9209c0cec3b0d01'
+2023-04-05 20:54:24,019 - DEBUG - transport - Presense message = {'action': 'presence', 'time': 1680717264.0193357, 'user': {'account_name': 'Lol', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuMSAhJIgY4MCi6SWKr41\nLeZ5orkTLhQNbC+fhqOMwCwbeDSi8xZEKQdfVgPnrlPdsxdOMbOFGmt6i/xKHzjn\ndNcZ/0KdcOa1+LBaXmGVkixHlGzN9lvfTYqjavJjNy9F9LAmSPWlU9b4SNMEhmOU\n/Q4FnRyXRMtnKtYopW0X57OHiYQdbVaZfzhYNIFW+gTee+kCBnFl8UKs7Q/t/cj6\nbOYqaSVrvdUmvYsWAlBhXUrTc+HEUATw5SkJI02Y9rja+Ks0+NgU6cTeSIosGZuK\nYDaLIVcrZDdD2/7M8CotQ6gwFamoZkQf9QHUgeCi5M6eg6BIAUM2u1cUCAyvFzjd\nbwIDAQAB\n-----END PUBLIC KEY-----'}}
+2023-04-05 20:54:24,019 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51374), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1680717264.0193357, 'user': {'account_name': 'Lol', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuMSAhJIgY4MCi6SWKr41\nLeZ5orkTLhQNbC+fhqOMwCwbeDSi8xZEKQdfVgPnrlPdsxdOMbOFGmt6i/xKHzjn\ndNcZ/0KdcOa1+LBaXmGVkixHlGzN9lvfTYqjavJjNy9F9LAmSPWlU9b4SNMEhmOU\n/Q4FnRyXRMtnKtYopW0X57OHiYQdbVaZfzhYNIFW+gTee+kCBnFl8UKs7Q/t/cj6\nbOYqaSVrvdUmvYsWAlBhXUrTc+HEUATw5SkJI02Y9rja+Ks0+NgU6cTeSIosGZuK\nYDaLIVcrZDdD2/7M8CotQ6gwFamoZkQf9QHUgeCi5M6eg6BIAUM2u1cUCAyvFzjd\nbwIDAQAB\n-----END PUBLIC KEY-----'}}), {}
+2023-04-05 20:54:29,022 - DEBUG - transport - Connection error.
+Traceback (most recent call last):
+  File "/home/sergey/Документы/GB/GB_Async/clients/transport.py", line 119, in connection_init
+    ans = get_message(self.transport)
+  File "/home/sergey/Документы/GB/GB_Async/corelib/common/decos.py", line 14, in wrapper
+    r = func_to_log(*args, **kwargs)
+  File "/home/sergey/Документы/GB/GB_Async/corelib/common/utils.py", line 15, in get_message
+    encoded_response = client.recv(MAX_PACKAGE_LENGTH)
+TimeoutError: timed out
+2023-04-05 20:54:47,815 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-05 20:54:53,689 - DEBUG - client - Using USERNAME = Lol, PASSWD = qwerty.
+2023-04-05 20:54:53,689 - INFO - client - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Lol
+2023-04-05 20:54:53,731 - DEBUG - client - Keys successfully loaded.
+2023-04-05 20:54:53,761 - INFO - transport - Попытка подключения №1
+2023-04-05 20:54:53,761 - DEBUG - transport - Connection established.
+2023-04-05 20:54:53,761 - DEBUG - transport - Starting auth dialog.
+2023-04-05 20:54:53,769 - DEBUG - transport - Passwd hash ready: b'97737a85edaac55997da586982694a7bdf17935d1dc9a2e528f26756a33f14c07ffdf4ed6d51f53d3400b4193873d6527d9f9964745cdf70f9209c0cec3b0d01'
+2023-04-05 20:54:53,770 - DEBUG - transport - Presense message = {'action': 'presence', 'time': 1680717293.770281, 'user': {'account_name': 'Lol', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuMSAhJIgY4MCi6SWKr41\nLeZ5orkTLhQNbC+fhqOMwCwbeDSi8xZEKQdfVgPnrlPdsxdOMbOFGmt6i/xKHzjn\ndNcZ/0KdcOa1+LBaXmGVkixHlGzN9lvfTYqjavJjNy9F9LAmSPWlU9b4SNMEhmOU\n/Q4FnRyXRMtnKtYopW0X57OHiYQdbVaZfzhYNIFW+gTee+kCBnFl8UKs7Q/t/cj6\nbOYqaSVrvdUmvYsWAlBhXUrTc+HEUATw5SkJI02Y9rja+Ks0+NgU6cTeSIosGZuK\nYDaLIVcrZDdD2/7M8CotQ6gwFamoZkQf9QHUgeCi5M6eg6BIAUM2u1cUCAyvFzjd\nbwIDAQAB\n-----END PUBLIC KEY-----'}}
+2023-04-05 20:54:53,770 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36308), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1680717293.770281, 'user': {'account_name': 'Lol', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuMSAhJIgY4MCi6SWKr41\nLeZ5orkTLhQNbC+fhqOMwCwbeDSi8xZEKQdfVgPnrlPdsxdOMbOFGmt6i/xKHzjn\ndNcZ/0KdcOa1+LBaXmGVkixHlGzN9lvfTYqjavJjNy9F9LAmSPWlU9b4SNMEhmOU\n/Q4FnRyXRMtnKtYopW0X57OHiYQdbVaZfzhYNIFW+gTee+kCBnFl8UKs7Q/t/cj6\nbOYqaSVrvdUmvYsWAlBhXUrTc+HEUATw5SkJI02Y9rja+Ks0+NgU6cTeSIosGZuK\nYDaLIVcrZDdD2/7M8CotQ6gwFamoZkQf9QHUgeCi5M6eg6BIAUM2u1cUCAyvFzjd\nbwIDAQAB\n-----END PUBLIC KEY-----'}}), {}
+2023-04-05 20:54:54,266 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36308), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-05 20:54:54,266 - DEBUG - transport - Server response = {'response': 400, 'error': 'Пользователь не зарегистрирован.'}.
+2023-04-05 21:04:47,543 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-05 21:04:54,007 - DEBUG - client - Using USERNAME = Lol, PASSWD = qwerty.
+2023-04-05 21:04:54,007 - INFO - client - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Lol
+2023-04-05 21:04:54,046 - DEBUG - client - Keys successfully loaded.
+2023-04-05 21:04:54,087 - INFO - transport - Попытка подключения №1
+2023-04-05 21:04:54,087 - DEBUG - transport - Connection established.
+2023-04-05 21:04:54,087 - DEBUG - transport - Starting auth dialog.
+2023-04-05 21:04:54,095 - DEBUG - transport - Passwd hash ready: b'97737a85edaac55997da586982694a7bdf17935d1dc9a2e528f26756a33f14c07ffdf4ed6d51f53d3400b4193873d6527d9f9964745cdf70f9209c0cec3b0d01'
+2023-04-05 21:04:54,096 - DEBUG - transport - Presense message = {'action': 'presence', 'time': 1680717894.0961516, 'user': {'account_name': 'Lol', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuMSAhJIgY4MCi6SWKr41\nLeZ5orkTLhQNbC+fhqOMwCwbeDSi8xZEKQdfVgPnrlPdsxdOMbOFGmt6i/xKHzjn\ndNcZ/0KdcOa1+LBaXmGVkixHlGzN9lvfTYqjavJjNy9F9LAmSPWlU9b4SNMEhmOU\n/Q4FnRyXRMtnKtYopW0X57OHiYQdbVaZfzhYNIFW+gTee+kCBnFl8UKs7Q/t/cj6\nbOYqaSVrvdUmvYsWAlBhXUrTc+HEUATw5SkJI02Y9rja+Ks0+NgU6cTeSIosGZuK\nYDaLIVcrZDdD2/7M8CotQ6gwFamoZkQf9QHUgeCi5M6eg6BIAUM2u1cUCAyvFzjd\nbwIDAQAB\n-----END PUBLIC KEY-----'}}
+2023-04-05 21:04:54,096 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40546), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1680717894.0961516, 'user': {'account_name': 'Lol', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuMSAhJIgY4MCi6SWKr41\nLeZ5orkTLhQNbC+fhqOMwCwbeDSi8xZEKQdfVgPnrlPdsxdOMbOFGmt6i/xKHzjn\ndNcZ/0KdcOa1+LBaXmGVkixHlGzN9lvfTYqjavJjNy9F9LAmSPWlU9b4SNMEhmOU\n/Q4FnRyXRMtnKtYopW0X57OHiYQdbVaZfzhYNIFW+gTee+kCBnFl8UKs7Q/t/cj6\nbOYqaSVrvdUmvYsWAlBhXUrTc+HEUATw5SkJI02Y9rja+Ks0+NgU6cTeSIosGZuK\nYDaLIVcrZDdD2/7M8CotQ6gwFamoZkQf9QHUgeCi5M6eg6BIAUM2u1cUCAyvFzjd\nbwIDAQAB\n-----END PUBLIC KEY-----'}}), {}
+2023-04-05 21:04:54,592 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40546), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-05 21:04:54,592 - DEBUG - transport - Server response = {'response': 511, 'bin': '1def3ae338b68b65f13089106077ccce5493535c433dba8b22e97acdcf04c75095f7a25a1d9db2d02668064ace7f58299d6b83615c14ea8ee56f339c3c1c7416'}.
+2023-04-05 21:04:54,592 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40546), raddr=('127.0.0.1', 7777)>, {'response': 511, 'bin': '0+iGQWTu3gbg5bSXlyTTVg==\n'}), {}
+2023-04-05 21:04:54,592 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40546), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-05 21:04:54,592 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-05 21:04:54,592 - DEBUG - transport - Запрос списка известных пользователей Lol
+2023-04-05 21:04:54,593 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40546), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1680717894.5929713, 'account_name': 'Lol'}), {}
+2023-04-05 21:04:55,101 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40546), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-05 21:05:07,802 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-05 21:05:17,410 - DEBUG - client - Using USERNAME = Lol, PASSWD = qwerty.
+2023-04-05 21:05:17,411 - INFO - client - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Lol
+2023-04-05 21:05:17,449 - DEBUG - client - Keys successfully loaded.
+2023-04-05 21:05:17,472 - INFO - transport - Попытка подключения №1
+2023-04-05 21:05:17,472 - DEBUG - transport - Connection established.
+2023-04-05 21:05:17,472 - DEBUG - transport - Starting auth dialog.
+2023-04-05 21:05:17,480 - DEBUG - transport - Passwd hash ready: b'97737a85edaac55997da586982694a7bdf17935d1dc9a2e528f26756a33f14c07ffdf4ed6d51f53d3400b4193873d6527d9f9964745cdf70f9209c0cec3b0d01'
+2023-04-05 21:05:17,480 - DEBUG - transport - Presense message = {'action': 'presence', 'time': 1680717917.48071, 'user': {'account_name': 'Lol', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuMSAhJIgY4MCi6SWKr41\nLeZ5orkTLhQNbC+fhqOMwCwbeDSi8xZEKQdfVgPnrlPdsxdOMbOFGmt6i/xKHzjn\ndNcZ/0KdcOa1+LBaXmGVkixHlGzN9lvfTYqjavJjNy9F9LAmSPWlU9b4SNMEhmOU\n/Q4FnRyXRMtnKtYopW0X57OHiYQdbVaZfzhYNIFW+gTee+kCBnFl8UKs7Q/t/cj6\nbOYqaSVrvdUmvYsWAlBhXUrTc+HEUATw5SkJI02Y9rja+Ks0+NgU6cTeSIosGZuK\nYDaLIVcrZDdD2/7M8CotQ6gwFamoZkQf9QHUgeCi5M6eg6BIAUM2u1cUCAyvFzjd\nbwIDAQAB\n-----END PUBLIC KEY-----'}}
+2023-04-05 21:05:17,480 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41026), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1680717917.48071, 'user': {'account_name': 'Lol', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuMSAhJIgY4MCi6SWKr41\nLeZ5orkTLhQNbC+fhqOMwCwbeDSi8xZEKQdfVgPnrlPdsxdOMbOFGmt6i/xKHzjn\ndNcZ/0KdcOa1+LBaXmGVkixHlGzN9lvfTYqjavJjNy9F9LAmSPWlU9b4SNMEhmOU\n/Q4FnRyXRMtnKtYopW0X57OHiYQdbVaZfzhYNIFW+gTee+kCBnFl8UKs7Q/t/cj6\nbOYqaSVrvdUmvYsWAlBhXUrTc+HEUATw5SkJI02Y9rja+Ks0+NgU6cTeSIosGZuK\nYDaLIVcrZDdD2/7M8CotQ6gwFamoZkQf9QHUgeCi5M6eg6BIAUM2u1cUCAyvFzjd\nbwIDAQAB\n-----END PUBLIC KEY-----'}}), {}
+2023-04-05 21:05:17,975 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41026), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-05 21:05:17,975 - DEBUG - transport - Server response = {'response': 511, 'bin': '69d89ef587e4739c00a1a0e23c0e2d587190c8e0e2de4ccf409c6dd47ccbec2c9587ae533073151a7513144ac205c2ac23cfa7f1d06ff23aee37e412ffb2b764'}.
+2023-04-05 21:05:17,975 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41026), raddr=('127.0.0.1', 7777)>, {'response': 511, 'bin': 'AUlId6gYdMApEtZOVO7SLQ==\n'}), {}
+2023-04-05 21:05:17,975 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41026), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-05 21:05:17,976 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-05 21:05:17,976 - DEBUG - transport - Запрос списка известных пользователей Lol
+2023-04-05 21:05:17,976 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41026), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1680717917.976084, 'account_name': 'Lol'}), {}
+2023-04-05 21:05:18,485 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41026), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-05 21:06:38,347 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-05 21:06:43,954 - DEBUG - client - Using USERNAME = Lol, PASSWD = qwerty.
+2023-04-05 21:06:43,954 - INFO - client - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Lol
+2023-04-05 21:06:43,991 - DEBUG - client - Keys successfully loaded.
+2023-04-05 21:06:44,027 - INFO - transport - Попытка подключения №1
+2023-04-05 21:06:44,027 - DEBUG - transport - Connection established.
+2023-04-05 21:06:44,027 - DEBUG - transport - Starting auth dialog.
+2023-04-05 21:06:44,036 - DEBUG - transport - Passwd hash ready: b'97737a85edaac55997da586982694a7bdf17935d1dc9a2e528f26756a33f14c07ffdf4ed6d51f53d3400b4193873d6527d9f9964745cdf70f9209c0cec3b0d01'
+2023-04-05 21:06:44,037 - DEBUG - transport - Presense message = {'action': 'presence', 'time': 1680718004.0373147, 'user': {'account_name': 'Lol', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuMSAhJIgY4MCi6SWKr41\nLeZ5orkTLhQNbC+fhqOMwCwbeDSi8xZEKQdfVgPnrlPdsxdOMbOFGmt6i/xKHzjn\ndNcZ/0KdcOa1+LBaXmGVkixHlGzN9lvfTYqjavJjNy9F9LAmSPWlU9b4SNMEhmOU\n/Q4FnRyXRMtnKtYopW0X57OHiYQdbVaZfzhYNIFW+gTee+kCBnFl8UKs7Q/t/cj6\nbOYqaSVrvdUmvYsWAlBhXUrTc+HEUATw5SkJI02Y9rja+Ks0+NgU6cTeSIosGZuK\nYDaLIVcrZDdD2/7M8CotQ6gwFamoZkQf9QHUgeCi5M6eg6BIAUM2u1cUCAyvFzjd\nbwIDAQAB\n-----END PUBLIC KEY-----'}}
+2023-04-05 21:06:44,037 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36934), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1680718004.0373147, 'user': {'account_name': 'Lol', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuMSAhJIgY4MCi6SWKr41\nLeZ5orkTLhQNbC+fhqOMwCwbeDSi8xZEKQdfVgPnrlPdsxdOMbOFGmt6i/xKHzjn\ndNcZ/0KdcOa1+LBaXmGVkixHlGzN9lvfTYqjavJjNy9F9LAmSPWlU9b4SNMEhmOU\n/Q4FnRyXRMtnKtYopW0X57OHiYQdbVaZfzhYNIFW+gTee+kCBnFl8UKs7Q/t/cj6\nbOYqaSVrvdUmvYsWAlBhXUrTc+HEUATw5SkJI02Y9rja+Ks0+NgU6cTeSIosGZuK\nYDaLIVcrZDdD2/7M8CotQ6gwFamoZkQf9QHUgeCi5M6eg6BIAUM2u1cUCAyvFzjd\nbwIDAQAB\n-----END PUBLIC KEY-----'}}), {}
+2023-04-05 21:06:44,532 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36934), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-05 21:06:44,532 - DEBUG - transport - Server response = {'response': 511, 'bin': '8e369384726c132a250f9ef58b711d055b495cb4baff9ca39fc7fe6b9e384c45cf80155de96b19957058f8f31db9f573f4f51a561f8b34f86ab899200f53d425'}.
+2023-04-05 21:06:44,532 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36934), raddr=('127.0.0.1', 7777)>, {'response': 511, 'bin': 'qkZPiSWQyxQnIpcD1qiOEw==\n'}), {}
+2023-04-05 21:06:44,532 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36934), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-05 21:06:44,532 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-05 21:06:44,532 - DEBUG - transport - Запрос списка известных пользователей Lol
+2023-04-05 21:06:44,532 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36934), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1680718004.5327582, 'account_name': 'Lol'}), {}
+2023-04-05 21:06:45,043 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36934), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-05 21:06:45,062 - DEBUG - transport - Запрос контакт листа для пользователся Thread-1
+2023-04-05 21:06:45,062 - DEBUG - transport - Сформирован запрос {'action': 'get_contacts', 'time': 1680718005.0623314, 'user': 'Lol'}
+2023-04-05 21:06:45,062 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36934), raddr=('127.0.0.1', 7777)>, {'action': 'get_contacts', 'time': 1680718005.0623314, 'user': 'Lol'}), {}
+2023-04-05 21:06:45,547 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36934), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-05 21:06:45,547 - DEBUG - transport - Получен ответ {'response': 202, 'data_list': []}
+2023-04-05 21:06:45,547 - DEBUG - transport - Запущен процесс - приёмник собщений с сервера.
+2023-04-05 21:07:40,295 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-05 21:07:47,322 - DEBUG - client - Using USERNAME = Lol, PASSWD = qwerty.
+2023-04-05 21:07:47,322 - INFO - client - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Lol
+2023-04-05 21:07:47,360 - DEBUG - client - Keys successfully loaded.
+2023-04-05 21:07:47,396 - INFO - transport - Попытка подключения №1
+2023-04-05 21:07:47,396 - DEBUG - transport - Connection established.
+2023-04-05 21:07:47,396 - DEBUG - transport - Starting auth dialog.
+2023-04-05 21:07:47,405 - DEBUG - transport - Passwd hash ready: b'97737a85edaac55997da586982694a7bdf17935d1dc9a2e528f26756a33f14c07ffdf4ed6d51f53d3400b4193873d6527d9f9964745cdf70f9209c0cec3b0d01'
+2023-04-05 21:07:47,405 - DEBUG - transport - Presense message = {'action': 'presence', 'time': 1680718067.4056401, 'user': {'account_name': 'Lol', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuMSAhJIgY4MCi6SWKr41\nLeZ5orkTLhQNbC+fhqOMwCwbeDSi8xZEKQdfVgPnrlPdsxdOMbOFGmt6i/xKHzjn\ndNcZ/0KdcOa1+LBaXmGVkixHlGzN9lvfTYqjavJjNy9F9LAmSPWlU9b4SNMEhmOU\n/Q4FnRyXRMtnKtYopW0X57OHiYQdbVaZfzhYNIFW+gTee+kCBnFl8UKs7Q/t/cj6\nbOYqaSVrvdUmvYsWAlBhXUrTc+HEUATw5SkJI02Y9rja+Ks0+NgU6cTeSIosGZuK\nYDaLIVcrZDdD2/7M8CotQ6gwFamoZkQf9QHUgeCi5M6eg6BIAUM2u1cUCAyvFzjd\nbwIDAQAB\n-----END PUBLIC KEY-----'}}
+2023-04-05 21:07:47,406 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 46138), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1680718067.4056401, 'user': {'account_name': 'Lol', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuMSAhJIgY4MCi6SWKr41\nLeZ5orkTLhQNbC+fhqOMwCwbeDSi8xZEKQdfVgPnrlPdsxdOMbOFGmt6i/xKHzjn\ndNcZ/0KdcOa1+LBaXmGVkixHlGzN9lvfTYqjavJjNy9F9LAmSPWlU9b4SNMEhmOU\n/Q4FnRyXRMtnKtYopW0X57OHiYQdbVaZfzhYNIFW+gTee+kCBnFl8UKs7Q/t/cj6\nbOYqaSVrvdUmvYsWAlBhXUrTc+HEUATw5SkJI02Y9rja+Ks0+NgU6cTeSIosGZuK\nYDaLIVcrZDdD2/7M8CotQ6gwFamoZkQf9QHUgeCi5M6eg6BIAUM2u1cUCAyvFzjd\nbwIDAQAB\n-----END PUBLIC KEY-----'}}), {}
+2023-04-05 21:07:47,899 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 46138), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-05 21:07:47,899 - DEBUG - transport - Server response = {'response': 511, 'bin': 'bca80f9e7cdc7fceb7707b92aeb6565a4814bdaaf3941696b82675099e9ac767a07d9237c2091a38fcc1980ee6cbfe1d3fc9d07624e49441dc22108869f75d2a'}.
+2023-04-05 21:07:47,899 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 46138), raddr=('127.0.0.1', 7777)>, {'response': 511, 'bin': 'a/E5qO9QpVqg0UlKVfZ9Hw==\n'}), {}
+2023-04-05 21:07:47,900 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 46138), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-05 21:07:47,900 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-05 21:07:47,900 - DEBUG - transport - Запрос списка известных пользователей Lol
+2023-04-05 21:07:47,900 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 46138), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1680718067.9001389, 'account_name': 'Lol'}), {}
+2023-04-05 21:07:48,411 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 46138), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-05 21:07:48,428 - DEBUG - transport - Запрос контакт листа для пользователся Thread-1
+2023-04-05 21:07:48,428 - DEBUG - transport - Сформирован запрос {'action': 'get_contacts', 'time': 1680718068.428507, 'user': 'Lol'}
+2023-04-05 21:07:48,428 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 46138), raddr=('127.0.0.1', 7777)>, {'action': 'get_contacts', 'time': 1680718068.428507, 'user': 'Lol'}), {}
+2023-04-05 21:07:48,913 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 46138), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-05 21:07:48,913 - DEBUG - transport - Получен ответ {'response': 202, 'data_list': []}
+2023-04-05 21:07:48,914 - DEBUG - transport - Запущен процесс - приёмник собщений с сервера.
+2023-04-05 21:09:01,681 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-05 21:09:07,292 - DEBUG - client - Using USERNAME = Lol, PASSWD = qwerty.
+2023-04-05 21:09:07,292 - INFO - client - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Lol
+2023-04-05 21:09:07,329 - DEBUG - client - Keys successfully loaded.
+2023-04-05 21:09:07,357 - INFO - transport - Попытка подключения №1
+2023-04-05 21:09:07,357 - DEBUG - transport - Connection established.
+2023-04-05 21:09:07,357 - DEBUG - transport - Starting auth dialog.
+2023-04-05 21:09:07,365 - DEBUG - transport - Passwd hash ready: b'97737a85edaac55997da586982694a7bdf17935d1dc9a2e528f26756a33f14c07ffdf4ed6d51f53d3400b4193873d6527d9f9964745cdf70f9209c0cec3b0d01'
+2023-04-05 21:09:07,365 - DEBUG - transport - Presense message = {'action': 'presence', 'time': 1680718147.3657057, 'user': {'account_name': 'Lol', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuMSAhJIgY4MCi6SWKr41\nLeZ5orkTLhQNbC+fhqOMwCwbeDSi8xZEKQdfVgPnrlPdsxdOMbOFGmt6i/xKHzjn\ndNcZ/0KdcOa1+LBaXmGVkixHlGzN9lvfTYqjavJjNy9F9LAmSPWlU9b4SNMEhmOU\n/Q4FnRyXRMtnKtYopW0X57OHiYQdbVaZfzhYNIFW+gTee+kCBnFl8UKs7Q/t/cj6\nbOYqaSVrvdUmvYsWAlBhXUrTc+HEUATw5SkJI02Y9rja+Ks0+NgU6cTeSIosGZuK\nYDaLIVcrZDdD2/7M8CotQ6gwFamoZkQf9QHUgeCi5M6eg6BIAUM2u1cUCAyvFzjd\nbwIDAQAB\n-----END PUBLIC KEY-----'}}
+2023-04-05 21:09:07,365 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 33352), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1680718147.3657057, 'user': {'account_name': 'Lol', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuMSAhJIgY4MCi6SWKr41\nLeZ5orkTLhQNbC+fhqOMwCwbeDSi8xZEKQdfVgPnrlPdsxdOMbOFGmt6i/xKHzjn\ndNcZ/0KdcOa1+LBaXmGVkixHlGzN9lvfTYqjavJjNy9F9LAmSPWlU9b4SNMEhmOU\n/Q4FnRyXRMtnKtYopW0X57OHiYQdbVaZfzhYNIFW+gTee+kCBnFl8UKs7Q/t/cj6\nbOYqaSVrvdUmvYsWAlBhXUrTc+HEUATw5SkJI02Y9rja+Ks0+NgU6cTeSIosGZuK\nYDaLIVcrZDdD2/7M8CotQ6gwFamoZkQf9QHUgeCi5M6eg6BIAUM2u1cUCAyvFzjd\nbwIDAQAB\n-----END PUBLIC KEY-----'}}), {}
+2023-04-05 21:09:07,860 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 33352), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-05 21:09:07,861 - DEBUG - transport - Server response = {'response': 511, 'bin': 'a9926efa51df2c1a0fe86859c001202aca2c727a7947b1b103d4ef9a4a5e1f1af798b06e8eb2316c6a1dce5bf61ad7cf9ced45ef12ffd6a252ea94e609c68904'}.
+2023-04-05 21:09:07,861 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 33352), raddr=('127.0.0.1', 7777)>, {'response': 511, 'bin': 'hCnx0eUxKhiOqYBGePKv2A==\n'}), {}
+2023-04-05 21:09:07,861 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 33352), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-05 21:09:07,861 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-05 21:09:07,861 - DEBUG - transport - Запрос списка известных пользователей Lol
+2023-04-05 21:09:07,861 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 33352), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1680718147.8616264, 'account_name': 'Lol'}), {}
+2023-04-05 21:09:08,371 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 33352), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-05 21:09:08,380 - DEBUG - transport - Запрос контакт листа для пользователся Thread-1
+2023-04-05 21:09:08,380 - DEBUG - transport - Сформирован запрос {'action': 'get_contacts', 'time': 1680718148.3808842, 'user': 'Lol'}
+2023-04-05 21:09:08,381 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 33352), raddr=('127.0.0.1', 7777)>, {'action': 'get_contacts', 'time': 1680718148.3808842, 'user': 'Lol'}), {}
+2023-04-05 21:09:08,874 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 33352), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-05 21:09:08,874 - DEBUG - transport - Получен ответ {'response': 202, 'data_list': []}
+2023-04-05 21:09:08,874 - DEBUG - transport - Запущен процесс - приёмник собщений с сервера.
+2023-04-05 21:09:58,644 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-05 21:10:05,195 - DEBUG - client - Using USERNAME = Lol, PASSWD = qwerty.
+2023-04-05 21:10:05,195 - INFO - client - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Lol
+2023-04-05 21:10:05,231 - DEBUG - client - Keys successfully loaded.
+2023-04-05 21:10:05,274 - INFO - transport - Попытка подключения №1
+2023-04-05 21:10:05,274 - DEBUG - transport - Connection established.
+2023-04-05 21:10:05,274 - DEBUG - transport - Starting auth dialog.
+2023-04-05 21:10:05,282 - DEBUG - transport - Passwd hash ready: b'97737a85edaac55997da586982694a7bdf17935d1dc9a2e528f26756a33f14c07ffdf4ed6d51f53d3400b4193873d6527d9f9964745cdf70f9209c0cec3b0d01'
+2023-04-05 21:10:05,282 - DEBUG - transport - Presense message = {'action': 'presence', 'time': 1680718205.2829373, 'user': {'account_name': 'Lol', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuMSAhJIgY4MCi6SWKr41\nLeZ5orkTLhQNbC+fhqOMwCwbeDSi8xZEKQdfVgPnrlPdsxdOMbOFGmt6i/xKHzjn\ndNcZ/0KdcOa1+LBaXmGVkixHlGzN9lvfTYqjavJjNy9F9LAmSPWlU9b4SNMEhmOU\n/Q4FnRyXRMtnKtYopW0X57OHiYQdbVaZfzhYNIFW+gTee+kCBnFl8UKs7Q/t/cj6\nbOYqaSVrvdUmvYsWAlBhXUrTc+HEUATw5SkJI02Y9rja+Ks0+NgU6cTeSIosGZuK\nYDaLIVcrZDdD2/7M8CotQ6gwFamoZkQf9QHUgeCi5M6eg6BIAUM2u1cUCAyvFzjd\nbwIDAQAB\n-----END PUBLIC KEY-----'}}
+2023-04-05 21:10:05,283 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 53146), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1680718205.2829373, 'user': {'account_name': 'Lol', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuMSAhJIgY4MCi6SWKr41\nLeZ5orkTLhQNbC+fhqOMwCwbeDSi8xZEKQdfVgPnrlPdsxdOMbOFGmt6i/xKHzjn\ndNcZ/0KdcOa1+LBaXmGVkixHlGzN9lvfTYqjavJjNy9F9LAmSPWlU9b4SNMEhmOU\n/Q4FnRyXRMtnKtYopW0X57OHiYQdbVaZfzhYNIFW+gTee+kCBnFl8UKs7Q/t/cj6\nbOYqaSVrvdUmvYsWAlBhXUrTc+HEUATw5SkJI02Y9rja+Ks0+NgU6cTeSIosGZuK\nYDaLIVcrZDdD2/7M8CotQ6gwFamoZkQf9QHUgeCi5M6eg6BIAUM2u1cUCAyvFzjd\nbwIDAQAB\n-----END PUBLIC KEY-----'}}), {}
+2023-04-05 21:10:05,777 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 53146), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-05 21:10:05,777 - DEBUG - transport - Server response = {'response': 511, 'bin': '5d111727a61d7e7923fbe39da3cc6d1d62dba4615e934889b9b4777dc214c4a0545649345630d08338bdf284fc3417983df94e90c4d4aec61384daf733faf717'}.
+2023-04-05 21:10:05,778 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 53146), raddr=('127.0.0.1', 7777)>, {'response': 511, 'bin': 'SjOIkzmhdBSoiAEc2FGB4A==\n'}), {}
+2023-04-05 21:10:05,778 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 53146), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-05 21:10:05,778 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-05 21:10:05,778 - DEBUG - transport - Запрос списка известных пользователей Lol
+2023-04-05 21:10:05,778 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 53146), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1680718205.7786746, 'account_name': 'Lol'}), {}
+2023-04-05 21:10:06,288 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 53146), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-05 21:10:06,306 - DEBUG - transport - Запрос контакт листа для пользователся Thread-1
+2023-04-05 21:10:06,306 - DEBUG - transport - Сформирован запрос {'action': 'get_contacts', 'time': 1680718206.3063412, 'user': 'Lol'}
+2023-04-05 21:10:06,306 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 53146), raddr=('127.0.0.1', 7777)>, {'action': 'get_contacts', 'time': 1680718206.3063412, 'user': 'Lol'}), {}
+2023-04-05 21:10:06,790 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 53146), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-05 21:10:06,791 - DEBUG - transport - Получен ответ {'response': 202, 'data_list': []}
+2023-04-05 21:10:06,791 - DEBUG - transport - Запущен процесс - приёмник собщений с сервера.
+2023-04-05 21:10:23,315 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 53146), raddr=('127.0.0.1', 7777)>, {'action': 'exit', 'time': 1680718222.8736064, 'account_name': 'Lol'}), {}
+2023-04-05 21:10:23,315 - DEBUG - transport - Транспорт завершает работу.
+2023-04-10 16:12:13,387 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-10 16:12:30,811 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-10 16:20:58,983 - DEBUG - client_ - Using USERNAME = Kelly, PASSWD = qwerty.
+2023-04-10 16:20:58,984 - INFO - client_ - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Kelly
+2023-04-10 16:20:59,761 - DEBUG - client_ - Keys successfully loaded.
+2023-04-10 16:20:59,801 - INFO - transport - Попытка подключения №1
+2023-04-10 16:20:59,801 - DEBUG - transport - Connection established.
+2023-04-10 16:20:59,802 - DEBUG - transport - Starting auth dialog.
+2023-04-10 16:20:59,814 - DEBUG - transport - Passwd hash ready: b'015b017a3fcd78caa08a46fb83789fa293cb8dcfbdac6e5ed6588e8eb0b1af1194323d287b7bf733df2901022c175339508d339b6e0e65f80f84ea0b994eb245'
+2023-04-10 16:20:59,815 - DEBUG - transport - Presense message = {'action': 'presence', 'time': 1681132859.8155048, 'user': {'account_name': 'Kelly', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnQKwoFdOR42MRmXRypxX\nqQwv8rm/58lZhQHkHCL+p+KjNTarmRpWc2Ppz1FgBsuC874TlTxsOlMnnmKqWMMe\n74Q6eILLywInu/gS5P51e04+mJ/jdh/2F5pnLXwJrfteWD4zr4eFlND5zk4nMjVm\nD/0FKONLq7BuGCvh1VeDHhUuyJaAt6GXDdkeVBJlN8RiYUhA5CAoLhTHh6cq12ij\nVswXeHBSRaBA5GtbTRECDs+McAjNLB0ER/WthtO9q2HicBhe+rT5HAJgBtH3+Czs\n3PDhcFOreJr0UegxpAar54GyY7/RMB9Lt8wyZ27IcEbU0rjSSMVuuXVkAoukR8zd\n7wIDAQAB\n-----END PUBLIC KEY-----'}}
+2023-04-10 16:20:59,815 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 35334), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1681132859.8155048, 'user': {'account_name': 'Kelly', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnQKwoFdOR42MRmXRypxX\nqQwv8rm/58lZhQHkHCL+p+KjNTarmRpWc2Ppz1FgBsuC874TlTxsOlMnnmKqWMMe\n74Q6eILLywInu/gS5P51e04+mJ/jdh/2F5pnLXwJrfteWD4zr4eFlND5zk4nMjVm\nD/0FKONLq7BuGCvh1VeDHhUuyJaAt6GXDdkeVBJlN8RiYUhA5CAoLhTHh6cq12ij\nVswXeHBSRaBA5GtbTRECDs+McAjNLB0ER/WthtO9q2HicBhe+rT5HAJgBtH3+Czs\n3PDhcFOreJr0UegxpAar54GyY7/RMB9Lt8wyZ27IcEbU0rjSSMVuuXVkAoukR8zd\n7wIDAQAB\n-----END PUBLIC KEY-----'}}), {}
+2023-04-10 16:21:04,820 - DEBUG - transport - Connection error.
+Traceback (most recent call last):
+  File "/home/sergey/Документы/GB/GB_Async/client_pack/client/clients/transport.py", line 119, in connection_init
+    ans = get_message(self.transport)
+  File "/home/sergey/Документы/GB/GB_Async/client_pack/client/common/decos.py", line 14, in wrapper
+    r = func_to_log(*args, **kwargs)
+  File "/home/sergey/Документы/GB/GB_Async/client_pack/client/common/utils.py", line 15, in get_message
+    encoded_response = client.recv(MAX_PACKAGE_LENGTH)
+TimeoutError: timed out
+2023-04-10 16:24:49,633 - DEBUG - client_ - Using USERNAME = Kelly, PASSWD = qwerty.
+2023-04-10 16:24:49,633 - INFO - client_ - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Kelly
+2023-04-10 16:24:49,696 - DEBUG - client_ - Keys successfully loaded.
+2023-04-10 16:24:49,721 - INFO - transport - Попытка подключения №1
+2023-04-10 16:24:49,721 - DEBUG - transport - Connection established.
+2023-04-10 16:24:49,721 - DEBUG - transport - Starting auth dialog.
+2023-04-10 16:24:49,730 - DEBUG - transport - Passwd hash ready: b'015b017a3fcd78caa08a46fb83789fa293cb8dcfbdac6e5ed6588e8eb0b1af1194323d287b7bf733df2901022c175339508d339b6e0e65f80f84ea0b994eb245'
+2023-04-10 16:24:49,731 - DEBUG - transport - Presense message = {'action': 'presence', 'time': 1681133089.731888, 'user': {'account_name': 'Kelly', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnQKwoFdOR42MRmXRypxX\nqQwv8rm/58lZhQHkHCL+p+KjNTarmRpWc2Ppz1FgBsuC874TlTxsOlMnnmKqWMMe\n74Q6eILLywInu/gS5P51e04+mJ/jdh/2F5pnLXwJrfteWD4zr4eFlND5zk4nMjVm\nD/0FKONLq7BuGCvh1VeDHhUuyJaAt6GXDdkeVBJlN8RiYUhA5CAoLhTHh6cq12ij\nVswXeHBSRaBA5GtbTRECDs+McAjNLB0ER/WthtO9q2HicBhe+rT5HAJgBtH3+Czs\n3PDhcFOreJr0UegxpAar54GyY7/RMB9Lt8wyZ27IcEbU0rjSSMVuuXVkAoukR8zd\n7wIDAQAB\n-----END PUBLIC KEY-----'}}
+2023-04-10 16:24:49,732 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 44620), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1681133089.731888, 'user': {'account_name': 'Kelly', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnQKwoFdOR42MRmXRypxX\nqQwv8rm/58lZhQHkHCL+p+KjNTarmRpWc2Ppz1FgBsuC874TlTxsOlMnnmKqWMMe\n74Q6eILLywInu/gS5P51e04+mJ/jdh/2F5pnLXwJrfteWD4zr4eFlND5zk4nMjVm\nD/0FKONLq7BuGCvh1VeDHhUuyJaAt6GXDdkeVBJlN8RiYUhA5CAoLhTHh6cq12ij\nVswXeHBSRaBA5GtbTRECDs+McAjNLB0ER/WthtO9q2HicBhe+rT5HAJgBtH3+Czs\n3PDhcFOreJr0UegxpAar54GyY7/RMB9Lt8wyZ27IcEbU0rjSSMVuuXVkAoukR8zd\n7wIDAQAB\n-----END PUBLIC KEY-----'}}), {}
+2023-04-10 16:24:50,230 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 44620), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:24:50,230 - DEBUG - transport - Server response = {'response': 511, 'bin': 'fd85236f5cd23c009382f53d72966aa37f2dedb45edd188ebc404df81953d7ddc2fff99af3cd132e0c95cd5f35d88812ff160435e1e43f22d745d2271f9a8159'}.
+2023-04-10 16:24:50,231 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 44620), raddr=('127.0.0.1', 7777)>, {'response': 511, 'bin': 'JCOeLtnTrtWK2GoYzgEUCQ==\n'}), {}
+2023-04-10 16:24:50,231 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 44620), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:24:50,231 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-10 16:24:50,231 - DEBUG - transport - Запрос списка известных пользователей Kelly
+2023-04-10 16:24:50,231 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 44620), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1681133090.2313776, 'account_name': 'Kelly'}), {}
+2023-04-10 16:24:50,747 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 44620), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:24:50,754 - DEBUG - transport - Запрос контакт листа для пользователся Thread-1
+2023-04-10 16:24:50,754 - DEBUG - transport - Сформирован запрос {'action': 'get_contacts', 'time': 1681133090.7549045, 'user': 'Kelly'}
+2023-04-10 16:24:50,755 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 44620), raddr=('127.0.0.1', 7777)>, {'action': 'get_contacts', 'time': 1681133090.7549045, 'user': 'Kelly'}), {}
+2023-04-10 16:24:51,252 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 44620), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:24:51,252 - DEBUG - transport - Получен ответ {'response': 202, 'data_list': []}
+2023-04-10 16:24:51,257 - DEBUG - transport - Запущен процесс - приёмник собщений с сервера.
+2023-04-10 16:28:56,039 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 44620), raddr=('127.0.0.1', 7777)>, {'action': 'exit', 'time': 1681133335.8131566, 'account_name': 'Kelly'}), {}
+2023-04-10 16:28:56,039 - DEBUG - transport - Транспорт завершает работу.
+2023-04-10 16:29:03,485 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-10 16:29:07,489 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-10 16:32:32,735 - DEBUG - client_ - Using USERNAME = Kelly, PASSWD = qwerty.
+2023-04-10 16:32:32,740 - INFO - client_ - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Kelly
+2023-04-10 16:32:32,800 - DEBUG - client_ - Keys successfully loaded.
+2023-04-10 16:32:32,818 - INFO - transport - Попытка подключения №1
+2023-04-10 16:32:32,819 - DEBUG - transport - Connection established.
+2023-04-10 16:32:32,819 - DEBUG - transport - Starting auth dialog.
+2023-04-10 16:32:32,832 - DEBUG - transport - Passwd hash ready: b'015b017a3fcd78caa08a46fb83789fa293cb8dcfbdac6e5ed6588e8eb0b1af1194323d287b7bf733df2901022c175339508d339b6e0e65f80f84ea0b994eb245'
+2023-04-10 16:32:32,834 - DEBUG - transport - Presense message = {'action': 'presence', 'time': 1681133552.8339128, 'user': {'account_name': 'Kelly', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnQKwoFdOR42MRmXRypxX\nqQwv8rm/58lZhQHkHCL+p+KjNTarmRpWc2Ppz1FgBsuC874TlTxsOlMnnmKqWMMe\n74Q6eILLywInu/gS5P51e04+mJ/jdh/2F5pnLXwJrfteWD4zr4eFlND5zk4nMjVm\nD/0FKONLq7BuGCvh1VeDHhUuyJaAt6GXDdkeVBJlN8RiYUhA5CAoLhTHh6cq12ij\nVswXeHBSRaBA5GtbTRECDs+McAjNLB0ER/WthtO9q2HicBhe+rT5HAJgBtH3+Czs\n3PDhcFOreJr0UegxpAar54GyY7/RMB9Lt8wyZ27IcEbU0rjSSMVuuXVkAoukR8zd\n7wIDAQAB\n-----END PUBLIC KEY-----'}}
+2023-04-10 16:32:32,834 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 57238), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1681133552.8339128, 'user': {'account_name': 'Kelly', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnQKwoFdOR42MRmXRypxX\nqQwv8rm/58lZhQHkHCL+p+KjNTarmRpWc2Ppz1FgBsuC874TlTxsOlMnnmKqWMMe\n74Q6eILLywInu/gS5P51e04+mJ/jdh/2F5pnLXwJrfteWD4zr4eFlND5zk4nMjVm\nD/0FKONLq7BuGCvh1VeDHhUuyJaAt6GXDdkeVBJlN8RiYUhA5CAoLhTHh6cq12ij\nVswXeHBSRaBA5GtbTRECDs+McAjNLB0ER/WthtO9q2HicBhe+rT5HAJgBtH3+Czs\n3PDhcFOreJr0UegxpAar54GyY7/RMB9Lt8wyZ27IcEbU0rjSSMVuuXVkAoukR8zd\n7wIDAQAB\n-----END PUBLIC KEY-----'}}), {}
+2023-04-10 16:32:33,324 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 57238), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:32:33,325 - DEBUG - transport - Server response = {'response': 511, 'bin': '25120d9cad0d61d3b1383997dc7dcedf28dc1482524a45878a9acfbe1d743e36534aa73d233f27217ac5c8db1bffa948f1f79c2071626970b8c2cf025369268f'}.
+2023-04-10 16:32:33,325 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 57238), raddr=('127.0.0.1', 7777)>, {'response': 511, 'bin': '9v4eaRMRWntD4CeJh+ClfA==\n'}), {}
+2023-04-10 16:32:33,325 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 57238), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:32:33,325 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-10 16:32:33,325 - DEBUG - transport - Запрос списка известных пользователей Kelly
+2023-04-10 16:32:33,325 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 57238), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1681133553.3258076, 'account_name': 'Kelly'}), {}
+2023-04-10 16:32:33,837 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 57238), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:32:33,844 - DEBUG - transport - Запрос контакт листа для пользователся Thread-1
+2023-04-10 16:32:33,845 - DEBUG - transport - Сформирован запрос {'action': 'get_contacts', 'time': 1681133553.845032, 'user': 'Kelly'}
+2023-04-10 16:32:33,845 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 57238), raddr=('127.0.0.1', 7777)>, {'action': 'get_contacts', 'time': 1681133553.845032, 'user': 'Kelly'}), {}
+2023-04-10 16:32:34,340 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 57238), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:32:34,340 - DEBUG - transport - Получен ответ {'response': 202, 'data_list': []}
+2023-04-10 16:32:34,340 - DEBUG - transport - Запущен процесс - приёмник собщений с сервера.
+2023-04-10 16:32:58,915 - DEBUG - client_ - Using USERNAME = Jack, PASSWD = qwerty.
+2023-04-10 16:32:58,915 - INFO - client_ - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Jack
+2023-04-10 16:32:59,486 - DEBUG - client_ - Keys successfully loaded.
+2023-04-10 16:32:59,526 - INFO - transport - Попытка подключения №1
+2023-04-10 16:32:59,526 - DEBUG - transport - Connection established.
+2023-04-10 16:32:59,526 - DEBUG - transport - Starting auth dialog.
+2023-04-10 16:32:59,537 - DEBUG - transport - Passwd hash ready: b'a2e8240150828e9137fca851457fed96988843a44b0711ccb5a183c8ae5a88b93c4ed89f73038559cb94b1befcb902f8a05a18ff591d2f15597088b50537f5db'
+2023-04-10 16:32:59,538 - DEBUG - transport - Presense message = {'action': 'presence', 'time': 1681133579.5385056, 'user': {'account_name': 'Jack', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApg9L5Nls7AInDLHocsHE\nJanoMwuBRbSpzJO4RSPTzUd34bJ6ZP/gyv3Hr18MLKEJ3KkWeQ3JEHySoSsNymDa\nWFU3YAdZxRa3HsfpmtJ/6WTNgdwo9qOC9GPlwaqC3tsZZMl+7vCb26L+2rLL/eN4\nBINUCrD3E5gOKc+7emk+xrd1pX8RWrARgqp2WPIQ18x0MxJ13KAzDZBX2DZ8Uuh8\nw8KjE8fXpT1v+auCt8AYSqK+R9TeErlt+tWJKE3WXDLyQ91wclNZSM5vPbnkbYJ4\nThiVAIgWeVHzsHz82W879IYD/JuxGzd+4MyzESFJADsE+Tze73UbtAl2tvH/20ob\n3wIDAQAB\n-----END PUBLIC KEY-----'}}
+2023-04-10 16:32:59,538 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 47976), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1681133579.5385056, 'user': {'account_name': 'Jack', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApg9L5Nls7AInDLHocsHE\nJanoMwuBRbSpzJO4RSPTzUd34bJ6ZP/gyv3Hr18MLKEJ3KkWeQ3JEHySoSsNymDa\nWFU3YAdZxRa3HsfpmtJ/6WTNgdwo9qOC9GPlwaqC3tsZZMl+7vCb26L+2rLL/eN4\nBINUCrD3E5gOKc+7emk+xrd1pX8RWrARgqp2WPIQ18x0MxJ13KAzDZBX2DZ8Uuh8\nw8KjE8fXpT1v+auCt8AYSqK+R9TeErlt+tWJKE3WXDLyQ91wclNZSM5vPbnkbYJ4\nThiVAIgWeVHzsHz82W879IYD/JuxGzd+4MyzESFJADsE+Tze73UbtAl2tvH/20ob\n3wIDAQAB\n-----END PUBLIC KEY-----'}}), {}
+2023-04-10 16:33:00,034 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 47976), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:33:00,034 - DEBUG - transport - Server response = {'response': 511, 'bin': '71a39b6c26f4a722f5a98eccde0c8e4f5c6c6325e5f53f90873c6fa3b7221c2ad69be005015d793265eae5206dcc4b59c752cc8b7e23a92e3ef0afaf70d37417'}.
+2023-04-10 16:33:00,035 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 47976), raddr=('127.0.0.1', 7777)>, {'response': 511, 'bin': 'RG+bV9M0ux3LuKxSKYLW7Q==\n'}), {}
+2023-04-10 16:33:00,035 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 47976), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:33:00,035 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-10 16:33:00,035 - DEBUG - transport - Запрос списка известных пользователей Jack
+2023-04-10 16:33:00,035 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 47976), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1681133580.0357273, 'account_name': 'Jack'}), {}
+2023-04-10 16:33:00,547 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 47976), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:33:00,558 - DEBUG - transport - Запрос контакт листа для пользователся Thread-1
+2023-04-10 16:33:00,558 - DEBUG - transport - Сформирован запрос {'action': 'get_contacts', 'time': 1681133580.5587142, 'user': 'Jack'}
+2023-04-10 16:33:00,558 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 47976), raddr=('127.0.0.1', 7777)>, {'action': 'get_contacts', 'time': 1681133580.5587142, 'user': 'Jack'}), {}
+2023-04-10 16:33:01,051 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 47976), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:33:01,051 - DEBUG - transport - Получен ответ {'response': 202, 'data_list': []}
+2023-04-10 16:33:01,052 - DEBUG - transport - Запущен процесс - приёмник собщений с сервера.
+2023-04-10 16:33:18,860 - DEBUG - transport - Создание контакта Jack
+2023-04-10 16:33:18,861 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 57238), raddr=('127.0.0.1', 7777)>, {'action': 'add', 'time': 1681133598.8610818, 'user': 'Kelly', 'account_name': 'Jack'}), {}
+2023-04-10 16:33:19,086 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 57238), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:33:19,086 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-10 16:33:19,097 - INFO - main - Успешно добавлен контакт <PyQt6.QtGui.QStandardItem object at 0x7f7fa5edbe20>
+2023-04-10 16:33:23,004 - DEBUG - transport - Запрос публичного ключа для Jack
+2023-04-10 16:33:23,005 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 57238), raddr=('127.0.0.1', 7777)>, {'action': 'pubkey_need', 'time': 1681133603.0050066, 'account_name': 'Jack'}), {}
+2023-04-10 16:33:23,093 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 57238), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:33:23,093 - DEBUG - main - Загружен открытый ключ для Jack
+2023-04-10 16:33:28,884 - DEBUG - transport - Сформирован словарь сообщения: {'action': 'message', 'from': 'Kelly', 'to': 'Jack', 'time': 1681133608.8844025, 'mess_text': 'ImcrXTe9fPop/29SKNgJk1RhHfcMMFoWJLuFNCi7DRNgV+ACiumODjWR0PTBy2rqzyMgOwKTB/Lbw3WTquxLK7wcA50WbgATP8LHgBvJcSf+fpjxllwfcN/JwxR/7Z2rSkD/OQ9bpqG7UhRkjeQgFZu7D8amTwEAAgxDqdaA2aGdYOTHbA5ITo01m4YtMuNfAPqiOMSQHTC0xl9IrelSR5levWkqa0he7HJtYSGDJTduXGzjHoORByUtyMuBGhfA7GIQ5Ei+IuJ8wXnLOwI4Y1bE7jDLROit2XQx9ys/wRRy7Uy/wdd6uWZ3L3cWWWPmQ2Yc7e4jvBoKUjYxzrbkNw=='}
+2023-04-10 16:33:28,885 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 57238), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'from': 'Kelly', 'to': 'Jack', 'time': 1681133608.8844025, 'mess_text': 'ImcrXTe9fPop/29SKNgJk1RhHfcMMFoWJLuFNCi7DRNgV+ACiumODjWR0PTBy2rqzyMgOwKTB/Lbw3WTquxLK7wcA50WbgATP8LHgBvJcSf+fpjxllwfcN/JwxR/7Z2rSkD/OQ9bpqG7UhRkjeQgFZu7D8amTwEAAgxDqdaA2aGdYOTHbA5ITo01m4YtMuNfAPqiOMSQHTC0xl9IrelSR5levWkqa0he7HJtYSGDJTduXGzjHoORByUtyMuBGhfA7GIQ5Ei+IuJ8wXnLOwI4Y1bE7jDLROit2XQx9ys/wRRy7Uy/wdd6uWZ3L3cWWWPmQ2Yc7e4jvBoKUjYxzrbkNw=='}), {}
+2023-04-10 16:33:29,122 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 47976), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:33:29,122 - DEBUG - transport - Принято сообщение с сервера: {'action': 'message', 'from': 'Kelly', 'to': 'Jack', 'time': 1681133608.8844025, 'mess_text': 'ImcrXTe9fPop/29SKNgJk1RhHfcMMFoWJLuFNCi7DRNgV+ACiumODjWR0PTBy2rqzyMgOwKTB/Lbw3WTquxLK7wcA50WbgATP8LHgBvJcSf+fpjxllwfcN/JwxR/7Z2rSkD/OQ9bpqG7UhRkjeQgFZu7D8amTwEAAgxDqdaA2aGdYOTHbA5ITo01m4YtMuNfAPqiOMSQHTC0xl9IrelSR5levWkqa0he7HJtYSGDJTduXGzjHoORByUtyMuBGhfA7GIQ5Ei+IuJ8wXnLOwI4Y1bE7jDLROit2XQx9ys/wRRy7Uy/wdd6uWZ3L3cWWWPmQ2Yc7e4jvBoKUjYxzrbkNw=='}
+2023-04-10 16:33:29,122 - DEBUG - transport - Разбор сообщения от сервера: {'action': 'message', 'from': 'Kelly', 'to': 'Jack', 'time': 1681133608.8844025, 'mess_text': 'ImcrXTe9fPop/29SKNgJk1RhHfcMMFoWJLuFNCi7DRNgV+ACiumODjWR0PTBy2rqzyMgOwKTB/Lbw3WTquxLK7wcA50WbgATP8LHgBvJcSf+fpjxllwfcN/JwxR/7Z2rSkD/OQ9bpqG7UhRkjeQgFZu7D8amTwEAAgxDqdaA2aGdYOTHbA5ITo01m4YtMuNfAPqiOMSQHTC0xl9IrelSR5levWkqa0he7HJtYSGDJTduXGzjHoORByUtyMuBGhfA7GIQ5Ei+IuJ8wXnLOwI4Y1bE7jDLROit2XQx9ys/wRRy7Uy/wdd6uWZ3L3cWWWPmQ2Yc7e4jvBoKUjYxzrbkNw=='}
+2023-04-10 16:33:29,122 - DEBUG - transport - Получено сообщение от пользователя Kelly:ImcrXTe9fPop/29SKNgJk1RhHfcMMFoWJLuFNCi7DRNgV+ACiumODjWR0PTBy2rqzyMgOwKTB/Lbw3WTquxLK7wcA50WbgATP8LHgBvJcSf+fpjxllwfcN/JwxR/7Z2rSkD/OQ9bpqG7UhRkjeQgFZu7D8amTwEAAgxDqdaA2aGdYOTHbA5ITo01m4YtMuNfAPqiOMSQHTC0xl9IrelSR5levWkqa0he7HJtYSGDJTduXGzjHoORByUtyMuBGhfA7GIQ5Ei+IuJ8wXnLOwI4Y1bE7jDLROit2XQx9ys/wRRy7Uy/wdd6uWZ3L3cWWWPmQ2Yc7e4jvBoKUjYxzrbkNw==
+2023-04-10 16:33:29,123 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 57238), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:33:29,123 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-10 16:33:29,123 - INFO - transport - Отправлено сообщение для пользователя Jack
+2023-04-10 16:33:29,128 - DEBUG - main - Отправлено сообщение для Jack: Hello
+2023-04-10 16:34:28,065 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-10 16:34:34,642 - DEBUG - client_ - Using USERNAME = Kelly, PASSWD = qwerty.
+2023-04-10 16:34:34,642 - INFO - client_ - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Kelly
+2023-04-10 16:34:34,695 - DEBUG - client_ - Keys successfully loaded.
+2023-04-10 16:34:34,716 - INFO - transport - Попытка подключения №1
+2023-04-10 16:34:34,717 - DEBUG - transport - Connection established.
+2023-04-10 16:34:34,717 - DEBUG - transport - Starting auth dialog.
+2023-04-10 16:34:34,727 - DEBUG - transport - Passwd hash ready: b'015b017a3fcd78caa08a46fb83789fa293cb8dcfbdac6e5ed6588e8eb0b1af1194323d287b7bf733df2901022c175339508d339b6e0e65f80f84ea0b994eb245'
+2023-04-10 16:34:34,728 - DEBUG - transport - Presense message = {'action': 'presence', 'time': 1681133674.7286367, 'user': {'account_name': 'Kelly', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnQKwoFdOR42MRmXRypxX\nqQwv8rm/58lZhQHkHCL+p+KjNTarmRpWc2Ppz1FgBsuC874TlTxsOlMnnmKqWMMe\n74Q6eILLywInu/gS5P51e04+mJ/jdh/2F5pnLXwJrfteWD4zr4eFlND5zk4nMjVm\nD/0FKONLq7BuGCvh1VeDHhUuyJaAt6GXDdkeVBJlN8RiYUhA5CAoLhTHh6cq12ij\nVswXeHBSRaBA5GtbTRECDs+McAjNLB0ER/WthtO9q2HicBhe+rT5HAJgBtH3+Czs\n3PDhcFOreJr0UegxpAar54GyY7/RMB9Lt8wyZ27IcEbU0rjSSMVuuXVkAoukR8zd\n7wIDAQAB\n-----END PUBLIC KEY-----'}}
+2023-04-10 16:34:34,728 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42772), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1681133674.7286367, 'user': {'account_name': 'Kelly', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnQKwoFdOR42MRmXRypxX\nqQwv8rm/58lZhQHkHCL+p+KjNTarmRpWc2Ppz1FgBsuC874TlTxsOlMnnmKqWMMe\n74Q6eILLywInu/gS5P51e04+mJ/jdh/2F5pnLXwJrfteWD4zr4eFlND5zk4nMjVm\nD/0FKONLq7BuGCvh1VeDHhUuyJaAt6GXDdkeVBJlN8RiYUhA5CAoLhTHh6cq12ij\nVswXeHBSRaBA5GtbTRECDs+McAjNLB0ER/WthtO9q2HicBhe+rT5HAJgBtH3+Czs\n3PDhcFOreJr0UegxpAar54GyY7/RMB9Lt8wyZ27IcEbU0rjSSMVuuXVkAoukR8zd\n7wIDAQAB\n-----END PUBLIC KEY-----'}}), {}
+2023-04-10 16:34:35,223 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42772), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:34:35,224 - DEBUG - transport - Server response = {'response': 511, 'bin': 'c267ad4c64788a6078f52e512d6993a3c798a4931cf4d886639a014862ba463021ad421cd689d3f6d415b07ea98888184c4051fe5082c791f34524efc0ae2333'}.
+2023-04-10 16:34:35,224 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42772), raddr=('127.0.0.1', 7777)>, {'response': 511, 'bin': 'jzy1Wh5XypaR7MlEYpB5qw==\n'}), {}
+2023-04-10 16:34:35,225 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42772), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:34:35,225 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-10 16:34:35,225 - DEBUG - transport - Запрос списка известных пользователей Kelly
+2023-04-10 16:34:35,225 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42772), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1681133675.2253444, 'account_name': 'Kelly'}), {}
+2023-04-10 16:34:35,745 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42772), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:34:35,756 - DEBUG - transport - Запрос контакт листа для пользователся Thread-1
+2023-04-10 16:34:35,756 - DEBUG - transport - Сформирован запрос {'action': 'get_contacts', 'time': 1681133675.756699, 'user': 'Kelly'}
+2023-04-10 16:34:35,757 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42772), raddr=('127.0.0.1', 7777)>, {'action': 'get_contacts', 'time': 1681133675.756699, 'user': 'Kelly'}), {}
+2023-04-10 16:34:36,247 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42772), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:34:36,247 - DEBUG - transport - Получен ответ {'response': 202, 'data_list': ['Jack']}
+2023-04-10 16:34:36,270 - DEBUG - transport - Запущен процесс - приёмник собщений с сервера.
+2023-04-10 16:34:38,588 - DEBUG - transport - Запрос публичного ключа для Jack
+2023-04-10 16:34:38,589 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42772), raddr=('127.0.0.1', 7777)>, {'action': 'pubkey_need', 'time': 1681133678.589026, 'account_name': 'Jack'}), {}
+2023-04-10 16:34:38,752 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42772), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:34:38,752 - DEBUG - main - Загружен открытый ключ для Jack
+2023-04-10 16:35:13,559 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-10 16:37:17,016 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42772), raddr=('127.0.0.1', 7777)>, {'action': 'exit', 'time': 1681133837.016678, 'account_name': 'Kelly'}), {}
+2023-04-10 16:37:17,017 - DEBUG - transport - Транспорт завершает работу.
+2023-04-10 16:37:17,944 - DEBUG - transport - Потеряно соединение с сервером.
+2023-04-10 16:37:31,046 - DEBUG - client_ - Using USERNAME = Jack, PASSWD = qwerty.
+2023-04-10 16:37:31,047 - INFO - client_ - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Jack
+2023-04-10 16:37:31,109 - DEBUG - client_ - Keys successfully loaded.
+2023-04-10 16:37:31,135 - INFO - transport - Попытка подключения №1
+2023-04-10 16:37:31,135 - DEBUG - transport - Connection established.
+2023-04-10 16:37:31,136 - DEBUG - transport - Starting auth dialog.
+2023-04-10 16:37:31,145 - DEBUG - transport - Passwd hash ready: b'a2e8240150828e9137fca851457fed96988843a44b0711ccb5a183c8ae5a88b93c4ed89f73038559cb94b1befcb902f8a05a18ff591d2f15597088b50537f5db'
+2023-04-10 16:37:31,146 - DEBUG - transport - Presense message = {'action': 'presence', 'time': 1681133851.1465428, 'user': {'account_name': 'Jack', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApg9L5Nls7AInDLHocsHE\nJanoMwuBRbSpzJO4RSPTzUd34bJ6ZP/gyv3Hr18MLKEJ3KkWeQ3JEHySoSsNymDa\nWFU3YAdZxRa3HsfpmtJ/6WTNgdwo9qOC9GPlwaqC3tsZZMl+7vCb26L+2rLL/eN4\nBINUCrD3E5gOKc+7emk+xrd1pX8RWrARgqp2WPIQ18x0MxJ13KAzDZBX2DZ8Uuh8\nw8KjE8fXpT1v+auCt8AYSqK+R9TeErlt+tWJKE3WXDLyQ91wclNZSM5vPbnkbYJ4\nThiVAIgWeVHzsHz82W879IYD/JuxGzd+4MyzESFJADsE+Tze73UbtAl2tvH/20ob\n3wIDAQAB\n-----END PUBLIC KEY-----'}}
+2023-04-10 16:37:31,146 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49194), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1681133851.1465428, 'user': {'account_name': 'Jack', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApg9L5Nls7AInDLHocsHE\nJanoMwuBRbSpzJO4RSPTzUd34bJ6ZP/gyv3Hr18MLKEJ3KkWeQ3JEHySoSsNymDa\nWFU3YAdZxRa3HsfpmtJ/6WTNgdwo9qOC9GPlwaqC3tsZZMl+7vCb26L+2rLL/eN4\nBINUCrD3E5gOKc+7emk+xrd1pX8RWrARgqp2WPIQ18x0MxJ13KAzDZBX2DZ8Uuh8\nw8KjE8fXpT1v+auCt8AYSqK+R9TeErlt+tWJKE3WXDLyQ91wclNZSM5vPbnkbYJ4\nThiVAIgWeVHzsHz82W879IYD/JuxGzd+4MyzESFJADsE+Tze73UbtAl2tvH/20ob\n3wIDAQAB\n-----END PUBLIC KEY-----'}}), {}
+2023-04-10 16:37:31,640 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49194), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:37:31,640 - DEBUG - transport - Server response = {'response': 511, 'bin': '98ee187bd943dbdcf4b882cb2cfc1b96c50a569955aa0468cc3b05eccf8df6f240ba4a1a42863e2c065ee0f48c736ef6e4e97cbf5f842a44917dcae584f894d0'}.
+2023-04-10 16:37:31,640 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49194), raddr=('127.0.0.1', 7777)>, {'response': 511, 'bin': '1Ux9VQJ7e84xdyGf7DV4Ag==\n'}), {}
+2023-04-10 16:37:31,641 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49194), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:37:31,641 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-10 16:37:31,641 - DEBUG - transport - Запрос списка известных пользователей Jack
+2023-04-10 16:37:31,641 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49194), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1681133851.6413229, 'account_name': 'Jack'}), {}
+2023-04-10 16:37:32,154 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49194), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:37:32,175 - DEBUG - transport - Запрос контакт листа для пользователся Thread-1
+2023-04-10 16:37:32,175 - DEBUG - transport - Сформирован запрос {'action': 'get_contacts', 'time': 1681133852.1751196, 'user': 'Jack'}
+2023-04-10 16:37:32,175 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49194), raddr=('127.0.0.1', 7777)>, {'action': 'get_contacts', 'time': 1681133852.1751196, 'user': 'Jack'}), {}
+2023-04-10 16:37:32,658 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49194), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:37:32,658 - DEBUG - transport - Получен ответ {'response': 202, 'data_list': []}
+2023-04-10 16:37:32,658 - DEBUG - transport - Запущен процесс - приёмник собщений с сервера.
+2023-04-10 16:37:40,177 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49194), raddr=('127.0.0.1', 7777)>, {'action': 'exit', 'time': 1681133859.7548766, 'account_name': 'Jack'}), {}
+2023-04-10 16:37:40,177 - DEBUG - transport - Транспорт завершает работу.
+2023-04-10 16:37:53,908 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-10 16:37:57,502 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-10 16:39:43,581 - DEBUG - client_ - Using USERNAME = Kelly, PASSWD = .
+2023-04-10 16:39:43,581 - INFO - client_ - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Kelly
+2023-04-10 16:39:43,643 - DEBUG - client_ - Keys successfully loaded.
+2023-04-10 16:39:43,679 - INFO - transport - Попытка подключения №1
+2023-04-10 16:39:43,679 - DEBUG - transport - Connection established.
+2023-04-10 16:39:43,679 - DEBUG - transport - Starting auth dialog.
+2023-04-10 16:39:43,690 - DEBUG - transport - Passwd hash ready: b'4cf46afde81ad31b31f41917dbba5fdf9576a52d3a273e4de54038445b3739d5b6fd45a7d11f13415a9e61d0d05873e1e2b44193328b8f5d3ed6eb82c99da338'
+2023-04-10 16:39:43,691 - DEBUG - transport - Presense message = {'action': 'presence', 'time': 1681133983.691475, 'user': {'account_name': 'Kelly', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnQKwoFdOR42MRmXRypxX\nqQwv8rm/58lZhQHkHCL+p+KjNTarmRpWc2Ppz1FgBsuC874TlTxsOlMnnmKqWMMe\n74Q6eILLywInu/gS5P51e04+mJ/jdh/2F5pnLXwJrfteWD4zr4eFlND5zk4nMjVm\nD/0FKONLq7BuGCvh1VeDHhUuyJaAt6GXDdkeVBJlN8RiYUhA5CAoLhTHh6cq12ij\nVswXeHBSRaBA5GtbTRECDs+McAjNLB0ER/WthtO9q2HicBhe+rT5HAJgBtH3+Czs\n3PDhcFOreJr0UegxpAar54GyY7/RMB9Lt8wyZ27IcEbU0rjSSMVuuXVkAoukR8zd\n7wIDAQAB\n-----END PUBLIC KEY-----'}}
+2023-04-10 16:39:43,691 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55858), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1681133983.691475, 'user': {'account_name': 'Kelly', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnQKwoFdOR42MRmXRypxX\nqQwv8rm/58lZhQHkHCL+p+KjNTarmRpWc2Ppz1FgBsuC874TlTxsOlMnnmKqWMMe\n74Q6eILLywInu/gS5P51e04+mJ/jdh/2F5pnLXwJrfteWD4zr4eFlND5zk4nMjVm\nD/0FKONLq7BuGCvh1VeDHhUuyJaAt6GXDdkeVBJlN8RiYUhA5CAoLhTHh6cq12ij\nVswXeHBSRaBA5GtbTRECDs+McAjNLB0ER/WthtO9q2HicBhe+rT5HAJgBtH3+Czs\n3PDhcFOreJr0UegxpAar54GyY7/RMB9Lt8wyZ27IcEbU0rjSSMVuuXVkAoukR8zd\n7wIDAQAB\n-----END PUBLIC KEY-----'}}), {}
+2023-04-10 16:39:44,184 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55858), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:39:44,184 - DEBUG - transport - Server response = {'response': 511, 'bin': '495111ea6db78543bbb6def5266e845b4a19146390f32155f19c53d44ef44e423df9fbd16cb1be1e7dc36a0d37d906720a8d8fcc12441ecf4f5fed6da5976227'}.
+2023-04-10 16:39:44,186 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55858), raddr=('127.0.0.1', 7777)>, {'response': 511, 'bin': '2mzh5dQcTGWIzg+YOqzfaA==\n'}), {}
+2023-04-10 16:39:44,187 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55858), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:39:44,187 - DEBUG - transport - Разбор сообщения от сервера: {'response': 400, 'error': 'Неверный пароль.'}
+2023-04-10 16:40:20,738 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-10 16:40:24,909 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-10 16:41:54,066 - DEBUG - client_ - Using USERNAME = Kelly, PASSWD = qwerty.
+2023-04-10 16:41:54,066 - INFO - client_ - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Kelly
+2023-04-10 16:41:54,126 - DEBUG - client_ - Keys successfully loaded.
+2023-04-10 16:41:54,149 - INFO - transport - Попытка подключения №1
+2023-04-10 16:41:54,150 - DEBUG - transport - Connection established.
+2023-04-10 16:41:54,150 - DEBUG - transport - Starting auth dialog.
+2023-04-10 16:41:54,160 - DEBUG - transport - Passwd hash ready: b'015b017a3fcd78caa08a46fb83789fa293cb8dcfbdac6e5ed6588e8eb0b1af1194323d287b7bf733df2901022c175339508d339b6e0e65f80f84ea0b994eb245'
+2023-04-10 16:41:54,161 - DEBUG - transport - Presense message = {'action': 'presence', 'time': 1681134114.1617787, 'user': {'account_name': 'Kelly', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnQKwoFdOR42MRmXRypxX\nqQwv8rm/58lZhQHkHCL+p+KjNTarmRpWc2Ppz1FgBsuC874TlTxsOlMnnmKqWMMe\n74Q6eILLywInu/gS5P51e04+mJ/jdh/2F5pnLXwJrfteWD4zr4eFlND5zk4nMjVm\nD/0FKONLq7BuGCvh1VeDHhUuyJaAt6GXDdkeVBJlN8RiYUhA5CAoLhTHh6cq12ij\nVswXeHBSRaBA5GtbTRECDs+McAjNLB0ER/WthtO9q2HicBhe+rT5HAJgBtH3+Czs\n3PDhcFOreJr0UegxpAar54GyY7/RMB9Lt8wyZ27IcEbU0rjSSMVuuXVkAoukR8zd\n7wIDAQAB\n-----END PUBLIC KEY-----'}}
+2023-04-10 16:41:54,162 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42094), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1681134114.1617787, 'user': {'account_name': 'Kelly', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnQKwoFdOR42MRmXRypxX\nqQwv8rm/58lZhQHkHCL+p+KjNTarmRpWc2Ppz1FgBsuC874TlTxsOlMnnmKqWMMe\n74Q6eILLywInu/gS5P51e04+mJ/jdh/2F5pnLXwJrfteWD4zr4eFlND5zk4nMjVm\nD/0FKONLq7BuGCvh1VeDHhUuyJaAt6GXDdkeVBJlN8RiYUhA5CAoLhTHh6cq12ij\nVswXeHBSRaBA5GtbTRECDs+McAjNLB0ER/WthtO9q2HicBhe+rT5HAJgBtH3+Czs\n3PDhcFOreJr0UegxpAar54GyY7/RMB9Lt8wyZ27IcEbU0rjSSMVuuXVkAoukR8zd\n7wIDAQAB\n-----END PUBLIC KEY-----'}}), {}
+2023-04-10 16:41:54,657 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42094), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:41:54,657 - DEBUG - transport - Server response = {'response': 511, 'bin': 'd4255428a2dc67d65596389b1ce866029d188e48cb4f372da530d8d95600fa2b5332e0edbc4a36be5f71bfc0d664b96531c0d2e28d8bb210374bc285a0c9c157'}.
+2023-04-10 16:41:54,657 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42094), raddr=('127.0.0.1', 7777)>, {'response': 511, 'bin': 'APnFmA35lhccs1lt6vZZ1A==\n'}), {}
+2023-04-10 16:41:54,658 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42094), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:41:54,658 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-10 16:41:54,658 - DEBUG - transport - Запрос списка известных пользователей Kelly
+2023-04-10 16:41:54,658 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42094), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1681134114.6585855, 'account_name': 'Kelly'}), {}
+2023-04-10 16:41:55,178 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42094), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:41:55,189 - DEBUG - transport - Запрос контакт листа для пользователся Thread-1
+2023-04-10 16:41:55,189 - DEBUG - transport - Сформирован запрос {'action': 'get_contacts', 'time': 1681134115.1892447, 'user': 'Kelly'}
+2023-04-10 16:41:55,189 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42094), raddr=('127.0.0.1', 7777)>, {'action': 'get_contacts', 'time': 1681134115.1892447, 'user': 'Kelly'}), {}
+2023-04-10 16:41:55,682 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42094), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:41:55,682 - DEBUG - transport - Получен ответ {'response': 202, 'data_list': ['Jack']}
+2023-04-10 16:41:55,705 - DEBUG - transport - Запущен процесс - приёмник собщений с сервера.
+2023-04-10 16:42:08,225 - DEBUG - client_ - Using USERNAME = Jack, PASSWD = qwerty.
+2023-04-10 16:42:08,226 - INFO - client_ - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Jack
+2023-04-10 16:42:08,292 - DEBUG - client_ - Keys successfully loaded.
+2023-04-10 16:42:08,312 - INFO - transport - Попытка подключения №1
+2023-04-10 16:42:08,312 - DEBUG - transport - Connection established.
+2023-04-10 16:42:08,312 - DEBUG - transport - Starting auth dialog.
+2023-04-10 16:42:08,322 - DEBUG - transport - Passwd hash ready: b'a2e8240150828e9137fca851457fed96988843a44b0711ccb5a183c8ae5a88b93c4ed89f73038559cb94b1befcb902f8a05a18ff591d2f15597088b50537f5db'
+2023-04-10 16:42:08,323 - DEBUG - transport - Presense message = {'action': 'presence', 'time': 1681134128.3233488, 'user': {'account_name': 'Jack', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApg9L5Nls7AInDLHocsHE\nJanoMwuBRbSpzJO4RSPTzUd34bJ6ZP/gyv3Hr18MLKEJ3KkWeQ3JEHySoSsNymDa\nWFU3YAdZxRa3HsfpmtJ/6WTNgdwo9qOC9GPlwaqC3tsZZMl+7vCb26L+2rLL/eN4\nBINUCrD3E5gOKc+7emk+xrd1pX8RWrARgqp2WPIQ18x0MxJ13KAzDZBX2DZ8Uuh8\nw8KjE8fXpT1v+auCt8AYSqK+R9TeErlt+tWJKE3WXDLyQ91wclNZSM5vPbnkbYJ4\nThiVAIgWeVHzsHz82W879IYD/JuxGzd+4MyzESFJADsE+Tze73UbtAl2tvH/20ob\n3wIDAQAB\n-----END PUBLIC KEY-----'}}
+2023-04-10 16:42:08,323 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52440), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1681134128.3233488, 'user': {'account_name': 'Jack', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApg9L5Nls7AInDLHocsHE\nJanoMwuBRbSpzJO4RSPTzUd34bJ6ZP/gyv3Hr18MLKEJ3KkWeQ3JEHySoSsNymDa\nWFU3YAdZxRa3HsfpmtJ/6WTNgdwo9qOC9GPlwaqC3tsZZMl+7vCb26L+2rLL/eN4\nBINUCrD3E5gOKc+7emk+xrd1pX8RWrARgqp2WPIQ18x0MxJ13KAzDZBX2DZ8Uuh8\nw8KjE8fXpT1v+auCt8AYSqK+R9TeErlt+tWJKE3WXDLyQ91wclNZSM5vPbnkbYJ4\nThiVAIgWeVHzsHz82W879IYD/JuxGzd+4MyzESFJADsE+Tze73UbtAl2tvH/20ob\n3wIDAQAB\n-----END PUBLIC KEY-----'}}), {}
+2023-04-10 16:42:08,816 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52440), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:42:08,816 - DEBUG - transport - Server response = {'response': 511, 'bin': '2754230b63571f48e7f8e50afaba0f97108cc99d8e93b94218757f6b43eb1a75ba9dc9000271faf8d80edf548aa19497b02acfc0e725ac701eeacc773f1f8092'}.
+2023-04-10 16:42:08,816 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52440), raddr=('127.0.0.1', 7777)>, {'response': 511, 'bin': 'WtwhDRpVzb3aH3o3QV5nsA==\n'}), {}
+2023-04-10 16:42:08,817 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52440), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:42:08,817 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-10 16:42:08,817 - DEBUG - transport - Запрос списка известных пользователей Jack
+2023-04-10 16:42:08,818 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52440), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1681134128.817483, 'account_name': 'Jack'}), {}
+2023-04-10 16:42:09,984 - CRITICAL - transport - Потеряно соединение с сервером.
+2023-04-10 16:42:10,226 - DEBUG - transport - Потеряно соединение с сервером.
+2023-04-10 16:42:16,641 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42094)>, {'action': 'exit', 'time': 1681134136.641234, 'account_name': 'Kelly'}), {}
+2023-04-10 16:42:16,641 - DEBUG - transport - Транспорт завершает работу.
+2023-04-10 16:43:00,301 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-10 16:43:03,766 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-10 16:43:16,361 - DEBUG - client_ - Using USERNAME = Kelly, PASSWD = qwerty.
+2023-04-10 16:43:16,361 - INFO - client_ - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Kelly
+2023-04-10 16:43:16,413 - DEBUG - client_ - Keys successfully loaded.
+2023-04-10 16:43:16,431 - INFO - transport - Попытка подключения №1
+2023-04-10 16:43:16,431 - DEBUG - transport - Connection established.
+2023-04-10 16:43:16,431 - DEBUG - transport - Starting auth dialog.
+2023-04-10 16:43:16,440 - DEBUG - transport - Passwd hash ready: b'015b017a3fcd78caa08a46fb83789fa293cb8dcfbdac6e5ed6588e8eb0b1af1194323d287b7bf733df2901022c175339508d339b6e0e65f80f84ea0b994eb245'
+2023-04-10 16:43:16,441 - DEBUG - transport - Presense message = {'action': 'presence', 'time': 1681134196.4413798, 'user': {'account_name': 'Kelly', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnQKwoFdOR42MRmXRypxX\nqQwv8rm/58lZhQHkHCL+p+KjNTarmRpWc2Ppz1FgBsuC874TlTxsOlMnnmKqWMMe\n74Q6eILLywInu/gS5P51e04+mJ/jdh/2F5pnLXwJrfteWD4zr4eFlND5zk4nMjVm\nD/0FKONLq7BuGCvh1VeDHhUuyJaAt6GXDdkeVBJlN8RiYUhA5CAoLhTHh6cq12ij\nVswXeHBSRaBA5GtbTRECDs+McAjNLB0ER/WthtO9q2HicBhe+rT5HAJgBtH3+Czs\n3PDhcFOreJr0UegxpAar54GyY7/RMB9Lt8wyZ27IcEbU0rjSSMVuuXVkAoukR8zd\n7wIDAQAB\n-----END PUBLIC KEY-----'}}
+2023-04-10 16:43:16,441 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40570), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1681134196.4413798, 'user': {'account_name': 'Kelly', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnQKwoFdOR42MRmXRypxX\nqQwv8rm/58lZhQHkHCL+p+KjNTarmRpWc2Ppz1FgBsuC874TlTxsOlMnnmKqWMMe\n74Q6eILLywInu/gS5P51e04+mJ/jdh/2F5pnLXwJrfteWD4zr4eFlND5zk4nMjVm\nD/0FKONLq7BuGCvh1VeDHhUuyJaAt6GXDdkeVBJlN8RiYUhA5CAoLhTHh6cq12ij\nVswXeHBSRaBA5GtbTRECDs+McAjNLB0ER/WthtO9q2HicBhe+rT5HAJgBtH3+Czs\n3PDhcFOreJr0UegxpAar54GyY7/RMB9Lt8wyZ27IcEbU0rjSSMVuuXVkAoukR8zd\n7wIDAQAB\n-----END PUBLIC KEY-----'}}), {}
+2023-04-10 16:43:16,939 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40570), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:43:16,939 - DEBUG - transport - Server response = {'response': 511, 'bin': '8a7fe81813e2a5b7765d0881a0fefbdbceacb2c5ed670d314dc55d744eafdfc738ade1aef4f0fd83429ad5874ff6e3e02f77a38c91cc3861b9e9e2cb34360ab8'}.
+2023-04-10 16:43:16,939 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40570), raddr=('127.0.0.1', 7777)>, {'response': 511, 'bin': 'E44wJdPbG2VzMONVE+KiRw==\n'}), {}
+2023-04-10 16:43:16,939 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40570), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:43:16,939 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-10 16:43:16,939 - DEBUG - transport - Запрос списка известных пользователей Kelly
+2023-04-10 16:43:16,939 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40570), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1681134196.939751, 'account_name': 'Kelly'}), {}
+2023-04-10 16:43:17,464 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40570), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:43:17,474 - DEBUG - transport - Запрос контакт листа для пользователся Thread-1
+2023-04-10 16:43:17,475 - DEBUG - transport - Сформирован запрос {'action': 'get_contacts', 'time': 1681134197.4750013, 'user': 'Kelly'}
+2023-04-10 16:43:17,475 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40570), raddr=('127.0.0.1', 7777)>, {'action': 'get_contacts', 'time': 1681134197.4750013, 'user': 'Kelly'}), {}
+2023-04-10 16:43:17,968 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40570), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:43:17,968 - DEBUG - transport - Получен ответ {'response': 202, 'data_list': ['Jack']}
+2023-04-10 16:43:17,990 - DEBUG - transport - Запущен процесс - приёмник собщений с сервера.
+2023-04-10 16:43:28,790 - DEBUG - client_ - Using USERNAME = Jack, PASSWD = qwerty.
+2023-04-10 16:43:28,791 - INFO - client_ - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Jack
+2023-04-10 16:43:28,842 - DEBUG - client_ - Keys successfully loaded.
+2023-04-10 16:43:28,865 - INFO - transport - Попытка подключения №1
+2023-04-10 16:43:28,865 - DEBUG - transport - Connection established.
+2023-04-10 16:43:28,865 - DEBUG - transport - Starting auth dialog.
+2023-04-10 16:43:28,875 - DEBUG - transport - Passwd hash ready: b'a2e8240150828e9137fca851457fed96988843a44b0711ccb5a183c8ae5a88b93c4ed89f73038559cb94b1befcb902f8a05a18ff591d2f15597088b50537f5db'
+2023-04-10 16:43:28,876 - DEBUG - transport - Presense message = {'action': 'presence', 'time': 1681134208.876009, 'user': {'account_name': 'Jack', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApg9L5Nls7AInDLHocsHE\nJanoMwuBRbSpzJO4RSPTzUd34bJ6ZP/gyv3Hr18MLKEJ3KkWeQ3JEHySoSsNymDa\nWFU3YAdZxRa3HsfpmtJ/6WTNgdwo9qOC9GPlwaqC3tsZZMl+7vCb26L+2rLL/eN4\nBINUCrD3E5gOKc+7emk+xrd1pX8RWrARgqp2WPIQ18x0MxJ13KAzDZBX2DZ8Uuh8\nw8KjE8fXpT1v+auCt8AYSqK+R9TeErlt+tWJKE3WXDLyQ91wclNZSM5vPbnkbYJ4\nThiVAIgWeVHzsHz82W879IYD/JuxGzd+4MyzESFJADsE+Tze73UbtAl2tvH/20ob\n3wIDAQAB\n-----END PUBLIC KEY-----'}}
+2023-04-10 16:43:28,876 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 45454), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1681134208.876009, 'user': {'account_name': 'Jack', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApg9L5Nls7AInDLHocsHE\nJanoMwuBRbSpzJO4RSPTzUd34bJ6ZP/gyv3Hr18MLKEJ3KkWeQ3JEHySoSsNymDa\nWFU3YAdZxRa3HsfpmtJ/6WTNgdwo9qOC9GPlwaqC3tsZZMl+7vCb26L+2rLL/eN4\nBINUCrD3E5gOKc+7emk+xrd1pX8RWrARgqp2WPIQ18x0MxJ13KAzDZBX2DZ8Uuh8\nw8KjE8fXpT1v+auCt8AYSqK+R9TeErlt+tWJKE3WXDLyQ91wclNZSM5vPbnkbYJ4\nThiVAIgWeVHzsHz82W879IYD/JuxGzd+4MyzESFJADsE+Tze73UbtAl2tvH/20ob\n3wIDAQAB\n-----END PUBLIC KEY-----'}}), {}
+2023-04-10 16:43:29,368 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 45454), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:43:29,368 - DEBUG - transport - Server response = {'response': 511, 'bin': '94d907294f2ce56019740bb66ed15dcc8af95a2d3395e7fb8decd36051f737ed68a9b7d79696c61346a34ddcbb3ab971cf1b5b1f36d3ffc20a29b71b839fb328'}.
+2023-04-10 16:43:29,369 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 45454), raddr=('127.0.0.1', 7777)>, {'response': 511, 'bin': 'pcf61aDVX5xZZ2WN4b52Dg==\n'}), {}
+2023-04-10 16:43:29,369 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 45454), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:43:29,369 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-10 16:43:29,369 - DEBUG - transport - Запрос списка известных пользователей Jack
+2023-04-10 16:43:29,369 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 45454), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1681134209.3695579, 'account_name': 'Jack'}), {}
+2023-04-10 16:43:29,880 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 45454), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:43:29,887 - DEBUG - transport - Запрос контакт листа для пользователся Thread-1
+2023-04-10 16:43:29,887 - DEBUG - transport - Сформирован запрос {'action': 'get_contacts', 'time': 1681134209.8872337, 'user': 'Jack'}
+2023-04-10 16:43:29,887 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 45454), raddr=('127.0.0.1', 7777)>, {'action': 'get_contacts', 'time': 1681134209.8872337, 'user': 'Jack'}), {}
+2023-04-10 16:43:30,384 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 45454), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:43:30,384 - DEBUG - transport - Получен ответ {'response': 202, 'data_list': []}
+2023-04-10 16:43:30,384 - DEBUG - transport - Запущен процесс - приёмник собщений с сервера.
+2023-04-10 16:45:24,415 - DEBUG - transport - Создание контакта Kelly
+2023-04-10 16:45:24,515 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 45454), raddr=('127.0.0.1', 7777)>, {'action': 'add', 'time': 1681134324.4202895, 'user': 'Jack', 'account_name': 'Kelly'}), {}
+2023-04-10 16:45:24,532 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 45454), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:45:24,532 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-10 16:45:24,541 - INFO - main - Успешно добавлен контакт <PyQt6.QtGui.QStandardItem object at 0x7f86afe37e20>
+2023-04-10 16:45:28,457 - DEBUG - transport - Запрос публичного ключа для Kelly
+2023-04-10 16:45:28,457 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 45454), raddr=('127.0.0.1', 7777)>, {'action': 'pubkey_need', 'time': 1681134328.4576612, 'account_name': 'Kelly'}), {}
+2023-04-10 16:45:28,538 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 45454), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:45:28,539 - DEBUG - main - Загружен открытый ключ для Kelly
+2023-04-10 16:45:36,896 - DEBUG - transport - Сформирован словарь сообщения: {'action': 'message', 'from': 'Jack', 'to': 'Kelly', 'time': 1681134336.8962393, 'mess_text': 'fvN4EHkju0PyK0Jd5AhZ0nxcfQAEJloU9lkJKcjgXAKJk5tLUb8t62NafRTUyW9BetSBlIQgbDXynIzix1S798C/LPAM7Ba5ysmsGpFUhYOhkrr5YqvaFkkVG4nchRPfHo5jRI5ITXKeU2cBovxpx1mnrGchUBaZdT5+vZUAbQihDmnp4YUiFXT3j0omJ0pB+Va8mIsW4DaeuRYXLJN2NdiZU2cHOvLkOQLE2PP9qTb/jdUaM4Xxrf8vUgkrPlDwsBopS7m8tew/u3B1NmVRxcBNDscycPIBMoSiVTUD3YsXKQUitfBsXyhjcJary4hM2dn8qHeWRCZcRvgoOo9M2Q=='}
+2023-04-10 16:45:36,897 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 45454), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'from': 'Jack', 'to': 'Kelly', 'time': 1681134336.8962393, 'mess_text': 'fvN4EHkju0PyK0Jd5AhZ0nxcfQAEJloU9lkJKcjgXAKJk5tLUb8t62NafRTUyW9BetSBlIQgbDXynIzix1S798C/LPAM7Ba5ysmsGpFUhYOhkrr5YqvaFkkVG4nchRPfHo5jRI5ITXKeU2cBovxpx1mnrGchUBaZdT5+vZUAbQihDmnp4YUiFXT3j0omJ0pB+Va8mIsW4DaeuRYXLJN2NdiZU2cHOvLkOQLE2PP9qTb/jdUaM4Xxrf8vUgkrPlDwsBopS7m8tew/u3B1NmVRxcBNDscycPIBMoSiVTUD3YsXKQUitfBsXyhjcJary4hM2dn8qHeWRCZcRvgoOo9M2Q=='}), {}
+2023-04-10 16:45:37,078 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 45454), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:45:37,078 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-10 16:45:37,078 - INFO - transport - Отправлено сообщение для пользователя Kelly
+2023-04-10 16:45:37,081 - DEBUG - main - Отправлено сообщение для Kelly: Hello
+2023-04-10 16:45:37,138 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40570), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:45:37,138 - DEBUG - transport - Принято сообщение с сервера: {'action': 'message', 'from': 'Jack', 'to': 'Kelly', 'time': 1681134336.8962393, 'mess_text': 'fvN4EHkju0PyK0Jd5AhZ0nxcfQAEJloU9lkJKcjgXAKJk5tLUb8t62NafRTUyW9BetSBlIQgbDXynIzix1S798C/LPAM7Ba5ysmsGpFUhYOhkrr5YqvaFkkVG4nchRPfHo5jRI5ITXKeU2cBovxpx1mnrGchUBaZdT5+vZUAbQihDmnp4YUiFXT3j0omJ0pB+Va8mIsW4DaeuRYXLJN2NdiZU2cHOvLkOQLE2PP9qTb/jdUaM4Xxrf8vUgkrPlDwsBopS7m8tew/u3B1NmVRxcBNDscycPIBMoSiVTUD3YsXKQUitfBsXyhjcJary4hM2dn8qHeWRCZcRvgoOo9M2Q=='}
+2023-04-10 16:45:37,138 - DEBUG - transport - Разбор сообщения от сервера: {'action': 'message', 'from': 'Jack', 'to': 'Kelly', 'time': 1681134336.8962393, 'mess_text': 'fvN4EHkju0PyK0Jd5AhZ0nxcfQAEJloU9lkJKcjgXAKJk5tLUb8t62NafRTUyW9BetSBlIQgbDXynIzix1S798C/LPAM7Ba5ysmsGpFUhYOhkrr5YqvaFkkVG4nchRPfHo5jRI5ITXKeU2cBovxpx1mnrGchUBaZdT5+vZUAbQihDmnp4YUiFXT3j0omJ0pB+Va8mIsW4DaeuRYXLJN2NdiZU2cHOvLkOQLE2PP9qTb/jdUaM4Xxrf8vUgkrPlDwsBopS7m8tew/u3B1NmVRxcBNDscycPIBMoSiVTUD3YsXKQUitfBsXyhjcJary4hM2dn8qHeWRCZcRvgoOo9M2Q=='}
+2023-04-10 16:45:37,138 - DEBUG - transport - Получено сообщение от пользователя Jack:fvN4EHkju0PyK0Jd5AhZ0nxcfQAEJloU9lkJKcjgXAKJk5tLUb8t62NafRTUyW9BetSBlIQgbDXynIzix1S798C/LPAM7Ba5ysmsGpFUhYOhkrr5YqvaFkkVG4nchRPfHo5jRI5ITXKeU2cBovxpx1mnrGchUBaZdT5+vZUAbQihDmnp4YUiFXT3j0omJ0pB+Va8mIsW4DaeuRYXLJN2NdiZU2cHOvLkOQLE2PP9qTb/jdUaM4Xxrf8vUgkrPlDwsBopS7m8tew/u3B1NmVRxcBNDscycPIBMoSiVTUD3YsXKQUitfBsXyhjcJary4hM2dn8qHeWRCZcRvgoOo9M2Q==
+2023-04-10 16:48:45,762 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-10 16:48:49,594 - DEBUG - decos - Вызвана функция arg_parser с параметрами (), {}
+2023-04-10 16:49:02,362 - DEBUG - client_ - Using USERNAME = Kelly, PASSWD = qwerty.
+2023-04-10 16:49:02,362 - INFO - client_ - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Kelly
+2023-04-10 16:49:02,418 - DEBUG - client_ - Keys successfully loaded.
+2023-04-10 16:49:02,438 - INFO - transport - Попытка подключения №1
+2023-04-10 16:49:02,438 - DEBUG - transport - Connection established.
+2023-04-10 16:49:02,438 - DEBUG - transport - Starting auth dialog.
+2023-04-10 16:49:02,448 - DEBUG - transport - Passwd hash ready: b'015b017a3fcd78caa08a46fb83789fa293cb8dcfbdac6e5ed6588e8eb0b1af1194323d287b7bf733df2901022c175339508d339b6e0e65f80f84ea0b994eb245'
+2023-04-10 16:49:02,449 - DEBUG - transport - Presense message = {'action': 'presence', 'time': 1681134542.4492176, 'user': {'account_name': 'Kelly', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnQKwoFdOR42MRmXRypxX\nqQwv8rm/58lZhQHkHCL+p+KjNTarmRpWc2Ppz1FgBsuC874TlTxsOlMnnmKqWMMe\n74Q6eILLywInu/gS5P51e04+mJ/jdh/2F5pnLXwJrfteWD4zr4eFlND5zk4nMjVm\nD/0FKONLq7BuGCvh1VeDHhUuyJaAt6GXDdkeVBJlN8RiYUhA5CAoLhTHh6cq12ij\nVswXeHBSRaBA5GtbTRECDs+McAjNLB0ER/WthtO9q2HicBhe+rT5HAJgBtH3+Czs\n3PDhcFOreJr0UegxpAar54GyY7/RMB9Lt8wyZ27IcEbU0rjSSMVuuXVkAoukR8zd\n7wIDAQAB\n-----END PUBLIC KEY-----'}}
+2023-04-10 16:49:02,449 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50394), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1681134542.4492176, 'user': {'account_name': 'Kelly', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnQKwoFdOR42MRmXRypxX\nqQwv8rm/58lZhQHkHCL+p+KjNTarmRpWc2Ppz1FgBsuC874TlTxsOlMnnmKqWMMe\n74Q6eILLywInu/gS5P51e04+mJ/jdh/2F5pnLXwJrfteWD4zr4eFlND5zk4nMjVm\nD/0FKONLq7BuGCvh1VeDHhUuyJaAt6GXDdkeVBJlN8RiYUhA5CAoLhTHh6cq12ij\nVswXeHBSRaBA5GtbTRECDs+McAjNLB0ER/WthtO9q2HicBhe+rT5HAJgBtH3+Czs\n3PDhcFOreJr0UegxpAar54GyY7/RMB9Lt8wyZ27IcEbU0rjSSMVuuXVkAoukR8zd\n7wIDAQAB\n-----END PUBLIC KEY-----'}}), {}
+2023-04-10 16:49:02,942 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50394), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:49:02,942 - DEBUG - transport - Server response = {'response': 511, 'bin': 'debc26a981f20f2071dd53f82eb9bca970da10dd37546e6d4a389f2759c732d3dc3ef7a235732bffac2211eaade010a43ae5a264f1a4eb867a2bd3eecc77ae16'}.
+2023-04-10 16:49:02,942 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50394), raddr=('127.0.0.1', 7777)>, {'response': 511, 'bin': 'uf/O+zIvoHO5JTOQAqpadQ==\n'}), {}
+2023-04-10 16:49:02,942 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50394), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:49:02,942 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-10 16:49:02,942 - DEBUG - transport - Запрос списка известных пользователей Kelly
+2023-04-10 16:49:02,943 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50394), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1681134542.9430282, 'account_name': 'Kelly'}), {}
+2023-04-10 16:49:03,454 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50394), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:49:03,475 - DEBUG - transport - Запрос контакт листа для пользователся Thread-1
+2023-04-10 16:49:03,475 - DEBUG - transport - Сформирован запрос {'action': 'get_contacts', 'time': 1681134543.4751115, 'user': 'Kelly'}
+2023-04-10 16:49:03,475 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50394), raddr=('127.0.0.1', 7777)>, {'action': 'get_contacts', 'time': 1681134543.4751115, 'user': 'Kelly'}), {}
+2023-04-10 16:49:03,958 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50394), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:49:03,958 - DEBUG - transport - Получен ответ {'response': 202, 'data_list': ['Jack']}
+2023-04-10 16:49:03,971 - DEBUG - transport - Запущен процесс - приёмник собщений с сервера.
+2023-04-10 16:49:10,238 - DEBUG - client_ - Using USERNAME = Jack, PASSWD = qwerty.
+2023-04-10 16:49:10,238 - INFO - client_ - Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Jack
+2023-04-10 16:49:10,292 - DEBUG - client_ - Keys successfully loaded.
+2023-04-10 16:49:10,312 - INFO - transport - Попытка подключения №1
+2023-04-10 16:49:10,312 - DEBUG - transport - Connection established.
+2023-04-10 16:49:10,312 - DEBUG - transport - Starting auth dialog.
+2023-04-10 16:49:10,323 - DEBUG - transport - Passwd hash ready: b'a2e8240150828e9137fca851457fed96988843a44b0711ccb5a183c8ae5a88b93c4ed89f73038559cb94b1befcb902f8a05a18ff591d2f15597088b50537f5db'
+2023-04-10 16:49:10,323 - DEBUG - transport - Presense message = {'action': 'presence', 'time': 1681134550.323938, 'user': {'account_name': 'Jack', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApg9L5Nls7AInDLHocsHE\nJanoMwuBRbSpzJO4RSPTzUd34bJ6ZP/gyv3Hr18MLKEJ3KkWeQ3JEHySoSsNymDa\nWFU3YAdZxRa3HsfpmtJ/6WTNgdwo9qOC9GPlwaqC3tsZZMl+7vCb26L+2rLL/eN4\nBINUCrD3E5gOKc+7emk+xrd1pX8RWrARgqp2WPIQ18x0MxJ13KAzDZBX2DZ8Uuh8\nw8KjE8fXpT1v+auCt8AYSqK+R9TeErlt+tWJKE3WXDLyQ91wclNZSM5vPbnkbYJ4\nThiVAIgWeVHzsHz82W879IYD/JuxGzd+4MyzESFJADsE+Tze73UbtAl2tvH/20ob\n3wIDAQAB\n-----END PUBLIC KEY-----'}}
+2023-04-10 16:49:10,324 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42186), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1681134550.323938, 'user': {'account_name': 'Jack', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApg9L5Nls7AInDLHocsHE\nJanoMwuBRbSpzJO4RSPTzUd34bJ6ZP/gyv3Hr18MLKEJ3KkWeQ3JEHySoSsNymDa\nWFU3YAdZxRa3HsfpmtJ/6WTNgdwo9qOC9GPlwaqC3tsZZMl+7vCb26L+2rLL/eN4\nBINUCrD3E5gOKc+7emk+xrd1pX8RWrARgqp2WPIQ18x0MxJ13KAzDZBX2DZ8Uuh8\nw8KjE8fXpT1v+auCt8AYSqK+R9TeErlt+tWJKE3WXDLyQ91wclNZSM5vPbnkbYJ4\nThiVAIgWeVHzsHz82W879IYD/JuxGzd+4MyzESFJADsE+Tze73UbtAl2tvH/20ob\n3wIDAQAB\n-----END PUBLIC KEY-----'}}), {}
+2023-04-10 16:49:10,816 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42186), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:49:10,816 - DEBUG - transport - Server response = {'response': 511, 'bin': 'ab4309b7f47f72b791625b38ebb834fd3757980ee0172ed49db5efa2ec444b1fc872676aaef19fa1df8be5309bd997595e6791d24111690353ac05bcea238d3d'}.
+2023-04-10 16:49:10,816 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42186), raddr=('127.0.0.1', 7777)>, {'response': 511, 'bin': 's8b7Vyivf5ig6ha1s1FjbA==\n'}), {}
+2023-04-10 16:49:10,816 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42186), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:49:10,816 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-10 16:49:10,816 - DEBUG - transport - Запрос списка известных пользователей Jack
+2023-04-10 16:49:10,817 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42186), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1681134550.8169065, 'account_name': 'Jack'}), {}
+2023-04-10 16:49:11,339 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42186), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:49:11,349 - DEBUG - transport - Запрос контакт листа для пользователся Thread-1
+2023-04-10 16:49:11,350 - DEBUG - transport - Сформирован запрос {'action': 'get_contacts', 'time': 1681134551.3500967, 'user': 'Jack'}
+2023-04-10 16:49:11,350 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42186), raddr=('127.0.0.1', 7777)>, {'action': 'get_contacts', 'time': 1681134551.3500967, 'user': 'Jack'}), {}
+2023-04-10 16:49:11,842 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42186), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:49:11,842 - DEBUG - transport - Получен ответ {'response': 202, 'data_list': ['Kelly']}
+2023-04-10 16:49:11,863 - DEBUG - transport - Запущен процесс - приёмник собщений с сервера.
+2023-04-10 16:50:55,359 - DEBUG - transport - Запрос публичного ключа для Jack
+2023-04-10 16:50:55,360 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50394), raddr=('127.0.0.1', 7777)>, {'action': 'pubkey_need', 'time': 1681134655.3598773, 'account_name': 'Jack'}), {}
+2023-04-10 16:50:55,474 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50394), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:50:55,475 - DEBUG - main - Загружен открытый ключ для Jack
+2023-04-10 16:51:03,256 - DEBUG - transport - Запрос публичного ключа для Kelly
+2023-04-10 16:51:03,256 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42186), raddr=('127.0.0.1', 7777)>, {'action': 'pubkey_need', 'time': 1681134663.2562656, 'account_name': 'Kelly'}), {}
+2023-04-10 16:51:03,492 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42186), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:51:03,493 - DEBUG - main - Загружен открытый ключ для Kelly
+2023-04-10 16:51:16,081 - DEBUG - transport - Сформирован словарь сообщения: {'action': 'message', 'from': 'Jack', 'to': 'Kelly', 'time': 1681134676.0818105, 'mess_text': 'LLqciF8anjNEdIsntR5pduwA/Z92n79LGDBdkBJEuRvQjv0vWsLblz4r1Y8/ki2igUVx3K/RDWrCeCY8fNF7WVjuqt74fLx1heTx3VvsiiAjYjGQ9d6cUIq9TplMXzD2G/uRUv3dHn/i4PNoQA5mGiCfLiUfbZ+DD9GXYNn3QaQhgS0YvJH2+/NRrJUNrp9zf1gG6iY5kTpVz3LbFqd6sMLw/jSKJthX6ohKUtgFiQS/ESgj4k6iXLSVRjgj3UY5SPt/bfLZb6x6LcngrjQIUyk1w7iWaJEBWc5aKq0zyfX7Fh1k3FfLU1lY1FpVhWCTPS0tVs6BfZezVvthMFUF4w=='}
+2023-04-10 16:51:16,505 - DEBUG - decos - Вызвана функция send_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42186), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'from': 'Jack', 'to': 'Kelly', 'time': 1681134676.0818105, 'mess_text': 'LLqciF8anjNEdIsntR5pduwA/Z92n79LGDBdkBJEuRvQjv0vWsLblz4r1Y8/ki2igUVx3K/RDWrCeCY8fNF7WVjuqt74fLx1heTx3VvsiiAjYjGQ9d6cUIq9TplMXzD2G/uRUv3dHn/i4PNoQA5mGiCfLiUfbZ+DD9GXYNn3QaQhgS0YvJH2+/NRrJUNrp9zf1gG6iY5kTpVz3LbFqd6sMLw/jSKJthX6ohKUtgFiQS/ESgj4k6iXLSVRjgj3UY5SPt/bfLZb6x6LcngrjQIUyk1w7iWaJEBWc5aKq0zyfX7Fh1k3FfLU1lY1FpVhWCTPS0tVs6BfZezVvthMFUF4w=='}), {}
+2023-04-10 16:51:16,521 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 42186), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:51:16,521 - DEBUG - transport - Разбор сообщения от сервера: {'response': 200}
+2023-04-10 16:51:16,521 - INFO - transport - Отправлено сообщение для пользователя Kelly
+2023-04-10 16:51:16,525 - DEBUG - main - Отправлено сообщение для Kelly: Hello again
+2023-04-10 16:51:17,124 - DEBUG - decos - Вызвана функция get_message с параметрами (<socket.socket fd=18, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50394), raddr=('127.0.0.1', 7777)>,), {}
+2023-04-10 16:51:17,124 - DEBUG - transport - Принято сообщение с сервера: {'action': 'message', 'from': 'Jack', 'to': 'Kelly', 'time': 1681134676.0818105, 'mess_text': 'LLqciF8anjNEdIsntR5pduwA/Z92n79LGDBdkBJEuRvQjv0vWsLblz4r1Y8/ki2igUVx3K/RDWrCeCY8fNF7WVjuqt74fLx1heTx3VvsiiAjYjGQ9d6cUIq9TplMXzD2G/uRUv3dHn/i4PNoQA5mGiCfLiUfbZ+DD9GXYNn3QaQhgS0YvJH2+/NRrJUNrp9zf1gG6iY5kTpVz3LbFqd6sMLw/jSKJthX6ohKUtgFiQS/ESgj4k6iXLSVRjgj3UY5SPt/bfLZb6x6LcngrjQIUyk1w7iWaJEBWc5aKq0zyfX7Fh1k3FfLU1lY1FpVhWCTPS0tVs6BfZezVvthMFUF4w=='}
+2023-04-10 16:51:17,124 - DEBUG - transport - Разбор сообщения от сервера: {'action': 'message', 'from': 'Jack', 'to': 'Kelly', 'time': 1681134676.0818105, 'mess_text': 'LLqciF8anjNEdIsntR5pduwA/Z92n79LGDBdkBJEuRvQjv0vWsLblz4r1Y8/ki2igUVx3K/RDWrCeCY8fNF7WVjuqt74fLx1heTx3VvsiiAjYjGQ9d6cUIq9TplMXzD2G/uRUv3dHn/i4PNoQA5mGiCfLiUfbZ+DD9GXYNn3QaQhgS0YvJH2+/NRrJUNrp9zf1gG6iY5kTpVz3LbFqd6sMLw/jSKJthX6ohKUtgFiQS/ESgj4k6iXLSVRjgj3UY5SPt/bfLZb6x6LcngrjQIUyk1w7iWaJEBWc5aKq0zyfX7Fh1k3FfLU1lY1FpVhWCTPS0tVs6BfZezVvthMFUF4w=='}
+2023-04-10 16:51:17,124 - DEBUG - transport - Получено сообщение от пользователя Jack:LLqciF8anjNEdIsntR5pduwA/Z92n79LGDBdkBJEuRvQjv0vWsLblz4r1Y8/ki2igUVx3K/RDWrCeCY8fNF7WVjuqt74fLx1heTx3VvsiiAjYjGQ9d6cUIq9TplMXzD2G/uRUv3dHn/i4PNoQA5mGiCfLiUfbZ+DD9GXYNn3QaQhgS0YvJH2+/NRrJUNrp9zf1gG6iY5kTpVz3LbFqd6sMLw/jSKJthX6ohKUtgFiQS/ESgj4k6iXLSVRjgj3UY5SPt/bfLZb6x6LcngrjQIUyk1w7iWaJEBWc5aKq0zyfX7Fh1k3FfLU1lY1FpVhWCTPS0tVs6BfZezVvthMFUF4w==
+2023-04-10 16:52:10,062 - DEBUG - transport - Потеряно соединение с сервером.
